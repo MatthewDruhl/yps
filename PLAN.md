@@ -51,11 +51,6 @@ Set up an automated email response system for the business YPS. The system draft
 │   │   └── product-info.md          # Product catalog, specs, pricing
 │   └── _template/
 │       └── examples-template.md     # Template for adding new categories
-├── skills/
-│   ├── inbox-scanner/
-│   │   └── SKILL.md                 # Classify incoming emails by category
-│   └── response-drafter/
-│       └── SKILL.md                 # Draft responses using examples + product info
 ├── state/
 │   ├── queue.md                     # Emails awaiting response
 │   ├── drafts.md                    # Drafted responses awaiting review
@@ -71,38 +66,63 @@ Set up an automated email response system for the business YPS. The system draft
 
 ### Phase 1: Scaffold
 - [x] `git init ~/yps`
-- [ ] Write `.gitignore`, `.env.example`
+- [x] Write `.gitignore`, `.env.example`
 - [x] Write `CLAUDE.md` (with placeholders for business details)
 - [x] Write `.claude/settings.local.json`
 
-### Phase 2: Build Commands & Skills
-- [ ] Write all 6 slash commands
-- [ ] Write inbox-scanner and response-drafter skills
-- [ ] Write state files with empty schemas
-- [ ] Write `knowledge/product-inquiries/examples.md` with template format
-- [ ] Write `knowledge/product-inquiries/product-info.md` with placeholder structure
-- [ ] Write `knowledge/_template/examples-template.md`
+### Phase 2: Build Commands
+- [x] Write all 6 slash commands (each command contains its own classification/drafting logic)
+- [x] Write state files with empty schemas
+- [x] Write `knowledge/product-inquiries/examples.md` with template format
+- [x] Write `knowledge/product-inquiries/product-info.md` with placeholder structure
+- [x] Write `knowledge/_template/examples-template.md`
+#### Phase 2 Verification (no real data - test actions)
+- [x] `cd ~/yps && claude` launches successfully
+- [x] `/yps` reads state files and shows session summary
+- [x] `/scan` searches Gmail, classifies emails, updates queue.md, applies labels
+- [x] `/draft` reads examples.md + product-info.md, generates response matching business voice
+- [x] `/review` shows drafts, captures edits, logs to feedback.md
 
 ### Phase 3: Dry Run
-- [ ] User provides customer email
 - [ ] CC drafts a response
 - [ ] User edits draft email
 - [ ] CC updates feedback.md
 - [ ] Repeat for 5-10 emails per category
 - [ ] CC updates examples.md with best edited drafts
 - [ ] Repeat for each category
+#### Phase 3 Verification (real data - test actions)
+- [ ] `cd ~/yps && claude` launches successfully
+- [ ] `/yps` reads state files and shows session summary
+- [ ] `/draft` reads examples.md + product-info.md, generates response matching business voice
+- [ ] `/review` shows drafts, captures edits, logs to feedback.md
+- [ ] Gmail labels prevent duplicate processing across sessions
+- [ ] State files update correctly after each action
 
 ### Phase 4: Connect + Optimize
+- [ ] User provides customer email
 - [ ] Set up Google Workspace MCP with YPS OAuth
 - [ ] Create Gmail labels (YPS/Queued, YPS/Drafted, YPS/Sent)
 - [ ] Test `/scan` against real inbox
-- [ ] Investigate Python pre-filter for Gmail (reduce token cost — pull metadata only via Gmail API, feed list to Claude for classification)
+- [ ] live Gmail integration testing
+#### Phase 4 Verification (real data - test actions)
+- [ ] `cd ~/yps && claude` launches successfully
+- [ ] `/yps` reads state files and shows session summary
+- [ ] `/scan` searches Gmail, classifies emails, updates queue.md, applies labels
 
-### Phase 5: Tune (needs example emails from owners)
+- [ ] `/review` shows drafts, captures edits, logs to feedback.md
+- [ ] `/send` displays draft + recipient, requires explicit "yes", mock sends as threaded reply, updates queue.md and archive.md - does not send email
+- [ ] Gmail labels prevent duplicate processing across sessions
+- [ ] State files update correctly after each action
+
+### Phase 5: Populate Knowledge (needs example emails from owners)
+
 - [ ] Populate examples.md with real customer emails + responses
 - [ ] Populate product-info.md with real product data
 - [ ] Test `/draft` quality against examples
 - [ ] End-to-end test: scan → draft → review → send
+#### Phase 5 Verification (real data - test actions)
+- [ ] Test all skills and commands - will list after Phase 4 completes
+
 
 
 ---
@@ -126,11 +146,10 @@ Set up an automated email response system for the business YPS. The system draft
 ### State File Schemas
 - See CLAUDE.md State File Schemas
 
-### Commands vs Skills Relationship
-- **Commands** = step-by-step procedures Claude follows (the "what to do")
-- **Skills** = reusable logic with triggers and classification rules (the "how to do it")
-- `/scan` command orchestrates: calls inbox-scanner skill for classification, then updates queue.md and applies Gmail labels
-- `/draft` command orchestrates: picks from queue, calls response-drafter skill for text generation, saves to drafts.md
+### Commands
+Each slash command is a self-contained prompt in `.claude/commands/`. Classification logic lives in `scan.md`, drafting logic lives in `draft.md` — no separate skill files.
+- `/scan` — searches Gmail, classifies emails, updates queue.md, applies Gmail labels
+- `/draft` — picks from queue, reads knowledge files, generates response, saves to drafts.md
 - `/yps`
    - Start session, scan inbox, show status
    - reads state files(queue.md, drafts.md,
@@ -143,7 +162,7 @@ Set up an automated email response system for the business YPS. The system draft
    - Update your current state
 
 ### Scan Search Criteria
-Defined in inbox-scanner SKILL.md:
+Defined in `/scan` command (`scan.md`):
 - Gmail query: `is:unread -label:YPS/* newer_than:7d`
 - Classification: Claude reads subject + body, matches against known categories in knowledge/
 - v1 categories: `product-inquiry` (match) or `other` (skip)
@@ -151,6 +170,8 @@ Defined in inbox-scanner SKILL.md:
 
 
 ---
+## Future: Python pre-filter
+- Investigate Python pre-filter for Gmail (reduce token cost — pull metadata only via Gmail API, feed list to Claude for classification)
 
 ## Future: `/learn` Command (Post-v1)
 
@@ -171,15 +192,7 @@ When enough feedback accumulates (10-20 entries), a `/learn` command will:
 
 This creates a learning loop: customer email → AI draft → human edit → feedback log → periodic learning → better knowledge files → better future drafts.
 
----
+## Future: `/feature-request` Command (Post-handoff)
 
-## Verification
+Guided command for business owners to request new capabilities. CC captures requirements, creates a feature branch, and documents the request for Matt to review.
 
-- [ ] `cd ~/yps && claude` launches successfully
-- [ ] `/yps` reads state files and shows session summary
-- [ ] `/scan` searches Gmail, classifies emails, updates queue.md, applies labels
-- [ ] `/draft` reads examples.md + product-info.md, generates response matching business voice
-- [ ] `/review` shows drafts, captures edits, logs to feedback.md
-- [ ] `/send` displays draft + recipient, requires explicit "yes", sends as threaded reply, updates queue.md and archive.md
-- [ ] Gmail labels prevent duplicate processing across sessions
-- [ ] State files update correctly after each action
