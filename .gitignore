@@ -1,0 +1,33 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Claude Code
+.claude/settings.local.json
+
+# State files (runtime data, not source)
+state/queue.md
+state/drafts.md
+state/archive.md
+state/feedback.md
+state/session_*.md
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/settings.json
+*.swp
