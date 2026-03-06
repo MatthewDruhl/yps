@@ -2,7 +2,7 @@
 
 ## Context
 
-Matt is helping friends set up an automated email response system for their business, YPS. The system drafts responses to customer product inquiry emails using AI, with mandatory human review before sending. Matt runs it initially, hands off to business owners later.
+Set up an automated email response system for the business YPS. The system drafts responses to customer product inquiry emails using AI, with mandatory human review before sending. Matt runs it initially, hands off to business owners later.
 
 ## Decisions Made
 
@@ -10,6 +10,9 @@ Matt is helping friends set up an automated email response system for their busi
 - **Operator**: Matt runs it first, trains owners for handoff later
 - **v1 Scope**: Single replies only (no multi-message threads)
 - **Feedback**: Option A — just log edits to feedback.md. No auto-learning in v1.
+- **Scan batch limit**: Max 10 emails per scan (Phase 1). Keeps token usage manageable.
+- **No sent.md**: queue.md tracks all statuses. Completed emails archived to archive.md.
+- **Classify at scan**: Read subject first for quick filtering, only read full email body for likely matches.
 - **Example emails**: Not yet received from business owners (blocker for testing)
 - **Business details**: Still needed from owners (products, pricing, policies)
 
@@ -23,7 +26,7 @@ Matt is helping friends set up an automated email response system for their busi
 
 ---
 
-## Updated Project Structure
+## Project Structure
 
 ```
 ~/yps/
@@ -56,16 +59,51 @@ Matt is helping friends set up an automated email response system for their busi
 ├── state/
 │   ├── queue.md                     # Emails awaiting response
 │   ├── drafts.md                    # Drafted responses awaiting review
-│   ├── sent.md                      # Log of sent responses
+│   ├── archive.md                   # Completed emails (sent/skipped) moved from queue
 │   └── feedback.md                  # Original vs edited drafts (Option A log)
 └── sessions/
     └── {YYYY-MM-DD}.md              # Daily session logs
 ```
 
-**Changes from original:**
-- Removed `skills/feedback-learner/` — deferred to post-v1
-- Added `PLAN.md` to project root
-- SETUP.md deprioritized (Matt runs it first, handoff guide comes later)
+---
+
+## Phases
+
+### Phase 1: Scaffold
+- [x] `git init ~/yps`
+- [ ] Write `.gitignore`, `.env.example`
+- [x] Write `CLAUDE.md` (with placeholders for business details)
+- [x] Write `.claude/settings.local.json`
+
+### Phase 2: Build Commands & Skills
+- [ ] Write all 6 slash commands
+- [ ] Write inbox-scanner and response-drafter skills
+- [ ] Write state files with empty schemas
+- [ ] Write `knowledge/product-inquiries/examples.md` with template format
+- [ ] Write `knowledge/product-inquiries/product-info.md` with placeholder structure
+- [ ] Write `knowledge/_template/examples-template.md`
+
+### Phase 3: Dry Run
+- [ ] User provides customer email
+- [ ] CC drafts a response
+- [ ] User edits draft email
+- [ ] CC updates feedback.md
+- [ ] Repeat for 5-10 emails per category
+- [ ] CC updates examples.md with best edited drafts
+- [ ] Repeat for each category
+
+### Phase 4: Connect + Optimize
+- [ ] Set up Google Workspace MCP with YPS OAuth
+- [ ] Create Gmail labels (YPS/Queued, YPS/Drafted, YPS/Sent)
+- [ ] Test `/scan` against real inbox
+- [ ] Investigate Python pre-filter for Gmail (reduce token cost — pull metadata only via Gmail API, feed list to Claude for classification)
+
+### Phase 5: Tune (needs example emails from owners)
+- [ ] Populate examples.md with real customer emails + responses
+- [ ] Populate product-info.md with real product data
+- [ ] Test `/draft` quality against examples
+- [ ] End-to-end test: scan → draft → review → send
+
 
 ---
 
@@ -78,18 +116,6 @@ Matt is helping friends set up an automated email response system for their busi
 - `YPS/Sent` — response sent
 - `/scan` searches with `-label:YPS/Queued -label:YPS/Drafted -label:YPS/Sent` to avoid reprocessing
 
-### Permissions (settings.local.json)
-Full list needed (beyond marvin's read-only pattern):
-- `mcp__google-workspace__search_gmail_messages`
-- `mcp__google-workspace__get_gmail_message_content`
-- `mcp__google-workspace__get_gmail_messages_content_batch`
-- `mcp__google-workspace__get_gmail_thread_content`
-- `mcp__google-workspace__send_gmail_message` ← NEW (marvin doesn't have this)
-- `mcp__google-workspace__draft_gmail_message`
-- `mcp__google-workspace__batch_modify_gmail_message_labels` ← for labeling
-- `mcp__google-workspace__manage_gmail_label` ← to create YPS/* labels
-- `mcp__google-workspace__list_gmail_labels`
-- `mcp__google-workspace__start_google_auth`
 
 ### Reply Threading (v1: simple)
 - v1 sends replies as threaded responses to the original email (not new messages)
@@ -98,63 +124,23 @@ Full list needed (beyond marvin's read-only pattern):
 - v1 does NOT handle follow-up replies from the customer (single reply only)
 
 ### State File Schemas
-
-**queue.md:**
-```markdown
-# Email Queue
-Last updated: YYYY-MM-DD
-
-| Email ID | From | Subject | Date Received | Category | Status |
-|----------|------|---------|---------------|----------|--------|
-```
-Status: `new` | `drafting` | `drafted` | `sent` | `skipped`
-
-**drafts.md:**
-```markdown
-# Pending Drafts
-Last updated: YYYY-MM-DD
-
-## Draft: [Email ID]
-**To:** customer@email.com
-**Subject:** Re: [original subject]
-**Status:** pending | approved | rejected
-**Generated:** YYYY-MM-DD
-
----
-[Draft text here]
----
-```
-
-**sent.md:**
-```markdown
-# Sent Responses
-Last updated: YYYY-MM-DD
-
-| Email ID | Sent Date | To | Subject | Was Edited |
-|----------|-----------|-----|---------|------------|
-```
-
-**feedback.md:**
-```markdown
-# Edit Feedback Log
-Last updated: YYYY-MM-DD
-
-## YYYY-MM-DD | [Subject]
-**Original draft:**
-> [what Claude wrote]
-
-**Owner's edit:**
-> [what was actually sent]
-
-**What changed:**
-- [bullet list of differences]
-```
+- See CLAUDE.md State File Schemas
 
 ### Commands vs Skills Relationship
 - **Commands** = step-by-step procedures Claude follows (the "what to do")
 - **Skills** = reusable logic with triggers and classification rules (the "how to do it")
 - `/scan` command orchestrates: calls inbox-scanner skill for classification, then updates queue.md and applies Gmail labels
 - `/draft` command orchestrates: picks from queue, calls response-drafter skill for text generation, saves to drafts.md
+- `/yps`
+   - Start session, scan inbox, show status
+   - reads state files(queue.md, drafts.md,
+  archive.md, feedback.md) and shows session summary
+- `/review`
+   - present draft of response email for user to review
+- `/end`
+   - Summarize what we covered
+   - Save everything to the session log
+   - Update your current state
 
 ### Scan Search Criteria
 Defined in inbox-scanner SKILL.md:
@@ -163,32 +149,6 @@ Defined in inbox-scanner SKILL.md:
 - v1 categories: `product-inquiry` (match) or `other` (skip)
 - `other` emails get logged but not queued — flagged for manual review
 
----
-
-## Implementation Sequence (updated)
-
-### Phase 1: Scaffold (can do now)
-1. `git init ~/yps`
-2. Write `.gitignore`, `.env.example`
-3. Write `CLAUDE.md` (with placeholders for business details)
-4. Write `.claude/settings.local.json`
-5. Write all 6 slash commands
-6. Write inbox-scanner and response-drafter skills
-7. Write state files with empty schemas
-8. Write `knowledge/product-inquiries/examples.md` with template format
-9. Write `knowledge/product-inquiries/product-info.md` with placeholder structure
-10. Write `knowledge/_template/examples-template.md`
-
-### Phase 2: Connect (needs YPS Gmail credentials)
-11. Set up Google Workspace MCP with YPS OAuth
-12. Create Gmail labels (YPS/Queued, YPS/Drafted, YPS/Sent)
-13. Test `/scan` against real inbox
-
-### Phase 3: Tune (needs example emails from owners)
-14. Populate examples.md with real customer emails + responses
-15. Populate product-info.md with real product data
-16. Test `/draft` quality against examples
-17. End-to-end test: scan → draft → review → send
 
 ---
 
@@ -220,6 +180,6 @@ This creates a learning loop: customer email → AI draft → human edit → fee
 - [ ] `/scan` searches Gmail, classifies emails, updates queue.md, applies labels
 - [ ] `/draft` reads examples.md + product-info.md, generates response matching business voice
 - [ ] `/review` shows drafts, captures edits, logs to feedback.md
-- [ ] `/send` displays draft + recipient, requires explicit "yes", sends as threaded reply, logs to sent.md
+- [ ] `/send` displays draft + recipient, requires explicit "yes", sends as threaded reply, updates queue.md and archive.md
 - [ ] Gmail labels prevent duplicate processing across sessions
 - [ ] State files update correctly after each action
