@@ -87,7 +87,9 @@ Typically $129–$549 depending on part type and vehicle.
 - Never auto-send without human in the loop
 
 ## Category
-- place holder
+- Part number
+  - 8 digit string
+  - optinal 2 alpha after string
 
 ## Voice/Tone Guidance
 - place holder until I get files
