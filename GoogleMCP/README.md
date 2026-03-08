@@ -60,15 +60,15 @@ Google now uses the **Google Auth platform** section (not the old "OAuth consent
 1. Go to **Google Auth platform** → **Data Access** (left sidebar)
 2. Click **Add or Remove Scopes**
 3. In the filter/search box, search for and check each of these scopes:
-   - `https://www.googleapis.com/auth/gmail.readonly`x
-   - `https://www.googleapis.com/auth/gmail.compose`x
-   - `https://www.googleapis.com/auth/gmail.modify`x
-   - `https://www.googleapis.com/auth/gmail.labels`x
-   - `https://www.googleapis.com/auth/gmail.send`x
-   - `https://www.googleapis.com/auth/gmail.settings.basic`x
+   - `https://www.googleapis.com/auth/gmail.readonly`
+   - `https://www.googleapis.com/auth/gmail.compose`
+   - `https://www.googleapis.com/auth/gmail.modify`
+   - `https://www.googleapis.com/auth/gmail.labels`
+   - `https://www.googleapis.com/auth/gmail.send`
+   - `https://www.googleapis.com/auth/gmail.settings.basic`
    - `https://www.googleapis.com/auth/userinfo.email`
    - `https://www.googleapis.com/auth/userinfo.profile`
-   - `openid`x
+   - `openid`
 4. Click **Update** → **Save**
 
 ---
@@ -81,7 +81,7 @@ Google now uses the **Google Auth platform** section (not the old "OAuth consent
 4. **Name:** `YPS MCP`
 5. Under **Authorized redirect URIs**, click **+ Add URI** and enter:
    ```
-   http://localhost:8000/oauth2callback
+   http://localhost:8100/oauth2callback
    ```
 6. Click **Create**
 7. A dialog shows your **Client ID** and **Client Secret** — copy both now
@@ -158,6 +158,6 @@ This file is committed to the repo. The `${...}` placeholders pull from your loc
 - **"Google hasn't verified this app"** — This is expected in Testing mode. Click **Continue** (or **Advanced** → **Go to YPS Email Assistant**)
 - **Auth fails** — verify your `.env` values match the credentials from Step 4
 - **Wrong Gmail account** — check `GMAIL_USER_EMAIL` in your `.env`
-- **Port 8000 in use** — the OAuth callback needs `localhost:8000`. Kill any process using it: `lsof -i :8000`
+- **Port 8100 in use** — the OAuth callback needs `localhost:8100`. Kill any process using it: `lsof -i :8100`
 - **MCP not loading** — make sure `.claude/settings.json` is present and `npx` is available
 - **"Access blocked" error** — make sure your email is added as a test user in Step 3.8

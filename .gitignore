@@ -3,6 +3,9 @@
 .env.local
 .env.*.local
 
+# Google mcp
+client_secret.json
+
 # Claude Code
 .claude/settings.local.json
 
@@ -31,3 +34,4 @@ dist/
 # Editor
 .vscode/settings.json
 *.swp
+.google-workspace-credentials/

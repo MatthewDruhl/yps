@@ -35,6 +35,18 @@ Typically $129–$549 depending on part type and vehicle.
 - eBay only (no standalone website currently)
 
 
+## Local Configuration
+
+**Always read `.env` first** before using any default values. The `.env` file in `~/yps/` defines project-specific settings:
+
+- `GMAIL_USER_EMAIL` — the YPS business Gmail account to use for all Gmail MCP calls
+- `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REDIRECT_URI` — OAuth credentials
+
+**Priority order:**
+1. `.env` file in `~/yps/` — read this first
+2. Ask the operator — if `.env` is missing or a value is absent
+3. Never fall back to personal/global defaults (e.g., matthewdruhl@gmail.com)
+
 ## Commands
 /yps - Start session, scan inbox, show status
 /scan - Scan for new product inquiries
