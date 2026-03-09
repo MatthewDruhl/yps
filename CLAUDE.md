@@ -52,6 +52,9 @@ Typically $129–$549 depending on part type and vehicle.
 /scan - Scan for new product inquiries
 /draft - Draft response to a queued email
 /review - Review pending drafts
+/mock-scan - Scan for new product inquiries in mock_email folder
+/mock-draft - Draft response to a mock emails
+/mock-review - Review pending drafts in mock_email\Drafts folder
 /send - Send approved drafts
 /end - End session, save log
 
@@ -83,7 +86,7 @@ Typically $129–$549 depending on part type and vehicle.
 
 ### Draft-Only Mode (default)
 - Never send emails — no exceptions, no overrides
-- Always save drafts to Gmail drafts folder
+- Always save drafts to Gmail drafts or mock_email drafts folder
 - Verify customer email address matches between received and draft
 - Never change the subject line
 - Keep the email chain/thread intact

@@ -27,7 +27,7 @@ Search Gmail for new customer emails, classify them, and update the queue.
    - `product-inquiry` → status: `new`
    - Unclassifiable → status: `flagged` (with note in session log)
 
-6. **Apply Gmail label** `YPS/Queued` to each processed email using `modify_gmail_message_labels`.
+6. **Apply label** `YPS/Queued` to each processed email using `modify_gmail_message_labels`.
 
 7. **Display scan results:**
 
@@ -62,7 +62,7 @@ Queue now has {total} emails ({new} ready for /draft)
 ## Rules
 - Max 10 emails per scan
 - Never reprocess emails already in queue.md (check Email ID)
-- Never reprocess emails with YPS/* Gmail labels
-- If Gmail MCP fails, stop and report the error — do not retry
+- Never reprocess emails with YPS/* labels
+- If process fails, stop and report the error — do not retry
 - If classification is uncertain, flag rather than guess
 - Log everything to the session file

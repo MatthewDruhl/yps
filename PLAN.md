@@ -41,13 +41,15 @@ Set up an automated email response system for the business YPS. The system draft
 │   └── commands/
 │       ├── yps.md                    # /yps - Start session, scan inbox, show status
 │       ├── scan.md                   # /scan - Scan for new product inquiries
-│       ├── draft.md                  # /draft - Draft response to a queued email
+│       ├── draft.md                  # /draft - Draft response to a queued │       ├── mock-scan.md              # /mock-scan - Scan for new mock inquiries
+│       ├── mock-draft.md             # /mock-draft - Draft mock response to a queued email
 │       ├── review.md                 # /review - Review pending drafts
+│       ├── mock-review.md            # /mock-review - Review pending mock drafts
 │       ├── send.md                   # /send - Send approved drafts
 │       └── end.md                    # /end - End session, save log
-├── knowledge/
+knowledge/
 │   ├── product-inquiries/
-│   │   ├── examples.md              # Example customer emails + ideal responses
+│   │   ├── examples.md              # Example customer emails + ideal  responses
 │   │   └── product-info.md          # Product catalog, specs, pricing
 │   └── _template/
 │       └── examples-template.md     # Template for adding new categories
