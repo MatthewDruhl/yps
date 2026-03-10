@@ -9,6 +9,8 @@ Start a new YPS email session. Read current state and show a summary.
 2. **Read all state files:**
    - `state/queue.md`
    - `state/drafts.md`
+   - `state/mock_queue.md`
+   - `state/mock_drafts.md`
    - `state/archive.md`
    - `state/feedback.md`
 
