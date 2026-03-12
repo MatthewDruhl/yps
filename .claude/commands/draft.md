@@ -30,7 +30,18 @@ Pick the next email from the queue, generate a response draft, and save it.
    - Follow all Response Guardrails from CLAUDE.md
    - Never include: pricing (unless from product-info.md), commitments, other customer info, internal details, legal language
 
-7. **Save the draft** to `state/drafts.md`:
+7. **Save draft to Gmail** — use `gmail_createDraft` to create a Gmail draft:
+   - To: customer email address
+   - Subject: Re: {original subject}
+   - Body: the draft text, followed by the original message quoted at the bottom:
+     ```
+     ------- Original Message -------
+     On {date}, {from} wrote:
+
+     > {original email body}
+     ```
+
+8. **Save the draft** to `state/drafts.md` — include both IDs returned by `gmail_createDraft`:
    ```
    ## Draft: {Email ID}
    **To:** {customer email}
@@ -38,17 +49,13 @@ Pick the next email from the queue, generate a response draft, and save it.
    **Status:** pending
    **Generated:** {YYYY-MM-DD}
    **Thread ID:** {thread_id}
+   **Gmail Draft ID:** {id from createDraft response}
+   **Gmail Message ID:** {message.id from createDraft response}
 
    ---
    {draft text}
    ---
    ```
-
-8. **Save draft to Gmail** — use `draft_gmail_message` to create a Gmail draft:
-   - To: customer email address
-   - Subject: Re: {original subject}
-   - Body: the draft text
-   - Thread ID: from the original email (for reply threading)
 
 9. **Update queue status** — set the email's status to `drafted` in `state/queue.md`.
 

@@ -14,7 +14,8 @@ Only include information verified by business owners.
 **Price range:** [TBD]
 **Turnaround time:** [TBD]
 **Repair and Return:** Available for Chrysler, Dodge, Jeep, Ford, Mercedes, Nissan
-**Notes:** [TBD]
+**Notes:**
+- Ford ECM part numbers: located on a sticker on the unit; look for "12A650" in the middle of the sticker — that sticker contains the part number
 
 ---
 
@@ -105,6 +106,11 @@ Collect the following before customer ships:
 5. Any parts already tested, replaced, or repaired
 
 **Important:** Not all units are repairable. Collect full info upfront so YPS can assess repairability before the customer ships.
+
+### R&R Disqualifying Conditions
+If the customer mentions any of the following, R&R is NOT possible — decline R&R and pivot to offering a replacement unit instead:
+- **P06xx trouble codes** (any make) — indicates processor/internal ECM failure; not repairable
+- If pivoting to replacement and part number has not already been asked for, ask the customer for their part number sticker photo so YPS can check inventory
 
 ---
 
