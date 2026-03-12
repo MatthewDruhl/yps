@@ -83,6 +83,8 @@ Only include information verified by business owners.
 
 ## Repair and Return Service
 
+**When to offer:** Only offer R&R if the customer explicitly asks about sending their unit in for repair. Do NOT proactively offer R&R to customers asking about a replacement unit.
+
 **How it works:** Customer ships their broken unit to YPS → YPS rebuilds it → ships it back.
 **Available for:**
 - ECM/ECU/PCM: Chrysler, Dodge, Jeep, Ford, Mercedes, Nissan
