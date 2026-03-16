@@ -33,13 +33,7 @@ Pick the next email from the queue, generate a response draft, and save it.
 7. **Save draft to Gmail** — use `gmail_createDraft` to create a Gmail draft:
    - To: customer email address
    - Subject: Re: {original subject}
-   - Body: the draft text, followed by the original message quoted at the bottom:
-     ```
-     ------- Original Message -------
-     On {date}, {from} wrote:
-
-     > {original email body}
-     ```
+   - Body: the draft text
 
 8. **Save the draft** to `state/drafts.md` — include both IDs returned by `gmail_createDraft`:
    ```
