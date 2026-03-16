@@ -65,7 +65,7 @@ Discard existing Gmail draft(s) and generate new ones from the live queue.
 7. **Fetch the original email** from Gmail using `gmail_get` with the Email ID. Extract:
    - Customer email address (From)
    - Subject line
-   - Email body (include quoted original at bottom of draft)
+   - Email body
    - Thread ID
 
 8. **Set queue status to `drafting`** in `state/queue.md`.
@@ -75,12 +75,11 @@ Discard existing Gmail draft(s) and generate new ones from the live queue.
    - Only include information from product-info.md or the original email
    - Follow all Response Guardrails from CLAUDE.md
    - Never include: pricing (unless from product-info.md), commitments, other customer info, internal details, legal language
-   - Append the original message as a quoted block at the bottom
 
 10. **Save the draft to Gmail** using `gmail_createDraft`:
     - To: customer email address
     - Subject: Re: {original subject}
-    - Body: draft text + quoted original
+    - Body: draft text only (no quoted original)
 
 11. **Append the new draft** to `state/drafts.md`:
     ```

@@ -26,7 +26,7 @@ Drafts:    {n} pending review
 Archive:   {n} completed
 Feedback:  {n} logged edits
 
-Ready. Commands: /scan /draft /review /send /end
+Ready. Commands: /scan /draft /redraft /review /send /end
 ```
 
 4. **Log session start** to `sessions/{YYYY-MM-DD}.md`:
