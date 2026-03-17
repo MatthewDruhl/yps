@@ -106,6 +106,11 @@ Typically $129–$549 depending on part type and vehicle.
   - 8 digit string
   - optinal 2 alpha after string
 
+## Email Categories
+- `product-inquiry` — customer asking about a part (availability, compatibility, pricing, repair service)
+- `order-issue` — buyer reporting a problem with an existing order (install failure, defect, refund request, shipping issue)
+- `flagged` — spam, not in English, or cannot be classified
+
 ## Voice/Tone Guidance
 - place holder until I get files
 - See {category}_examples.md files for tone and voice

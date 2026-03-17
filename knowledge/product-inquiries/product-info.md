@@ -9,13 +9,15 @@ Only include information verified by business owners.
 
 ## ECM / ECU / PCM Engine Computers
 
-**Description:** Rebuilt engine control units for most makes and models.
+**Description:** Rebuilt engine control units for many makes and models.
 **Brands covered:** [TBD]
 **Price range:** [TBD]
 **Turnaround time:** [TBD]
 **Repair and Return:** Available for Chrysler, Dodge, Jeep, Ford, Mercedes, Nissan
 **Notes:**
 - Ford ECM part numbers: located on a sticker on the unit; look for "12A650" in the middle of the sticker — that sticker contains the part number
+- Ford GEM module part numbers: located on a sticker on the unit; look for "14B205" in the middle of the sticker — that sticker contains the part number
+- Ford GEM R&R: ask the buyer to remove the circuit board from the case and send photos of both sides of the board before sending in
 
 ---
 
@@ -47,7 +49,9 @@ Only include information verified by business owners.
 **Price range:** [TBD]
 **Turnaround time:** [TBD]
 **Repair and Return:** Available for GM, Ford, Dodge
-**Notes:** [TBD]
+**Notes:**
+- GM ABS modules 2000–2006: rebuilt and tested — use "rebuilt" in replies for these years
+- GM ABS modules 2000–2006 part number location: "These are located under the driver door under the vehicle. If you crawl under the vehicle under the driver door and look up over where the brake lines go into the pump you normally can see the front of the module where the part number sticker is located. Once you have located that let us know the part number."
 
 ---
 

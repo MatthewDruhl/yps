@@ -15,12 +15,14 @@ Search `mock_email/Inbox/` for new customer emails, classify them, and update th
 
 4. **Classify each email:**
    - `product-inquiry` — customer asking about a part (availability, compatibility, pricing, repair service)
+   - `order-issue` — buyer reporting a problem with an existing order (install failure, defect, return/refund request, cancel request, shipping issue, modification request on purchased item)
    - `flagged` — not in English, spam, or doesn't match any known category
 
 5. **Update `state/mock_queue.md`** — add a row for each email:
    - Email ID: filename (e.g. `mock_email1.md`)
    - From, Subject, Date Received, Category, Status
    - `product-inquiry` → status: `new`
+   - `order-issue` → status: `new`
    - Unclassifiable → status: `flagged` (note reason in session log)
 
 6. **Display scan results:**
@@ -30,7 +32,8 @@ Search `mock_email/Inbox/` for new customer emails, classify them, and update th
 
 Found: {n} new emails
   {x} product inquiries → mock_queued
-  {y} flagged → manual review needed
+  {y} order issues → mock_queued
+  {z} flagged → manual review needed
 
 Mock_Queue now has {total} emails ({new} ready for /mock-draft)
 ```
@@ -46,11 +49,17 @@ Mock_Queue now has {total} emails ({new} ready for /mock-draft)
 - Asks about compatibility or fitment
 - Asks about availability or pricing for a part
 
+**Order issue signals (mock_queue as `order-issue`):**
+- Buyer reports install failure or part not working after install
+- Requests a return, refund, or exchange on a purchased item
+- Requests cancellation of an existing order
+- Asks about modifying or unlocking a purchased item
+- Shipping damage or wrong item received
+
 **Flag signals (mark as `flagged`):**
 - Not in English
 - Spam or promotional content
 - General questions not related to auto parts
-- Complaints or disputes (escalate to owners)
 - Cannot determine intent
 
 ## Rules

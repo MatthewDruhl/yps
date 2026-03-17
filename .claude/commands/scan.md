@@ -17,14 +17,16 @@ Search Gmail for new customer emails, classify them, and update the queue.
 
 4. **Classify each email:**
    - Read the email subject first for quick filtering
-   - If the subject suggests a product inquiry, read the full body with `get_gmail_message_content`
+   - Read the full body with `get_gmail_message_content` for any email that isn't obvious spam
    - Classify as one of:
      - `product-inquiry` — customer asking about a part (availability, compatibility, pricing, repair service)
+     - `order-issue` — buyer reporting a problem with an existing order (install failure, defect, return/refund request, cancel request, shipping issue, modification request on purchased item)
      - `flagged` — not in English, spam, or doesn't match any known category
 
 5. **For each classified email, update `state/queue.md`:**
    - Add a row with: Email ID, From, Subject, Date Received, Category, Status
    - `product-inquiry` → status: `new`
+   - `order-issue` → status: `new`
    - Unclassifiable → status: `flagged` (with note in session log)
 
 6. **Apply label** `YPS/Queued` to each processed email using `modify_gmail_message_labels`.
@@ -36,7 +38,8 @@ Search Gmail for new customer emails, classify them, and update the queue.
 
 Found: {n} new emails
   {x} product inquiries → queued
-  {y} flagged → manual review needed
+  {y} order issues → queued
+  {z} flagged → manual review needed
 
 Queue now has {total} emails ({new} ready for /draft)
 ```

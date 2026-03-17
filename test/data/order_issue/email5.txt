@@ -1,0 +1,9 @@
+From: xavcal_jun5346sb@members.ebay.com
+Subject: your_part_source sent a message about 2017 17 DODGE CHARGER 5.7L ECU ECM PCM ENGINE CONTROL COMPUTER 68317737AF TESTED #205985496784
+Date: 03/15/2026 5:33 PM
+
+xavcall0
+
+I recently purchased a PCM from your company for my 2017 Dodge Charger R/T (5.7L). I wanted to ask if it would be possible for you to unlock the PCM before it is shipped, or if there is an option to have it unlocked for tuning.
+
+My goal is to run a tuner on the vehicle, so I wanted to check if unlocking the PCM is something you can do as part of the order or if there is an additional step required.
