@@ -116,6 +116,13 @@ If the customer mentions any of the following, R&R is NOT possible — decline R
 - **P06xx trouble codes** (any make) — indicates processor/internal ECM failure; not repairable
 - If pivoting to replacement and part number has not already been asked for, ask the customer for their part number sticker photo so YPS can check inventory
 
+### Mercedes-Benz ECM R&R — Restrictions
+- **Years covered:** 2006–2011 only — do NOT offer R&R for any other years
+- **Issue covered:** Coil/Injector issues ONLY — do NOT offer R&R for any other type of issue
+- **Prerequisite:** Customer must have already replaced coils, injectors, and spark plugs AND checked wiring for issues before sending in — if they have not done this, do NOT accept the unit
+- **All other Mercedes ECM issues:** Decline R&R and pivot to offering a replacement unit instead
+- **Order of offer:** Always check for a replacement unit first. Only offer R&R if no replacement is available. When offering R&R, disclose: not all units can be repaired and some will test good — these are refunded down to the diagnostic fee of $94.99
+
 ---
 
 ## General Info
