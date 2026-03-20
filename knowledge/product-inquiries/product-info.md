@@ -18,6 +18,8 @@ Only include information verified by business owners.
 - Ford ECM part numbers: located on a sticker on the unit; look for "12A650" in the middle of the sticker — that sticker contains the part number
 - Ford GEM module part numbers: located on a sticker on the unit; look for "14B205" in the middle of the sticker — that sticker contains the part number
 - Ford GEM R&R: ask the buyer to remove the circuit board from the case and send photos of both sides of the board before sending in
+- Dodge/Chrysler/Jeep ECM part number matching: only the 8-digit number matters (e.g. 68064938). The part number may appear with a "P" prefix (P68064938) and/or two letter suffix (68064938AH or P68064938AH) — ignore the prefix and suffix, match on the 8 digits only
+- eBay listing links: construct as https://www.ebay.com/itm/{eBay Item Id} using the "eBay Item Id" column from the inventory CSV (not the internal "Item Id" column)
 
 ---
 

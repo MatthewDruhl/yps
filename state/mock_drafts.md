@@ -1,5 +1,5 @@
 # Mock Pending Drafts
-Last updated: 2026-03-18
+Last updated: 2026-03-17
 
 ## Draft: mock_email1.md
 **To:** mike.thompson84@yahoo.com
@@ -24,13 +24,16 @@ Please email with any questions. Thanks again!
 YPS
 ---
 
+**Status:** approved
+**Generated:** 2026-03-17
+**Status:** approved
+**Generated:** 2026-03-17
 ## Draft: mock_email2.md
 **To:** jrodriguez2019@gmail.com
 **Subject:** Re: ABS for my Silverado
 **Status:** pending
-**Generated:** 2026-03-18
+**Generated:** 2026-03-20
 **Thread ID:** N/A (mock)
-
 ---
 Hello Jorge, thanks for reaching out!
 
@@ -47,7 +50,7 @@ YPS
 **To:** sarah.k.wells@outlook.com
 **Subject:** Re: Chrysler 300 ECU replacement
 **Status:** pending
-**Generated:** 2026-03-18
+**Generated:** 2026-03-17
 **Thread ID:** N/A (mock)
 
 ---
@@ -62,23 +65,22 @@ Let us know what you find out. Thanks again!
 YPS
 ---
 
+
 ## Draft: mock_email4.md
 **To:** dustin.brewer77@gmail.com
 **Subject:** Re: Need ECU for my Ram
 **Status:** pending
-**Generated:** 2026-03-18
+**Generated:** 2026-03-17
 **Thread ID:** N/A (mock)
 
 ---
 Hello Dustin, thanks for reaching out!
 
-We can program some of these units. Once we have your part number we can let you know if yours is one of them. If it is, you can enter your VIN and mileage in the "Add note to seller" box during checkout.
+Good news — we do have part number 68064938 in stock. You can find our listing here: https://www.ebay.com/itm/4804622680149
 
-DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!
+We can program some of these units. Once you are in the listing it will indicate if programming is available. If it is, you can enter your VIN and mileage in the "Add note to seller" box during checkout.
 
-These modules are part number specific, not just vehicle specific. Your ECU will have a sticker or two on it with the part number. If you can send us a photo of those stickers, we can check if we have the right one for you.
-
-Let us know what you find out. Thanks again!
+Let us know if you have any questions. Thanks again!
 
 YPS
 ---
@@ -87,7 +89,7 @@ YPS
 **To:** tammylynn_c@aol.com
 **Subject:** Re: Dodge Charger computer
 **Status:** pending
-**Generated:** 2026-03-18
+**Generated:** 2026-03-17
 **Thread ID:** N/A (mock)
 
 ---
@@ -106,7 +108,7 @@ YPS
 **To:** bknight_construction@yahoo.com
 **Subject:** Re: Question about your GEM repair service
 **Status:** pending
-**Generated:** 2026-03-18
+**Generated:** 2026-03-17
 **Thread ID:** N/A (mock)
 
 ---
@@ -133,23 +135,19 @@ YPS
 **To:** andres_lt6225ncz@members.ebay.com
 **Subject:** Re: your_part_source sent a message about 18 JEEP GRAND CHEROKEE POWER DISTRIBUTION CENTER FUSE BOX MODULE TIPM 68320918 #206068766818
 **Status:** pending
-**Generated:** 2026-03-18
 **Thread ID:** N/A (mock)
 
 ---
-Hello, thanks for reaching out to us regarding this. We are definitely here to help!
 
-We would like to get a little more information before we proceed. A few things stand out from your message:
 
 1. Vehicle: 2018 Jeep Grand Cherokee — what is the engine?
-2. You mentioned all lost communication codes after install — did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle. This is the number one issue our customers run into with these fuse boxes.
-3. Did you match the fuse/relay setup in the replacement TIPM to your original?
-4. As a precaution, please make sure the connectors are fully seated.
-5. If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately.
+2. Part number on the original unit — can you confirm the part number on your original TIPM matches 68320918?
+3. What were the issues with your original TIPM that led you to replace it?
+4. What diagnostics were completed to determine the original unit was the issue?
+5. Any other parts repaired or replaced in an attempt to fix the issue?
 6. What were the original issues with your TIPM that led you to replace it?
 7. What diagnostics were completed to determine the original unit was the problem?
 
-We will await your reply and have our techs review the information to determine how to proceed. Thank you for working with us!
 
 YPS
 ---
@@ -158,23 +156,19 @@ YPS
 **To:** andres_lt6225ncz@members.ebay.com
 **Subject:** Re: your_part_source sent a message about 18 JEEP GRAND CHEROKEE POWER DISTRIBUTION CENTER FUSE BOX MODULE TIPM 68320918 #206068766818
 **Status:** pending
-**Generated:** 2026-03-18
 **Thread ID:** N/A (mock)
 
 ---
-Hello, thanks for reaching out to us regarding this. We are definitely here to help!
 
-We would like to get a little more information before we proceed. A few things stand out from your message:
 
 1. Vehicle: 2018 Jeep Grand Cherokee — what is the engine?
-2. You mentioned all lost communication codes after install — did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle. This is the number one issue our customers run into with these fuse boxes.
-3. Did you match the fuse/relay setup in the replacement TIPM to your original?
-4. As a precaution, please make sure the connectors are fully seated.
-5. If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately.
+2. Part number on the original unit — can you confirm the part number on your original TIPM matches 68320918?
+3. What were the issues with your original TIPM that led you to replace it?
+4. What diagnostics were completed to determine the original unit was the issue?
+5. Any other parts repaired or replaced in an attempt to fix the issue?
 6. What were the original issues with your TIPM that led you to replace it?
 7. What diagnostics were completed to determine the original unit was the problem?
 
-We will await your reply and have our techs review the information to determine how to proceed. Thank you for working with us!
 
 YPS
 ---
@@ -183,7 +177,6 @@ YPS
 **To:** ncoate_hv4227tjfx@members.ebay.com
 **Subject:** Re: your_part_source has sent a question about item #205801180391, ending on Mar-22-26 11:48:55 PDT - 03-04 SIERRA SILVERADO 1500 ABS ANTI-LOCK BRAKE CONTROL MODULE 13354728 729 730
 **Status:** pending
-**Generated:** 2026-03-18
 **Thread ID:** N/A (mock)
 
 ---
@@ -202,25 +195,17 @@ YPS
 **To:** dstech_kriy5748qef@members.ebay.com
 **Subject:** Re: your_part_source has sent a question about item #325758869276, ending on Apr-04-26 16:06:26 PDT - 12 JEEP LIBERTY TIPM TEMIC TOTALLY INTEGRATED FUSE BOX MODULE 68105502 REBUILT
 **Status:** pending
-**Generated:** 2026-03-18
 **Thread ID:** N/A (mock)
 
 ---
-Hello, thanks for reaching out to us regarding this. We are definitely here to help!
 
-We would like to get a little more information to see if we can figure out what is going on before we proceed.
 
 1. Vehicle: 2012 Jeep Liberty — what is the engine?
-2. Part number on the original unit — can you confirm this is 68105502?
-3. What were the original issues with your TIPM that led you to replace it?
-4. What diagnostics were completed to determine the original unit was the problem?
 5. Any other parts repaired or replaced in an attempt to fix the issue?
 6. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
 7. Did you match the fuse/relay setup in the replacement TIPM to your original?
-8. As a precaution, please make sure the connectors are fully seated.
 9. If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately.
 
-We will await your reply and have our techs review the information to determine how to proceed. Thank you for working with us!
 
 YPS
 ---
@@ -229,13 +214,11 @@ YPS
 **To:** xavcal_jun5346sb@members.ebay.com
 **Subject:** Re: your_part_source sent a message about 2017 17 DODGE CHARGER 5.7L ECU ECM PCM ENGINE CONTROL COMPUTER 68317737AF TESTED #205985496784
 **Status:** pending
-**Generated:** 2026-03-18
 **Thread ID:** N/A (mock)
 
 ---
 Hello, thanks for reaching out!
 
-Unfortunately we do not offer tuning or unlocking. All of our items ship with OE software.
 
 Let us know if you needed to cancel as we would understand. Thanks again!
 
