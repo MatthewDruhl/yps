@@ -26,10 +26,8 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **R&R (Repair and Return):**
 - Available for: some Ford ECMs, some Chrysler/Dodge/Jeep ECMs
 - NOT available for: GM ECMs or any other makes not listed above
-- Diagnostic fee: **$94.99** (refunded down to this amount if unit tests good or is unrepairable)
-- Turnaround time: approximately 1 week total — 1-2 days shipping to YPS, 1-2 days for the repair, 1-2 days shipping back. **Only share if the customer asks.**
-- **P0600 / P060B** (processor failure codes) = R&R not possible → pivot to replacement offering
 - Info needed for R&R: vehicle year/make/model/engine, part number, description of issues, DTCs, diagnostics completed, parts already replaced
+- See **Repair and Return Service** in `knowledge/product-inquiries/product-info.md` for diagnostic fee, turnaround time, disqualifying conditions, closing paragraphs, and repair patterns
 
 **Order-issue install questions:**
 - TBD
@@ -85,8 +83,7 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 
 **R&R (Repair and Return):**
 - Available for some Ford GEM modules
-- Diagnostic fee: **$94.99** (refunded down to this amount if unit tests good or is unrepairable)
-- Turnaround time: approximately 1 week total — 1-2 days shipping to YPS, 1-2 days for the repair, 1-2 days shipping back. **Only share if the customer asks.**
+- See **Repair and Return Service** in `knowledge/product-inquiries/product-info.md` for diagnostic fee, turnaround time, and closing paragraphs
 - Info needed for R&R:
   1. Vehicle year / make / model / engine
   2. Part number (sticker with "14B205" in the middle)
@@ -102,7 +99,7 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 
 **Also called:** ABS module, ABS control unit
 **Makes served:** Most makes
-**Descriptor:** Use **"tested"**
+**Descriptor:** Use **"tested"** — exception: GM ABS modules 2000–2006, use **"rebuilt"**
 **Part number:** Part number specific, not vehicle specific
 
 **Finding the part number:** Located under the driver door on the vehicle. Crawl under the vehicle under the driver door, look up over where the brake lines go into the pump — the part number sticker is on the front of the module.
@@ -116,7 +113,7 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 
 **R&R:** Available for Ford, GM, and Dodge ABS modules only
 
-**Order-issue install questions:** Use GEM-specific template in `knowledge/order-issues/order-info.md`. Key difference: item 5 requires OE level scan tool for GEM codes — basic scanners cannot read the GEM.
+**Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
 
 ---
 
@@ -171,18 +168,10 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 
 ---
 
-## Warranty & Returns (All Product Types)
-
-**Warranty:** 90 days on most items
-**Return period:** 30 days
-**Only share if the customer asks** — do not include in standard drafts unprompted.
-
----
-
 ## General Rules (All Product Types)
 
-- **Never use "rebuilt"** as a descriptor in early-stage replies — use "tested"
+- **Never use "rebuilt"** as a descriptor in early-stage replies — use "tested" (exception: GM ABS 2000–2006, use "rebuilt")
 - **Part number always comes first** — do not confirm availability, compatibility, or R&R eligibility without the part number
 - **DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM** — include this warning in all product inquiry replies
-- **R&R diagnostic fee: $94.99** — always disclose upfront; refunded down to this if unit tests good or is unrepairable
 - **Inventory check:** Always check `temp_inventory.csv` before drafting. If exact part number is in stock, offer replacement as a faster alternative to R&R.
+- **Warranty, return policy, pricing, and R&R process details** — see `knowledge/product-inquiries/product-info.md`

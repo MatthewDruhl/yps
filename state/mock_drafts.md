@@ -1,7 +1,7 @@
 # Mock Pending Drafts
 Last updated: 2026-03-23
 
-## Draft: mock_email1.md
+## Draft: mock_product_inquiry_1.md
 **To:** mike.thompson84@yahoo.com
 **Subject:** Re: 2015 Dodge Ram 1500 TIPM - Need replacement
 **Status:** pending
@@ -23,7 +23,7 @@ Let us know what you find out. Thanks again!
 YPS
 ---
 
-## Draft: mock_email2.md
+## Draft: mock_product_inquiry_2.md
 **To:** jrodriguez2019@gmail.com
 **Subject:** Re: ABS for my Silverado
 **Status:** pending
@@ -43,7 +43,7 @@ Let us know what you find out. Thanks again!
 YPS
 ---
 
-## Draft: mock_email3.md
+## Draft: mock_product_inquiry_3.md
 **To:** sarah.k.wells@outlook.com
 **Subject:** Re: Chrysler 300 ECU replacement
 **Status:** pending
@@ -63,7 +63,7 @@ Let us know what you find out. Thanks again!
 YPS
 ---
 
-## Draft: mock_email4.md
+## Draft: mock_product_inquiry_4.md
 **To:** dustin.brewer77@gmail.com
 **Subject:** Re: Need ECU for my Ram
 **Status:** pending
@@ -82,7 +82,7 @@ Let us know if you have any questions. Thanks again!
 YPS
 ---
 
-## Draft: mock_email5.md
+## Draft: mock_product_inquiry_5.md
 **To:** tammylynn_c@aol.com
 **Subject:** Re: Dodge Charger computer
 **Status:** pending
@@ -104,7 +104,7 @@ Let us know what you find out. Thanks again!
 YPS
 ---
 
-## Draft: mock_email6.md
+## Draft: mock_product_inquiry_6.md
 **To:** bknight_construction@yahoo.com
 **Subject:** Re: Question about your GEM repair service
 **Status:** pending
@@ -114,9 +114,7 @@ YPS
 ---
 Hello Brian, thanks for reaching out!
 
-We do offer a repair and return service for some Ford GEM modules. Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
-
-To quickly determine if we can help, we'll need a few details:
+We do offer a repair and return service for some Ford GEM modules. To quickly determine if we can help, we'll need a few details:
 
 1. Vehicle: 2001 Ford F-250 — what is the engine?
 2. The part number of your GEM module — your GEM will have a sticker on it with "14B205" in the middle. That sticker contains the part number.
@@ -126,14 +124,14 @@ To quickly determine if we can help, we'll need a few details:
 6. Any parts already tested, replaced, or repaired
 7. Please remove the circuit board from the case and send us photos of both sides of the board
 
-Once we have those we can take a look and let you know if it's something we can help with.
+Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
 
-We hope this information was helpful. Let us know when you get a chance. Thanks again!
+We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
 
 YPS
 ---
 
-## Draft: mock_email_order_issue1.md
+## Draft: mock_order_issue_1.md
 **To:** andres_lt6225ncz@members.ebay.com
 **Subject:** Re: your_part_source sent a message about 18 JEEP GRAND CHEROKEE POWER DISTRIBUTION CENTER FUSE BOX MODULE TIPM 68320918 #206068766818
 **Status:** pending
@@ -162,7 +160,7 @@ We will await your reply and have our techs review the information to determine 
 YPS
 ---
 
-## Draft: mock_email_order_issue2.md
+## Draft: mock_order_issue_2.md
 **To:** madowe1972@gmail.com
 **Subject:** Re: New customer message on March 23, 2026 at 9:41 am
 **Status:** pending
@@ -183,14 +181,14 @@ If repair and return is still the way you want to go, we still need a couple of 
 3. If you have an OE level scan tool, did you run a self-test on the GEM module? This can help pull any trouble codes stored in the module if there are any.
 4. Please remove the circuit board from the case and send us photos of both sides of the board
 
-Once we have those we can take a look and let you know if it's something we can help with.
+Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
 
-We hope this information was helpful. Let us know when you get a chance. Thanks again!
+We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
 
 YPS
 ---
 
-## Draft: mock_email_order_issue3.md
+## Draft: mock_order_issue_3.md
 **To:** ncoate_hv4227tjfx@members.ebay.com
 **Subject:** Re: your_part_source has sent a question about item #205801180391, ending on Mar-22-26 11:48:55 PDT - 03-04 SIERRA SILVERADO 1500 ABS ANTI-LOCK BRAKE CONTROL MODULE 13354728 729 730
 **Status:** pending
@@ -209,7 +207,7 @@ We'll watch for that cancellation to come across. Let us know if you have any qu
 YPS
 ---
 
-## Draft: mock_email_order_issue4.md
+## Draft: mock_order_issue_4.md
 **To:** dstech_kriy5748qef@members.ebay.com
 **Subject:** Re: your_part_source has sent a question about item #325758869276, ending on Apr-04-26 16:06:26 PDT - 12 JEEP LIBERTY TIPM TEMIC TOTALLY INTEGRATED FUSE BOX MODULE 68105502 REBUILT
 **Status:** pending
@@ -237,7 +235,7 @@ We will await your reply and have our techs review the information to determine 
 YPS
 ---
 
-## Draft: mock_email_order_issue5.md
+## Draft: mock_order_issue_5.md
 **To:** xavcal_jun5346sb@members.ebay.com
 **Subject:** Re: your_part_source sent a message about 2017 17 DODGE CHARGER 5.7L ECU ECM PCM ENGINE CONTROL COMPUTER 68317737AF TESTED #205985496784
 **Status:** pending
@@ -254,7 +252,7 @@ Let us know if you needed to cancel as we would understand. Thanks again!
 YPS
 ---
 
-## Draft: mock_email_rnr1.md
+## Draft: mock_rnr_1.md
 **To:** truck.guy2007@gmail.com
 **Subject:** Re: REPAIR SERVICE 05-10 F-250 F-350 F-450 6.8L ECU ECM PCM ENGINE COMPUTER P0443
 **Status:** pending
@@ -279,13 +277,12 @@ We will await your reply and have our techs review the information. Let us know 
 YPS
 ---
 
-## Draft: mock_email_rnr2.md
+## Draft: mock_rnr_2.md
 **To:** dcaravan2011@hotmail.com
 **Subject:** Re: 11 GRAND CARAVAN TOWN & COUNTRY PCM ECM ECU COMPUTER ALTERNATOR CHARGING REPAIR
 **Status:** pending
 **Generated:** 2026-03-23
 **Thread ID:** N/A (mock)
-**Attachment:** knowledge/images/mopar_ecm_pn_sticker.png
 
 ---
 Hello Dave, thanks for reaching out!

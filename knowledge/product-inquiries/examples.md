@@ -1,4 +1,5 @@
 # Product Inquiry — Example Emails & Responses
+Last updated: 2026-03-23
 
 Reference examples for drafting responses to customer product inquiries.
 Claude uses these to match YPS's voice, tone, and response patterns.
@@ -169,7 +170,7 @@ Claude uses these to match YPS's voice, tone, and response patterns.
 > 4. What diagnostics were completed that led to the PCM as the suspected issue?
 > 5. Any other parts already tested, replaced, or repaired?
 >
-> Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
+> Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of {DIAGNOSTIC_FEE} that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
 >
 > We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
 >

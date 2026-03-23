@@ -1,4 +1,5 @@
 # Order Issue — Response Templates & Guidelines
+Last updated: 2026-03-23
 
 Reference data for drafting responses to customers with post-purchase issues.
 Only include information verified by business owners.
