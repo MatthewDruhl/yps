@@ -108,23 +108,25 @@ YPS
 **To:** bknight_construction@yahoo.com
 **Subject:** Re: Question about your GEM repair service
 **Status:** pending
-**Generated:** 2026-03-17
+**Generated:** 2026-03-23
 **Thread ID:** N/A (mock)
 
 ---
 Hello Brian, thanks for reaching out!
 
-We do offer a repair and return service for some Ford GEM modules. To quickly determine if we can help, we'll need a few details:
+We do offer a repair and return service for some Ford GEM modules. Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
+
+To quickly determine if we can help, we'll need a few details:
 
 1. Vehicle: 2001 Ford F-250 — what is the engine?
 2. The part number of your GEM module — your GEM will have a sticker on it with "14B205" in the middle. That sticker contains the part number.
 3. A short description of the issues you are having
-4. All diagnostics completed to determine the GEM module is the problem
-5. All diagnostic trouble codes currently set and which module(s) they are in
+4. If you have an OE level scan tool, did you run a self-test on the GEM module? This can help pull any trouble codes stored in the module if there are any.
+5. All diagnostics completed to determine the GEM module is the problem
 6. Any parts already tested, replaced, or repaired
 7. Please remove the circuit board from the case and send us photos of both sides of the board
 
-Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
+Once we have those we can take a look and let you know if it's something we can help with.
 
 We hope this information was helpful. Let us know when you get a chance. Thanks again!
 

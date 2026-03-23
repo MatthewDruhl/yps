@@ -1,5 +1,29 @@
-From: andres_lt6225ncz@members.ebay.com
-Subject: your_part_source sent a message about 18 JEEP GRAND CHEROKEE POWER DISTRIBUTION CENTER FUSE BOX MODULE TIPM 68320918 #206068766818
-Date: 3/16/2026 6:19 PM
+From: madowe1972@gmail.com
+Subject: New customer message on March 23, 2026 at 9:41 am
+Date: 3/23/2026 9:41 AM
 
-Hello, thanks for the fast shipping. Just received the package and checked to make sure it was the correct one before installing. Did the installation, but vehicle will not turn on. Scanned vehicle and all lost communication codes pop up. Reinstall the old one and vehicle starts right up no issue. Would like to return for a refund please. Thank you
+
+Country Code:
+US
+Name:
+Mark Dowe
+Phone Number:
+301-988-3092
+Email:
+madowe1972@gmail.com
+Year/Make/Model/Engine:
+1999 ford f-550
+Issues:
+wipers not working
+Diagnostic Trouble Codes Being Set:
+none
+Diagnostics/Repairs Completed:
+checked wires
+What Parts Have Been Replaced In An Attempt To Fix This Issue?:
+multi function switch
+Part Number Needing Repair:
+F81B-14B205-FB
+Message:
+windshield wiper and horn not working. checked wires from turn signal/wiper switch to body control module and wires from bcm to
+fuse box. all wires are good. 
+Is this a repair you can complete?  Please contact me so i can ship my unit to you for repairs. thank you
