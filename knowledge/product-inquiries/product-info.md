@@ -19,6 +19,7 @@ Only include information verified by business owners.
 - Ford GEM module part numbers: located on a sticker on the unit; look for "14B205" in the middle of the sticker — that sticker contains the part number
 - Ford GEM R&R: ask the buyer to remove the circuit board from the case and send photos of both sides of the board before sending in
 - Dodge/Chrysler/Jeep ECM part number matching: only the 8-digit number matters (e.g. 68064938). The part number may appear with a "P" prefix (P68064938) and/or two letter suffix (68064938AH or P68064938AH) — ignore the prefix and suffix, match on the 8 digits only
+- Dodge/Chrysler/Jeep ECM sticker image: attach `knowledge/images/mopar_ecm_pn_sticker.png` when asking the customer for their part number. Do NOT attach if we already have their exact part number in stock — direct them to the listing instead.
 - eBay listing links: construct as https://www.ebay.com/itm/{eBay Item Id} using the "eBay Item Id" column from the inventory CSV (not the internal "Item Id" column)
 
 ---
@@ -54,6 +55,7 @@ Only include information verified by business owners.
 **Notes:**
 - GM ABS modules 2000–2006: rebuilt and tested — use "rebuilt" in replies for these years
 - GM ABS modules 2000–2006 part number location: "These are located under the driver door under the vehicle. If you crawl under the vehicle under the driver door and look up over where the brake lines go into the pump you normally can see the front of the module where the part number sticker is located. Once you have located that let us know the part number."
+- GM ABS modules 2000–2006 sticker image: attach `knowledge/images/gm_abs_part_number_stickers.png` to the reply — this shows the customer what the sticker looks like
 
 ---
 

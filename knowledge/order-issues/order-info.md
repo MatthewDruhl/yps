@@ -32,6 +32,14 @@ YPS
 - Pre-fill any vehicle/part info already provided in their email and ask only for what's missing
 - If nothing is known, use the list as-is without pre-fills
 
+**PDC-specific additions:** When the item is a PDC, add these after item 5:
+6. Pre-fill current install symptoms if mentioned in the email: "We noted that after installation {symptoms} — is there anything else going on with the vehicle?"
+7. Was the battery disconnected during installation?
+8. Did you match the fuse/relay setup in the replacement PDC to your original?
+9. Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?
+
+---
+
 **TIPM-specific additions:** When the item is a TIPM, add these after item 5:
 6. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
 7. Did you match the fuse/relay setup in the replacement TIPM to your original?
