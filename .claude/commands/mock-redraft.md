@@ -21,9 +21,11 @@ Discard existing draft(s) and generate new ones.
 3. **Reset all `drafted` entries** in `state/mock_queue.md` to status `new`.
 
 4. **Read knowledge files** once (reuse for all emails):
+   - `knowledge/product-types.md`
    - `knowledge/product-inquiries/examples.md`
    - `knowledge/product-inquiries/product-info.md`
-   - Warn if either is empty or placeholder-only, but continue
+   - `knowledge/order-issues/order-info.md`
+   - Warn if any is empty or placeholder-only, but continue
 
 5. **For each email (oldest first),** repeat steps 6–9 below.
 

@@ -11,9 +11,11 @@ Pick the next email from the queue, generate a response draft, and save it.
 2. **Select the next email** — pick the oldest `new` email from queue.md. If no `new` emails exist, tell the operator and stop.
 
 3. **Read knowledge files:**
+   - `knowledge/product-types.md` — authoritative product line reference (R&R eligibility, install questions, sticker images, draft rules)
    - `knowledge/product-inquiries/examples.md` — example emails and ideal responses
    - `knowledge/product-inquiries/product-info.md` — product catalog and specs
-   - If either file is empty or has only placeholder content, warn the operator: "Knowledge files don't have real data yet — draft quality will be limited." Continue drafting but note the limitation.
+   - `knowledge/order-issues/order-info.md` — order-issue templates and guidelines
+   - If any file is empty or has only placeholder content, warn the operator: "Knowledge files don't have real data yet — draft quality will be limited." Continue drafting but note the limitation.
 
 4. **Read the original email** — use `get_gmail_message_content` with the Email ID from queue.md. Extract:
    - Customer email address (From)
@@ -25,7 +27,7 @@ Pick the next email from the queue, generate a response draft, and save it.
 
 6. **Generate the draft response:**
    - Match the voice/tone from examples.md for the email's category
-   - Only include information from product-info.md or the original email
+   - Only include information from product-types.md, product-info.md, order-info.md, or the original email
    - If you don't have the answer to something the customer asked, say so honestly
    - Follow all Response Guardrails from CLAUDE.md
    - Never include: pricing (unless from product-info.md), commitments, other customer info, internal details, legal language

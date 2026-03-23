@@ -7,6 +7,7 @@ Last updated: 2026-03-23
 **Status:** pending
 **Generated:** 2026-03-23
 **Thread ID:** N/A (mock)
+**Attachment:** knowledge/images/tipm_part_number.png
 
 ---
 Hello Mike, thanks for reaching out!
@@ -15,7 +16,7 @@ Unfortunately we do not offer a repair service for TIPMs. We do carry tested TIP
 
 DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!
 
-These modules are part number specific, not vehicle specific. Your TIPM will have a part number sticker on the unit itself. If you can send us a photo of the sticker, we can check if we have the right one for you.
+These modules are part number specific, not vehicle specific. Your TIPM will have a part number sticker on the unit itself. We've attached a picture of what the sticker should look like to help. If you can send us a photo of the sticker, we can check if we have the right one for you.
 
 Let us know what you find out. Thanks again!
 
@@ -147,12 +148,12 @@ We would like to get a little more information from you to see if we can figure 
 1. Vehicle: 2018 Jeep Grand Cherokee — what is the engine?
 2. Part number on the original unit — can you confirm the part number on your original PDC matches 68320918? These units are part number specific, not vehicle specific.
 3. What were the issues with your original PDC that led you to replace it?
-4. What diagnostics were completed to determine the original unit was the issue?
-5. Any other parts repaired or replaced in an attempt to fix the issue?
-6. We noted that after installation the vehicle will not turn on and all lost communication codes are present — is there anything else going on with the vehicle?
-7. Was the battery disconnected during installation?
-8. Did you match the fuse/relay setup in the replacement PDC to your original?
-9. Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?
+4. We noted that after installation the vehicle will not turn on and all lost communication codes are present — is there anything else going on with the vehicle?
+5. Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?
+6. What diagnostics were completed to determine the original unit was the issue?
+7. Any other parts that have been repaired or replaced in an attempt to fix the issue?
+8. Was the battery disconnected during installation?
+9. Did you match the fuse/relay setup in the replacement PDC to your original?
 
 We will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions. Thank you for working with us.
 
@@ -221,12 +222,13 @@ We would like to get a little more information from you to see if we can figure 
 1. Vehicle: 2012 Jeep Liberty — what is the engine?
 2. Part number on the original unit — can you confirm the part number on your original TIPM matches 68105502? These units are part number specific, not vehicle specific.
 3. What were the issues with your original TIPM that led you to replace it?
-4. What diagnostics were completed to determine the original unit was the issue?
-5. Any other parts repaired or replaced in an attempt to fix the issue?
-6. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
-7. Did you match the fuse/relay setup in the replacement TIPM to your original?
-8. As a precaution, please make sure the connectors are seated.
-9. If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately.
+4. We noted that after installation the engine revs really high and won't stop and the AC is not working — is there anything else going on with the vehicle?
+5. If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately.
+6. What diagnostics were completed to determine the original unit was the issue?
+7. Any other parts that have been repaired or replaced in an attempt to fix the issue?
+8. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
+9. Did you match the fuse/relay setup in the replacement TIPM to your original?
+10. As a precaution, please make sure the connectors are seated.
 
 We will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions as well as we are here to help you get your vehicle back up and running! Thank you for working with us.
 
@@ -246,6 +248,31 @@ Hello, thanks for reaching out!
 Unfortunately we do not offer unlocking. All of our items ship with OE software.
 
 Let us know if you needed to cancel as we would understand. Thanks again!
+
+YPS
+---
+
+## Draft: mock_email_rnr1.md
+**To:** truck.guy2007@gmail.com
+**Subject:** Re: REPAIR SERVICE 05-10 F-250 F-350 F-450 6.8L ECU ECM PCM ENGINE COMPUTER P0443
+**Status:** pending
+**Generated:** 2026-03-23
+**Thread ID:** N/A (mock)
+
+---
+Hello, thanks for reaching out and for the detailed information!
+
+We do offer a repair and return service for some Ford PCMs. To quickly determine if we can help, we'd like to get a bit more information from you:
+
+1. Are there any additional trouble codes set in the PCM? Usually when the PCM is the issue we will see a few additional trouble codes than what you have.
+2. Part number on your PCM — Ford PCMs have a sticker on the unit with "12A650" in the middle, that sticker contains your part number.
+3. Engine size — can you confirm the engine on your F-350?
+4. What diagnostics were completed that led to the PCM as the suspected issue?
+5. Any other parts already tested, replaced, or repaired?
+
+Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
+
+We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
 
 YPS
 ---

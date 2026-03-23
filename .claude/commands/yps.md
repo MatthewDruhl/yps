@@ -19,10 +19,17 @@ Start a new YPS email session. Read current state and show a summary.
    - `state/mock_drafts.md`
    - `state/archive.md`
    - `state/feedback.md`
+   - `state/todo.md`
 
    If any state file is missing, recreate it using the empty schema from CLAUDE.md and note this in the session log.
 
-4. **Display session summary:**
+4. **Check `state/todo.md`** for any items whose Review date is on or before today's date. If any are found, flag them in the session summary:
+   ```
+   ⚠ TODOs past review date:
+   - {item description} (was due {date})
+   ```
+
+6. **Display session summary:**
 
 ```
 ── YPS Session: {YYYY-MM-DD} ──
@@ -31,11 +38,12 @@ Queue:     {n} emails ({x} new, {y} drafting, {z} drafted, {w} flagged)
 Drafts:    {n} pending review
 Archive:   {n} completed
 Feedback:  {n} logged edits
+TODOs:     {n} open items
 
 Ready. Commands: /scan /draft /redraft /review /send /end
 ```
 
-5. **Log session start** to `sessions/{YYYY-MM-DD}.md`:
+7. **Log session start** to `sessions/{YYYY-MM-DD}.md`:
 ```
 ## Session started: {HH:MM}
 - Queue: {summary}

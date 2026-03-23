@@ -68,8 +68,19 @@ YPS
 
 **Guidelines:**
 - Gather diagnostic info first (see Install Failure template) before processing a return
-- [TBD — standard accept/decline language for returns]
-- [TBD — restocking fee details]
+- [TBD — when to trigger the return template vs. continue gathering info]
+
+**Return template:**
+
+Please go into your eBay account, find this purchase and choose return request from the drop down. For the reason choose "Doesn't fit my vehicle" or "changed my mind" and for the notes put "Per Kirk in Customer Service". Once we see this come across we will accept and a prepaid return label will be made available to you.
+
+*READ* If you use the enclosed "core label" for the return no refund will be processed. Make sure to use the label provided by eBay.
+
+If you have any questions let us know. We appreciate your business and thank you in advance for your patience with the refund process.
+
+YPS
+
+**Restocking fee:** None
 
 ---
 

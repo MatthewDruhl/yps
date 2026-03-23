@@ -120,6 +120,28 @@ Collect the following before customer ships:
 
 **Important:** Not all units are repairable. Collect full info upfront so YPS can assess repairability before the customer ships.
 
+**Diagnostic fee closing paragraph** — include after the numbered info-gathering list in all R&R replies:
+
+> Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
+>
+> We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
+
+### Ford ECM R&R — P0443 / P0403 Repair Pattern
+
+When the listing title includes **P0443** or **P0403**, the full expected code set when the PCM is the root cause is:
+- P0403 — EGR Solenoid Circuit
+- P0443 — EVAP Canister Purge Solenoid Circuit
+- P0135 — O2 Sensor Heater Circuit (Bank 1, Sensor 1)
+- P0141 — O2 Sensor Heater Circuit (Bank 1, Sensor 2)
+- P0155 — O2 Sensor Heater Circuit (Bank 2, Sensor 1)
+- P0161 — O2 Sensor Heater Circuit (Bank 2, Sensor 2)
+
+**When all 6 codes are present** → PCM is likely the issue. YPS has approximately a 90% success rate with this repair.
+
+**When only some codes are present** → Ask the customer to confirm there are no additional codes set in the PCM. Phrase it as: "Usually when the PCM is the issue we will see a few additional trouble codes than what you have."
+
+---
+
 ### R&R Disqualifying Conditions
 If the customer mentions any of the following, R&R is NOT possible — decline R&R and pivot to offering a replacement unit instead:
 - **P06xx trouble codes** (any make) — indicates processor/internal ECM failure; not repairable
