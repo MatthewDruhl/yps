@@ -19,9 +19,11 @@ We would like to get a little more information from you to see if we can figure 
 
 1. Vehicle: {pre-fill year/make/model from email if available} — what is the engine?
 2. Part number on the original unit — {pre-fill if mentioned, otherwise ask}. These units are part number specific, not vehicle specific.
-3. What were the issues with your original unit that led you to replace it? (Do NOT pre-fill symptoms they reported with the replacement — ask only about the original)
-4. What diagnostics were completed to determine the original unit was the issue?
-5. Any other parts repaired or replaced in an attempt to fix the issue?
+3. What were the issues with your original unit that led you to replace it?
+4. Pre-fill replacement unit symptoms if mentioned in the email: "We noted that after installation {symptoms} — is there anything else going on with the vehicle?" If no symptoms mentioned, ask: "What issues are you experiencing with the replacement unit?"
+5. Any diagnostic trouble codes being set in the vehicle and which module(s) they are coming from?
+6. What diagnostics were completed to determine the original unit was the issue?
+7. Any other parts that have been repaired or replaced in an attempt to fix the issue?
 
 We will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions as well as we are here to help you get your vehicle back up and running! Thank you for working with us.
 
@@ -32,19 +34,25 @@ YPS
 - Pre-fill any vehicle/part info already provided in their email and ask only for what's missing
 - If nothing is known, use the list as-is without pre-fills
 
-**PDC-specific additions:** When the item is a PDC, add these after item 5:
-6. Pre-fill current install symptoms if mentioned in the email: "We noted that after installation {symptoms} — is there anything else going on with the vehicle?"
-7. Was the battery disconnected during installation?
-8. Did you match the fuse/relay setup in the replacement PDC to your original?
-9. Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?
+**PDC-specific template:** Use the default 7 items with these modifications:
+- Item 5: Replace default DTC item with — "Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?"
+- Add after item 7:
+  8. Was the battery disconnected during installation?
+  9. Did you match the fuse/relay setup in the replacement PDC to your original?
 
 ---
 
-**TIPM-specific additions:** When the item is a TIPM, add these after item 5:
-6. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
-7. Did you match the fuse/relay setup in the replacement TIPM to your original?
-8. As a precaution, please make sure the connectors are seated.
-9. If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately.
+**GEM-specific template:** Use the default 7 items with these modifications:
+- Item 5: Replace default DTC item with — "If you have an OE level scan tool, did you run a self-test on the GEM module? This can help pull any trouble codes stored in the module if there are any. Basic code readers cannot read the GEM unfortunately."
+
+---
+
+**TIPM-specific template:** Use the default 7 items with these modifications:
+- Item 5: Replace default DTC item with — "If you have an OEM level scan tool, try to read the codes from the TIPM and let us know those. Basic code readers cannot read the TIPM unfortunately."
+- Add after item 7:
+  8. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
+  9. Did you match the fuse/relay setup in the replacement TIPM to your original?
+  10. As a precaution, please make sure the connectors are seated.
 
 ---
 
@@ -108,5 +116,5 @@ YPS
 - Always respond warmly — "We are definitely here to help!"
 - Never commit to a return or refund in the first reply — gather info first
 - Ask for order number, item number, or eBay username if not already provided: [TBD — confirm with owners]
-- Warranty: 90 days on most items
-- Return window: 30 days
+- Warranty: 90 days on most items — only share if the customer asks
+- Return window: 30 days — only share if the customer asks

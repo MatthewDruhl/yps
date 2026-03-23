@@ -24,8 +24,10 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 - If programmable: customer enters VIN and mileage in the **"Add note to seller"** box at checkout
 
 **R&R (Repair and Return):**
-- Available for select makes: Chrysler/Dodge, Ford, GM, Honda/Acura, Mercedes, Nissan
+- Available for: some Ford ECMs, some Chrysler/Dodge/Jeep ECMs
+- NOT available for: GM ECMs or any other makes not listed above
 - Diagnostic fee: **$94.99** (refunded down to this amount if unit tests good or is unrepairable)
+- Turnaround time: approximately 1 week total — 1-2 days shipping to YPS, 1-2 days for the repair, 1-2 days shipping back. **Only share if the customer asks.**
 - **P0600 / P060B** (processor failure codes) = R&R not possible → pivot to replacement offering
 - Info needed for R&R: vehicle year/make/model/engine, part number, description of issues, DTCs, diagnostics completed, parts already replaced
 
@@ -41,12 +43,13 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **Descriptor:** Use **"tested"**
 **Part number:** Part number specific, not vehicle specific
 
+**Part number sticker image:** Attach `knowledge/images/tipm_part_number.png` when asking the customer for their TIPM part number. Do NOT use for PDC inquiries. Do NOT attach if we already have their exact part number in stock.
+
 **R&R:** Not available for TIPMs
 
-**Order-issue install questions:**
-1. Did you follow our install instructions? Following the steps closely is key to getting the TIPM synced to the vehicle — that is the number one issue our customers run into with these fuse boxes.
-2. Did you match the fuse/relay setup in the replacement TIPM to your original?
-3. If you have an OEM level scan tool, can you read the codes directly from the TIPM? Basic code readers cannot read the TIPM.
+**Order-issue install questions:** Use TIPM-specific template in `knowledge/order-issues/order-info.md`. Key differences from default:
+- Item 5: OEM scan tool required for TIPM codes — basic scanners cannot read the TIPM
+- Items 8–10: install instructions, fuse/relay match, connectors seated (always include all three)
 
 **Note:** YPS sends install instructions with TIPM orders. "Lost communication codes" after install is typically a sync issue, not a defective unit.
 
@@ -61,12 +64,11 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 
 **R&R:** Not available for PDCs
 
-**Order-issue install questions:**
-1. Was the battery disconnected during installation?
-2. Did you match the fuse/relay setup in the replacement PDC to your original?
-3. Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?
+**Order-issue install questions:** Use PDC-specific template in `knowledge/order-issues/order-info.md`. Key differences from default:
+- Item 5: Pull trouble codes from any module in the vehicle (not just the PDC)
+- Items 8–9: battery disconnected during install, fuse/relay setup matched
 
-**Note:** YPS does **not** send install instructions for PDCs. Trouble codes should be pulled from the vehicle broadly (not just the PDC module). PDC and TIPM are different products — do not mix their install questions.
+**Note:** YPS does **not** send install instructions for PDCs. PDC and TIPM are different products — do not mix their install questions.
 
 **How to identify:** Listing title will say "Power Distribution Center" or "PDC". TIPM listings say "Totally Integrated Power Module" or "TIPM".
 
@@ -84,6 +86,7 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **R&R (Repair and Return):**
 - Available for some Ford GEM modules
 - Diagnostic fee: **$94.99** (refunded down to this amount if unit tests good or is unrepairable)
+- Turnaround time: approximately 1 week total — 1-2 days shipping to YPS, 1-2 days for the repair, 1-2 days shipping back. **Only share if the customer asks.**
 - Info needed for R&R:
   1. Vehicle year / make / model / engine
   2. Part number (sticker with "14B205" in the middle)
@@ -104,11 +107,16 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 
 **Finding the part number:** Located under the driver door on the vehicle. Crawl under the vehicle under the driver door, look up over where the brake lines go into the pump — the part number sticker is on the front of the module.
 
-**Part number sticker image (2000–2006 GM ABS):** Attach `knowledge/images/gm_abs_part_number_stickers.png` to all replies for 2000–2006 GM ABS inquiries. In the email body, reference it as: "We've attached a picture of what the sticker should look like to help."
+**Part number sticker images:**
+- GM ABS (2000–2006): attach `knowledge/images/gm_abs_part_number_stickers.png`
+- Dodge ABS: attach `knowledge/images/mopar_abs_pn.png`
+- Ford ABS: attach `knowledge/images/ford_abs_pn.png`
+- In the email body reference as: "We've attached a picture of what the sticker should look like to help."
+- Do NOT attach if we already have their exact part number in stock.
 
-**R&R:** TBD
+**R&R:** Available for Ford, GM, and Dodge ABS modules only
 
-**Order-issue install questions:** TBD
+**Order-issue install questions:** Use GEM-specific template in `knowledge/order-issues/order-info.md`. Key difference: item 5 requires OE level scan tool for GEM codes — basic scanners cannot read the GEM.
 
 ---
 
@@ -119,9 +127,9 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **Descriptor:** Use **"tested"**
 **Part number:** Part number specific, not vehicle specific
 
-**R&R:** TBD
+**R&R:** Not available for BCMs
 
-**Order-issue install questions:** TBD
+**Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
 
 ---
 
@@ -132,9 +140,9 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **Descriptor:** Use **"tested"**
 **Part number:** Part number specific, not vehicle specific
 
-**R&R:** TBD
+**R&R:** Not available for TCMs
 
-**Order-issue install questions:** TBD
+**Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
 
 ---
 
@@ -144,21 +152,30 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **Makes served:** Most makes
 **Part number:** Part number specific, not vehicle specific
 
-**R&R:** TBD
+**R&R:** Available for some GM speedometers/instrument panel clusters only
 
-**Order-issue install questions:** TBD
+**Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
 
 ---
 
 ## Climate / HVAC Control Module
 
+
 **Also called:** Heater control, climate control unit
 **Makes served:** Most makes
 **Part number:** Part number specific, not vehicle specific
 
-**R&R:** TBD
+**R&R:** Not available for climate/HVAC controls
 
-**Order-issue install questions:** TBD
+**Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
+
+---
+
+## Warranty & Returns (All Product Types)
+
+**Warranty:** 90 days on most items
+**Return period:** 30 days
+**Only share if the customer asks** — do not include in standard drafts unprompted.
 
 ---
 

@@ -13,7 +13,7 @@ Only include information verified by business owners.
 **Brands covered:** [TBD]
 **Price range:** [TBD]
 **Turnaround time:** [TBD]
-**Repair and Return:** Available for Chrysler, Dodge, Jeep, Ford, Mercedes, Nissan
+**Repair and Return:** Available for some Ford ECMs and some Chrysler/Dodge/Jeep ECMs only. NOT available for GM ECMs or any other makes.
 **Notes:**
 - Ford ECM part numbers: located on a sticker on the unit; look for "12A650" in the middle of the sticker — that sticker contains the part number
 - Ford GEM module part numbers: located on a sticker on the unit; look for "14B205" in the middle of the sticker — that sticker contains the part number
@@ -42,6 +42,7 @@ Only include information verified by business owners.
 **Turnaround time:** [TBD]
 **Repair and Return:** NOT available for TIPMs
 **Notes:** Part number required — not vehicle specific. Part number sticker is on the unit itself.
+- TIPM sticker image: attach `knowledge/images/tipm_part_number.png` when asking for part number. Do NOT use for PDC inquiries. Do NOT attach if exact part number already in stock.
 
 ---
 
@@ -51,11 +52,15 @@ Only include information verified by business owners.
 **Brands covered:** [TBD]
 **Price range:** [TBD]
 **Turnaround time:** [TBD]
-**Repair and Return:** Available for GM, Ford, Dodge
+**Repair and Return:** Available for Ford, GM, and Dodge ABS modules only
 **Notes:**
 - GM ABS modules 2000–2006: rebuilt and tested — use "rebuilt" in replies for these years
 - GM ABS modules 2000–2006 part number location: "These are located under the driver door under the vehicle. If you crawl under the vehicle under the driver door and look up over where the brake lines go into the pump you normally can see the front of the module where the part number sticker is located. Once you have located that let us know the part number."
-- GM ABS modules 2000–2006 sticker image: attach `knowledge/images/gm_abs_part_number_stickers.png` to the reply — this shows the customer what the sticker looks like
+- GM ABS modules 2000–2006 sticker image: attach `knowledge/images/gm_abs_part_number_stickers.png`
+- Dodge ABS sticker image: attach `knowledge/images/mopar_abs_pn.png`
+- Ford ABS sticker image: attach `knowledge/images/ford_abs_pn.png`
+- Reference in email body as: "We've attached a picture of what the sticker should look like to help."
+- Do NOT attach if exact part number already in stock.
 
 ---
 
@@ -96,11 +101,11 @@ Only include information verified by business owners.
 
 **How it works:** Customer ships their broken unit to YPS → YPS rebuilds it → ships it back.
 **Available for:**
-- ECM/ECU/PCM: Chrysler, Dodge, Jeep, Ford, Mercedes, Nissan
-- ABS modules: GM, Ford, Dodge
-- Speedometer/Instrument clusters: GM
-**Not available for:** TIPM modules
-**Turnaround time:** [TBD]
+- ECM/ECU/PCM: some Ford, some Chrysler/Dodge/Jeep — NOT GM or any other makes
+- ABS modules: Ford, GM, Dodge
+- Speedometer/Instrument clusters: some GM
+**Not available for:** TIPM modules, PDC modules, GM ECMs, BCMs, TCMs, Climate/HVAC controls
+**Turnaround time:** Approximately 1 week total — 1-2 days shipping to YPS, 1-2 days for the repair, 1-2 days shipping back. Only share if the customer asks.
 **Shipping instructions:** [TBD]
 **Diagnostic fee:** $94.99 — refunded down to this amount if the unit tests good or is unrepairable (YPS will not want the unit sent in unless there is a good chance of successful repair)
 
@@ -131,7 +136,7 @@ If the customer mentions any of the following, R&R is NOT possible — decline R
 
 ## General Info
 
-**Warranty:** [TBD — get warranty terms from owners]
+**Warranty:** 90 days on most items — only share if the customer asks
+**Return policy:** 30-day return period — only share if the customer asks
 **Shipping:** [TBD]
-**Return policy:** [TBD]
 **eBay store:** yourpartsourceyps
