@@ -142,6 +142,28 @@ When the listing title includes **P0443** or **P0403**, the full expected code s
 
 ---
 
+### Dodge/Chrysler/Jeep ECM R&R — Alternator Charging Repair Pattern
+
+**If the listing title includes "alternator charging repair":**
+- YPS has a 90–95% success rate with this repair
+- **Prerequisite:** Customer must have already replaced both the alternator AND the battery
+- If both have been replaced → skip the info-gathering list. Tell them directly they are a good candidate and direct them to purchase the service. Use this closing:
+
+> Based on the information you submitted and our history of repairing these units, there is a 90-95% chance it can be repaired.
+>
+> You are welcome to purchase the service if you like. Just be aware that we do not give 100% guarantees as we never know the true condition of the circuit board until it comes in and our techs start working on it. Please be aware that per our listing we do have a diagnostic fee of $94.99 that we would refund you down to in the event we attempt to repair your item but the unit is unrepairable OR if the part successfully passes our diagnostics test. We'll refund you down to that amount from your original purchase price if either of these situations occur. Once the purchase is made we will message you shortly after on where to send the unit and how to tag the package. Please refer to our listing for additional information, as we do believe you'll find it helpful.
+>
+> Email us with any further questions. Thanks again!
+
+- If alternator and/or battery have NOT been replaced → ask them to replace both first before sending the ECM in
+
+**If the listing title does NOT include "alternator charging repair"** but the customer's issue sounds like an alternator charging problem:
+- Verify they have replaced both the alternator and the battery
+- If both have been replaced → redirect them to the alternator charging repair listing to purchase the service
+- If not yet replaced → ask them to replace both first, then come back
+
+---
+
 ### R&R Disqualifying Conditions
 If the customer mentions any of the following, R&R is NOT possible — decline R&R and pivot to offering a replacement unit instead:
 - **P06xx trouble codes** (any make) — indicates processor/internal ECM failure; not repairable
@@ -158,6 +180,7 @@ If the customer mentions any of the following, R&R is NOT possible — decline R
 
 ## General Info
 
+**Pricing:** Part number specific — cannot quote a price until the part number is known. If a customer asks for pricing, acknowledge the question and let them know pricing depends on the part number. Once we have the part number and confirm availability, we can provide the price.
 **Warranty:** 90 days on most items — only share if the customer asks
 **Return policy:** 30-day return period — only share if the customer asks
 **Shipping:** [TBD]

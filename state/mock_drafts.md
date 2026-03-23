@@ -95,7 +95,9 @@ Hello Tammy, thanks for reaching out!
 
 DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!
 
-We do carry tested ECMs for Dodge vehicles. These modules are part number specific, not just vehicle specific. Your ECM will have a sticker or two on it with the part number. We've attached a picture of what the sticker should look like to help. If you can send us a photo of those stickers, we can check if we have the right one for you.
+We do carry tested ECMs for Dodge vehicles. These modules are part number specific, not just vehicle specific. Pricing will depend on the part number once we know which one you need.
+
+Your ECM will have a sticker or two on it with the part number. We've attached a picture of what the sticker should look like to help. If you can send us a photo of those stickers, we can check if we have the right one for you and let you know the price.
 
 Let us know what you find out. Thanks again!
 
@@ -273,6 +275,26 @@ We do offer a repair and return service for some Ford PCMs. To quickly determine
 Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
 
 We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
+
+YPS
+---
+
+## Draft: mock_email_rnr2.md
+**To:** dcaravan2011@hotmail.com
+**Subject:** Re: 11 GRAND CARAVAN TOWN & COUNTRY PCM ECM ECU COMPUTER ALTERNATOR CHARGING REPAIR
+**Status:** pending
+**Generated:** 2026-03-23
+**Thread ID:** N/A (mock)
+**Attachment:** knowledge/images/mopar_ecm_pn_sticker.png
+
+---
+Hello Dave, thanks for reaching out!
+
+Good news — since you have already replaced the alternator and the battery, your van looks like a good candidate for our repair service. Based on the information you submitted and our history of repairing these units, there is a 90-95% chance it can be repaired.
+
+You are welcome to purchase the service if you like. Just be aware that we do not give 100% guarantees as we never know the true condition of the circuit board until it comes in and our techs start working on it. Please be aware that per our listing we do have a diagnostic fee of $94.99 that we would refund you down to in the event we attempt to repair your item but the unit is unrepairable OR if the part successfully passes our diagnostics test. We'll refund you down to that amount from your original purchase price if either of these situations occur. Once the purchase is made we will message you shortly after on where to send the unit and how to tag the package. Please refer to our listing for additional information, as we do believe you'll find it helpful.
+
+Email us with any further questions. Thanks again!
 
 YPS
 ---
