@@ -1,6 +1,6 @@
-# /review — Review Pending Drafts
+# /gmail-review — Review Pending Gmail Drafts
 
-Present drafted responses for operator review. Handle approvals, edits, and rejections.
+Present drafted Gmail responses for operator review. Handle approvals, edits, and rejections.
 
 ## Steps
 
@@ -21,8 +21,8 @@ Present drafted responses for operator review. Handle approvals, edits, and reje
 ```
 ── Review Draft ({n} of {total}) ──
 
-To: {customer email}
-Subject: Re: {original subject}
+To:       {customer email}
+Subject:  Re: {original subject}
 Category: {category}
 Generated: {date}
 
@@ -65,7 +65,7 @@ Options:
 6. **After all drafts reviewed, show summary:**
 
 ```
-── Review Complete ──
+── Gmail Review Complete ──
 
 Approved: {n}
 Edited:   {n} (logged to feedback.md)

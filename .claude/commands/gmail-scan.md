@@ -1,4 +1,4 @@
-# /scan — Scan Inbox for Product Inquiries
+# /gmail-scan — Scan Gmail Inbox for Product Inquiries
 
 Search Gmail for new customer emails, classify them, and update the queue.
 
@@ -34,14 +34,14 @@ Search Gmail for new customer emails, classify them, and update the queue.
 7. **Display scan results:**
 
 ```
-── Scan Complete ──
+── Gmail Scan Complete ──
 
 Found: {n} new emails
   {x} product inquiries → queued
   {y} order issues → queued
   {z} flagged → manual review needed
 
-Queue now has {total} emails ({new} ready for /draft)
+Queue now has {total} emails ({new} ready for /gmail-draft)
 ```
 
 8. **Log to session file** — record scan time, query used, results count, any errors.

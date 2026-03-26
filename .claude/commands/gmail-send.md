@@ -1,12 +1,12 @@
-# /send — Send Approved Drafts
+# /gmail-send — Send Approved Gmail Drafts
 
-Send approved drafts as replies to customers. Requires explicit operator confirmation for each email.
+Send approved Gmail drafts as replies to customers. Requires explicit operator confirmation for each email.
 
 ## ⚠ PHASE CHECK
 **This command is DISABLED until Phase 5.**
-If the operator runs `/send` before Phase 5, respond:
+If the operator runs `/gmail-send` before Phase 5, respond:
 ```
-/send is not available yet — we're still in Draft-Only Mode.
+/gmail-send is not available yet — we're still in Draft-Only Mode.
 Approved drafts are saved in Gmail drafts for manual sending.
 ```
 And stop. Do not proceed with the steps below.
@@ -26,7 +26,7 @@ And stop. Do not proceed with the steps below.
 ```
 ── Ready to Send ({n} of {total}) ──
 
-To: {customer email}
+To:      {customer email}
 Subject: Re: {original subject}
 
 ---
@@ -51,7 +51,7 @@ Type "yes" to send, or "skip" to hold.
 7. **After all drafts processed, show summary:**
 
 ```
-── Send Complete ──
+── Gmail Send Complete ──
 
 Sent:    {n}
 Skipped: {n}

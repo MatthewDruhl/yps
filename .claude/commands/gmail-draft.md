@@ -1,14 +1,16 @@
-# /draft — Draft Response to Queued Email
+# /gmail-draft — Draft Response to Queued Gmail Email
 
-Pick the next email from the queue, generate a response draft, and save it.
+Pick the next Gmail email from the queue, generate a response draft, and save it.
+
+Gmail emails are identified by a hex-format Email ID (e.g. `19ce3892a86cd7a8`). The email body is fetched from Gmail — not from a local file.
 
 ## Steps
 
 1. **Read state files:**
-   - `state/queue.md` — find emails with status `new`
-   - `state/drafts.md` — check for existing drafts
+   - `state/queue.md` — find Gmail emails with status `new`. Gmail emails have hex-format IDs. Skip any numeric-only IDs — those belong to `/ebay-draft`.
+   - `state/drafts.md` — check for existing drafts to avoid duplicates.
 
-2. **Select the next email** — pick the oldest `new` email from queue.md. If no `new` emails exist, tell the operator and stop.
+2. **Select the next Gmail email** — pick the oldest `new` Gmail email from queue.md. If no `new` Gmail emails exist, tell the operator and stop.
 
 3. **Read knowledge files:**
    - `knowledge/product-types.md` — authoritative product line reference (R&R eligibility, install questions, sticker images, draft rules)
@@ -60,9 +62,9 @@ Pick the next email from the queue, generate a response draft, and save it.
 11. **Display the draft:**
 
 ```
-── Draft Generated ──
+── Gmail Draft Generated ──
 
-To: {customer email}
+To:      {customer email}
 Subject: Re: {original subject}
 Category: {category}
 
@@ -71,7 +73,7 @@ Category: {category}
 ---
 
 Saved to Gmail drafts and state/drafts.md.
-Run /review to approve or edit, or /draft for the next email.
+Run /gmail-review to approve or edit, or /gmail-draft for the next email.
 ```
 
 12. **Log to session file** — record which email was drafted, category, any warnings.

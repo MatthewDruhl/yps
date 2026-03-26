@@ -1,11 +1,11 @@
-# /redraft — Re-Draft Email(s)
+# /gmail-redraft — Re-Draft Gmail Email(s)
 
 Discard existing Gmail draft(s) and generate new ones from the live queue.
 
 ## Usage
 ```
-/redraft                     → discard and re-draft ALL drafted emails
-/redraft 19ce3892a86cd7a8   → discard and re-draft one specific email
+/gmail-redraft                     → discard and re-draft ALL drafted Gmail emails
+/gmail-redraft 19ce3892a86cd7a8   → discard and re-draft one specific email
 ```
 
 ## Steps
@@ -13,7 +13,7 @@ Discard existing Gmail draft(s) and generate new ones from the live queue.
 ### If no argument — Re-draft ALL
 
 1. **Read state files:**
-   - `state/queue.md` — collect all emails with status `drafted`
+   - `state/queue.md` — collect all Gmail emails with status `drafted` (hex-format IDs only)
    - `state/drafts.md` — full file will be replaced
 
 2. **Delete each Gmail draft** — for each draft block in `state/drafts.md`:
@@ -23,7 +23,7 @@ Discard existing Gmail draft(s) and generate new ones from the live queue.
 
 3. **Clear `state/drafts.md`** — reset to empty schema (header only). Keep the file, remove all draft blocks.
 
-4. **Reset all `drafted` entries** in `state/queue.md` to status `new`.
+4. **Reset all `drafted` Gmail entries** in `state/queue.md` to status `new`.
 
 5. **Read knowledge files** once (reuse for all emails):
    - `knowledge/product-inquiries/examples.md`
@@ -105,7 +105,7 @@ Discard existing Gmail draft(s) and generate new ones from the live queue.
 12. **Display summary:**
 
 ```
-── Re-Draft Complete ──
+── Gmail Re-Draft Complete ──
 
 Re-drafted: {n} email(s)
   {list each: Email ID — Subject}
@@ -113,7 +113,7 @@ Re-drafted: {n} email(s)
 Gmail drafts deleted: {n}
 Gmail drafts requiring manual deletion: {list any that had no message ID}
 
-Run /review to approve or edit.
+Run /gmail-review to approve or edit.
 ```
 
 13. **Log to session file** — record which emails were re-drafted, which Gmail drafts were deleted, and any failures.
