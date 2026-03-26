@@ -15,5 +15,3 @@ Last updated: 2026-03-23
 
 ## Open Emails
 - [ ] Real email `19cf903886628ea4` (andresc805 PDC) — needs draft | Review: 2026-04-01
-- [ ] 2 real drafts approved but not sent (`19ce3892a86cd7a8`, `19cf9521e609e7c7`) | Review: 2026-04-01
-- [ ] 13 mock drafts pending review | Review: 2026-04-01
