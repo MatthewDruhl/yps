@@ -1,6 +1,11 @@
-# /gmail-review — Review Pending Gmail Drafts
+# /review — Review Pending Drafts
 
-Present drafted Gmail responses for operator review. Handle approvals, edits, and rejections.
+Present drafted responses for operator review. Handle approvals, edits, and rejections.
+
+Source is detected from the Email ID in each draft block:
+- **Hex ID** → Gmail draft (has Gmail Draft ID / Message ID)
+- **Numeric ID** → eBay draft (reply via eBay Messages)
+- **Filename ID** → Mock draft (local only)
 
 ## Steps
 
@@ -23,6 +28,7 @@ Present drafted Gmail responses for operator review. Handle approvals, edits, an
 
 To:       {customer email}
 Subject:  Re: {original subject}
+Source:   {Gmail | eBay | Mock}
 Category: {category}
 Generated: {date}
 
@@ -40,10 +46,12 @@ Options:
 5. **Handle operator response:**
 
    **approve** — Update draft status to `approved` in drafts.md.
+   - Gmail drafts: will be available to send via `/send`
+   - eBay/Mock drafts: mark approved for reference — reply manually via eBay or mock channel
 
    **edit** — Operator provides edited text:
    - Replace the draft text in drafts.md with the edited version
-   - Delete the old Gmail draft and create a new one with edited text
+   - Gmail only: delete the old Gmail draft and create a new one with edited text (update both IDs)
    - Update draft status to `approved`
    - Log the edit to `state/feedback.md`:
      ```
@@ -58,14 +66,15 @@ Options:
      - {bullet list of differences}
      ```
 
-   **reject** — Delete the draft from drafts.md. Update queue.md status to `new` so it can be re-drafted. Delete the Gmail draft.
+   **reject** — Delete the draft block from drafts.md. Update queue.md status to `new` so it can be re-drafted.
+   - Gmail only: delete the Gmail draft.
 
    **skip** — Leave as `pending`, move to the next draft.
 
 6. **After all drafts reviewed, show summary:**
 
 ```
-── Gmail Review Complete ──
+── Review Complete ──
 
 Approved: {n}
 Edited:   {n} (logged to feedback.md)
@@ -79,5 +88,6 @@ Skipped:  {n}
 - Present one draft at a time — never batch-approve
 - When edits are made, always log to feedback.md (this powers future learning)
 - When comparing original vs edit, identify specific changes (tone shifts, added info, removed content, phrasing changes)
-- Never modify a Gmail draft — always delete and recreate
+- Gmail: never modify a Gmail draft — always delete and recreate
+- eBay/Mock: no Gmail operations — only update drafts.md
 - If an email was rejected, reset its queue status to `new` for re-drafting

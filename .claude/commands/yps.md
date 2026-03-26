@@ -15,8 +15,6 @@ Start a new YPS email session. Read current state and show a summary.
 3. **Read all state files:**
    - `state/queue.md`
    - `state/drafts.md`
-   - `state/mock_queue.md`
-   - `state/mock_drafts.md`
    - `state/archive.md`
    - `state/feedback.md`
    - `state/todo.md`
@@ -40,7 +38,7 @@ Archive:   {n} completed
 Feedback:  {n} logged edits
 TODOs:     {n} open items
 
-Ready. Commands: /scan /draft /redraft /review /send /end
+Ready. Commands: /gmail-scan /ebay-scan /mock-scan /draft /redraft /review /gmail-send /end
 ```
 
 7. **Log session start** to `sessions/{YYYY-MM-DD}.md`:

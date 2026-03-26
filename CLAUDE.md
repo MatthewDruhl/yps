@@ -43,25 +43,19 @@ Typically $129–$549 depending on part type and vehicle.
 3. Never fall back to personal/global defaults (e.g., matthewdruhl@gmail.com)
 
 ## Commands
-/yps - Start session, scan inbox, show status
+/yps - Start session, show status
 /end - End session, save log
 
-### Gmail
-/gmail-scan - Scan Gmail inbox for new product inquiries
-/gmail-draft - Draft response to a queued Gmail email
-/gmail-redraft - Re-draft one or all queued Gmail emails
-/gmail-review - Review pending Gmail drafts
+### Unified (all sources)
+/draft - Draft response to next queued email (auto-detects Gmail/eBay/Mock from ID format)
+/redraft - Re-draft one or all drafted emails
+/review - Review pending drafts
+
+### Scan (source-specific)
+/gmail-scan - Scan Gmail inbox for new emails
 /gmail-send - Send approved Gmail drafts (Phase 5+ only)
-
-### eBay
 /ebay-scan - Scan eBay XML (temp_ebay_messages.xml) for new messages
-/ebay-draft - Draft response to a queued eBay message
-
-### Mock
-/mock-scan - Scan mock_email/Inbox for new product inquiries
-/mock-draft - Draft response to a queued mock email
-/mock-redraft - Re-draft one or all queued mock emails
-/mock-review - Review pending mock drafts
+/mock-scan - Scan mock_email/Inbox for new emails
 
 ## File Permissions
 **YPS workspace autonomy:** Full permission to read, write, edit, and create files within `~/yps/` without asking for confirmation. This includes:
