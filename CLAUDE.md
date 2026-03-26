@@ -44,11 +44,13 @@ Typically $129–$549 depending on part type and vehicle.
 
 ## Commands
 /yps - Start session, scan inbox, show status
-/scan - Scan for new product inquiries
+/scan - Scan for new Gmail messages
 /draft - Draft response to a queued email
+/ebay-scan - Scan for new eBay messages
+/ebay-draft - Draft response to an eBay queued email
 /redraft - Draft a new response to all queued emails
 /review - Review pending drafts
-/mock-scan - Scan for new product inquiries in mock_email folder
+/mock-scan - Scan for new messages in mock_email folder
 /mock-draft - Draft response to a mock emails
 /mock-draft - Draft a new response to a mock emails
 /mock-review - Review pending drafts in mock_email\Drafts folder

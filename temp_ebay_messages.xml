@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetMyMessagesResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2026-03-26T15:00:13.000Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>967.0</Version>
+  <Build>E967_CORE_BUNDLED_23956920_R1</Build>
+  <Messages>
+
+    <Message>
+      <Sender>mike.thompson84</Sender>
+      <Text>Hi, do you offer a repair service for TIPMs? I have a 2015 Ram 1500 and mine is going bad.</Text>
+      <MessageID>1000000001</MessageID>
+      <ExternalMessageID>E1000000001</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>2015 Dodge Ram 1500 TIPM - Need replacement</Subject>
+      <Item>
+        <ItemID>206135282001</ItemID>
+        <Title>15 DODGE RAM 1500 TIPM TOTALLY INTEGRATED POWER MODULE 68253439 TESTED</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T08:12:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T08:12:45.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T08:12:45.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>jrodriguez2019</Sender>
+      <Text>Hello, I have a 2004 Chevy Silverado 1500 and my ABS light is on. Do you have a module for this? I don't have the part number handy.</Text>
+      <MessageID>1000000002</MessageID>
+      <ExternalMessageID>E1000000002</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>ABS for my Silverado</Subject>
+      <Item>
+        <ItemID>205801180391</ItemID>
+        <Title>03-04 SIERRA SILVERADO 1500 ABS ANTI-LOCK BRAKE CONTROL MODULE 13354728 729 730</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T09:44:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T09:44:31.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T09:44:31.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>sarah.k.wells</Sender>
+      <Text>Hi there, I need an ECU for a 2006 Chrysler 300. The dealer wants too much. Do you have one and can you program it?</Text>
+      <MessageID>1000000003</MessageID>
+      <ExternalMessageID>E1000000003</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>Chrysler 300 ECU replacement</Subject>
+      <Item>
+        <ItemID>206135282231</ItemID>
+        <Title>06 CHRYSLER 300 5.7L ECU ECM PCM ENGINE CONTROL COMPUTER 05094524AA TESTED</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T11:03:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T11:03:18.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T11:03:18.000Z</ExpirationDate>
+      <Read>true</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>andres_lt6225ncz</Sender>
+      <Text>Hello, thanks for the fast shipping. Just received the package and checked to make sure it was the correct one before installing. Did the installation, but vehicle will not turn on. Scanned vehicle and all lost communication codes pop up. Reinstall the old one and vehicle starts right up no issue. Would like to return for a refund please. Thank you</Text>
+      <MessageID>1000000004</MessageID>
+      <ExternalMessageID>E1000000004</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>18 JEEP GRAND CHEROKEE TIPM 68320918 - install failure + refund</Subject>
+      <Item>
+        <ItemID>206068766818</ItemID>
+        <Title>18 JEEP GRAND CHEROKEE POWER DISTRIBUTION CENTER FUSE BOX MODULE TIPM 68320918</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T13:47:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T13:47:22.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T13:47:22.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>dustin.brewer77</Sender>
+      <Text>Do you have part number 68064938 in stock? It's for a 2011 Ram 2500 6.7L Cummins. Also do you need the VIN for programming?</Text>
+      <MessageID>1000000005</MessageID>
+      <ExternalMessageID>E1000000005</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>Need ECU for my Ram</Subject>
+      <Item>
+        <ItemID>204862268014</ItemID>
+        <Title>11 DODGE RAM 2500 3500 6.7L DIESEL ECU ECM PCM ENGINE CONTROL COMPUTER 68064938 TESTED</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T14:20:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T14:20:55.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T14:20:55.000Z</ExpirationDate>
+      <Read>true</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>tammylynn_c</Sender>
+      <Text>I have a 2010 Dodge Charger and my check engine light is on and the car is stalling. My mechanic thinks it's the computer. Do you have one and what's the price?</Text>
+      <MessageID>1000000006</MessageID>
+      <ExternalMessageID>E1000000006</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>Dodge Charger computer</Subject>
+      <Item>
+        <ItemID>206135289900</ItemID>
+        <Title>09-10 DODGE CHARGER 5.7L ECU ECM PCM ENGINE CONTROL COMPUTER 05094425 TESTED</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T15:01:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T15:01:44.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T15:01:44.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>bknight_construction</Sender>
+      <Text>Hi, I have a 2001 Ford F-250 and my windows and 4x4 stopped working. Someone told me it could be the GEM module. Do you repair these or sell replacements?</Text>
+      <MessageID>1000000007</MessageID>
+      <ExternalMessageID>E1000000007</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>Question about your GEM repair service</Subject>
+      <Item>
+        <ItemID>205900112233</ItemID>
+        <Title>01-03 FORD F-250 F-350 GEM MODULE GENERIC ELECTRONIC MODULE F81B-14B205 TESTED</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T16:30:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T16:30:09.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T16:30:09.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>ncoate_hv4227tjfx</Sender>
+      <Text>I need to cancel my order. I found out my truck already has a remanufactured unit under warranty from a previous shop. Please cancel before it ships. Order number 12-09876-54321.</Text>
+      <MessageID>1000000008</MessageID>
+      <ExternalMessageID>E1000000008</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>03-04 SIERRA SILVERADO ABS MODULE 13354728 - cancel order</Subject>
+      <Item>
+        <ItemID>205801180391</ItemID>
+        <Title>03-04 SIERRA SILVERADO 1500 ABS ANTI-LOCK BRAKE CONTROL MODULE 13354728 729 730</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-25T17:55:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-25T17:55:33.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-25T17:55:33.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>truck.guy2007</Sender>
+      <Text>Hello, I have a 2008 Ford F-350 6.8L V10 with code P0443. The PCM has been tested by two shops and both say it needs to be replaced. Do you offer a repair and return service? Part number on my PCM sticker is 8C2A-12A650-AKA.</Text>
+      <MessageID>1000000009</MessageID>
+      <ExternalMessageID>E1000000009</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>REPAIR SERVICE 05-10 F-250 F-350 F-450 6.8L ECU ECM PCM ENGINE COMPUTER P0443</Subject>
+      <Item>
+        <ItemID>205985441122</ItemID>
+        <Title>REPAIR SERVICE 05-10 FORD F-250 F-350 F-450 6.8L V10 ECU ECM PCM ENGINE COMPUTER</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-26T08:05:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-26T08:05:17.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-26T08:05:17.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+    <Message>
+      <Sender>xavcal_jun5346sb</Sender>
+      <Text>Hi, I just purchased a PCM for my 2017 Dodge Charger 5.7L. I'm planning to tune the vehicle. Can you unlock the PCM or ship it with the tune already loaded? If not I'll need to cancel.</Text>
+      <MessageID>1000000010</MessageID>
+      <ExternalMessageID>E1000000010</ExternalMessageID>
+      <RecipientUserID>yourpartsourceyps</RecipientUserID>
+      <Subject>2017 DODGE CHARGER PCM 68317737AF - unlock for tuning request</Subject>
+      <Item>
+        <ItemID>205985496784</ItemID>
+        <Title>17 DODGE CHARGER 5.7L ECU ECM PCM ENGINE CONTROL COMPUTER 68317737AF TESTED</Title>
+      </Item>
+      <ResponseEnabled>true</ResponseEnabled>
+      <CreationDate>2026-03-26T09:38:00.000Z</CreationDate>
+      <ReceiveDate>2026-03-26T09:38:52.000Z</ReceiveDate>
+      <ExpirationDate>2027-03-26T09:38:52.000Z</ExpirationDate>
+      <Read>false</Read>
+      <Flagged>false</Flagged>
+      <ContentType>text/plain</ContentType>
+    </Message>
+
+  </Messages>
+
+  <Summary>
+    <NewMessageCount>7</NewMessageCount>
+    <TotalMessageCount>10</TotalMessageCount>
+    <NewAlertCount>0</NewAlertCount>
+    <TotalAlertCount>0</TotalAlertCount>
+    <FolderSummary>
+      <FolderID>0</FolderID>
+      <FolderName>Inbox</FolderName>
+      <NewMessageCount>7</NewMessageCount>
+      <TotalMessageCount>10</TotalMessageCount>
+    </FolderSummary>
+    <FolderSummary>
+      <FolderID>1</FolderID>
+      <FolderName>Sent</FolderName>
+      <NewMessageCount>0</NewMessageCount>
+      <TotalMessageCount>24</TotalMessageCount>
+    </FolderSummary>
+  </Summary>
+
+  <Folder>
+    <FolderID>0</FolderID>
+    <FolderName>Inbox</FolderName>
+    <NewMessageCount>7</NewMessageCount>
+    <TotalMessageCount>10</TotalMessageCount>
+  </Folder>
+  <Folder>
+    <FolderID>1</FolderID>
+    <FolderName>Sent</FolderName>
+    <NewMessageCount>0</NewMessageCount>
+    <TotalMessageCount>24</TotalMessageCount>
+  </Folder>
+
+</GetMyMessagesResponse>
