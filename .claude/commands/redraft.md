@@ -31,6 +31,7 @@ Source is detected from the Email ID format:
 4. **Reset all `drafted` entries** in `state/queue.md` to status `new`.
 
 5. **Read knowledge files** once per category present in the batch:
+   - Always: `knowledge/voice.md`
    - `product-inquiry`: `knowledge/product-types.md`, `knowledge/product-inquiries/examples.md`, `knowledge/product-inquiries/product-info.md`
    - `rnr-inquiry`: `knowledge/product-types.md`, `knowledge/rnr-inquiries/examples.md`, `knowledge/rnr-inquiries/rnr-info.md`
    - `order-issue`: `knowledge/order-issues/order-info.md`

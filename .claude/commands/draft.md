@@ -16,6 +16,7 @@ Email source is detected from the Email ID format:
 2. **If no `new` emails exist**, tell the operator and stop.
 
 3. **Read knowledge files** based on category:
+   - Always: `knowledge/voice.md`
    - `product-inquiry`: `knowledge/product-types.md`, `knowledge/product-inquiries/examples.md`, `knowledge/product-inquiries/product-info.md`
    - `rnr-inquiry`: `knowledge/product-types.md`, `knowledge/rnr-inquiries/examples.md`, `knowledge/rnr-inquiries/rnr-info.md`
    - `order-issue`: `knowledge/order-issues/order-info.md`

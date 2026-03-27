@@ -9,11 +9,9 @@ Claude uses these to match YPS's voice, tone, and response patterns.
 ## Key Patterns
 
 1. **Always steer to part number matching** — never rely on VIN, vehicle specs, or eBay fitment
-2. **Warn against eBay's fitment guide** — "DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!"
-3. **Guide the customer** — tell them where to find the part number (stickers, scan tool, photos)
-4. **Offer to help identify** — "send us pictures and we'll point you in the right direction"
-5. **VIN + mileage needed before shipping** for rebuilt modules (but still need part number first)
-6. **Friendly, helpful tone** — always sign off with "YPS" or "Thanks, YPS"
+2. **Guide the customer** — tell them where to find the part number (stickers, scan tool, photos)
+3. **Offer to help identify from photos** — "send us pictures and we'll point you in the right direction"
+4. **VIN + mileage at checkout** — for programmable units, customer enters in "Add note to seller" box; still need part number first
 
 ---
 

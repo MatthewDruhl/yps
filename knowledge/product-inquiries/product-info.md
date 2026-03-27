@@ -17,6 +17,22 @@ Only include information verified by business owners.
 
 ---
 
+## Part Number Not in Inventory
+
+When a customer provides a part number and it is not in stock:
+
+> Hello and thank you for your interest.
+>
+> We did check our inventory for your part number, {PART_NUMBER}. Unfortunately we do not have one in stock at this time. We do receive inventory weekly but we never know what items will be coming in. We would suggest searching by your part number only to avoid any fitment issues that could arise if you do not.
+>
+> Sorry we couldn't be of service but thanks for your interest! Message us with any questions.
+>
+> YPS
+
+**If R&R is available for that product type** (check `knowledge/product-types.md`) — use the "DON'T HAVE ITEM BUT MAYBE A REPAIR" pattern instead: let them know we don't have a replacement but we do have a repair service, and direct them to the R&R listing. Then follow rnr-inquiry info-gathering rules from `knowledge/rnr-inquiries/rnr-info.md`.
+
+---
+
 ## General Info
 
 **Pricing:** Part number specific — cannot quote a price until the part number is known. If a customer asks for pricing, acknowledge the question and let them know pricing depends on the part number. Once we have the part number and confirm availability, we can provide the price.

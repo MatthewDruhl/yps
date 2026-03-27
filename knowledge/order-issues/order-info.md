@@ -26,7 +26,7 @@ We would like to get a little more information from you to see if we can figure 
 6. What diagnostics were completed to determine the original unit was the issue?
 7. Any other parts that have been repaired or replaced in an attempt to fix the issue?
 
-We will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions as well as we are here to help you get your vehicle back up and running! Thank you for working with us.
+We will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions. Thank you for working with us.
 
 YPS
 
@@ -69,7 +69,16 @@ YPS
 
 **Guidelines:**
 - Gather diagnostic info first (see Install Failure template) before processing a return
-- [TBD — when to trigger the return template vs. continue gathering info]
+- If the customer is frustrated on a follow-up reply (info was already requested and they're still unhappy): still ask for any missing info, but append the quick return closing below
+- [TBD — when to trigger the full return template vs. continue gathering info]
+
+**Quick return closing** — append to frustrated follow-up replies:
+
+If you don't have time for the above and want a quick return, no worries. Go into your eBay account purchase history and find this order. Choose "return request". For the reason choose "Doesn't fit my vehicle" and for the notes put "Per Kirk in Customer Service". Once we see this come across we will accept and a prepaid return label will be made available to you.
+
+If you have any questions let us know. Thanks again, we do appreciate your business!
+
+YPS
 
 **Return template:**
 

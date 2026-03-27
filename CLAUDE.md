@@ -112,8 +112,8 @@ Typically $129–$549 depending on part type and vehicle.
 - `flagged` — spam, not in English, or cannot be classified
 
 ## Voice/Tone Guidance
-- place holder until I get files
-- See {category}_examples.md files for tone and voice
+See [knowledge/voice.md](knowledge/voice.md) for the full voice and tone reference.
+Category-specific tone adjustments are in each category's `examples.md`.
 
 ## Workflow Rules
 - Always check state files before acting — do not reprocess queued emails

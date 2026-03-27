@@ -311,7 +311,7 @@ Hello and thank you for your interest.
    
 We did check our inventory for your part number, XXX. Unfortunately we do not have one in stock at this time. We do receive inventory weekly but we never know what items will be coming in. We would suggest searching by your part number only to avoid any fitment issues that could arise if you do not.
 
-Sorry we couldn't be of service but thanks for your interest\! Message us with any questions.
+Sorry we couldn't be of service but thanks for your interest! Message us with any questions.
 
 YPS
 

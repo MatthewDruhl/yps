@@ -20,7 +20,7 @@ Only include information verified by business owners.
 
 ---
 
-## ECU/PCM R&R — Required Info Before Sending
+## R&R — Required Info Before Sending (Default — All Product Types)
 
 Do NOT ask for VIN or mileage — not needed for R&R.
 Collect the following before customer ships:
@@ -38,6 +38,15 @@ Collect the following before customer ships:
 > Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of {DIAGNOSTIC_FEE} that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
 >
 > We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
+
+---
+
+## GEM R&R — Additional Required Info
+
+Use the default 6-item list plus these two additional items:
+
+7. If they have an OE-level scan tool — did they run a self-test on the GEM? Basic scanners cannot read the GEM.
+8. Photos of both sides of the circuit board (removed from case)
 
 ---
 
@@ -76,6 +85,14 @@ When the listing title includes **P0443** or **P0403**, the full expected code s
 - Verify they have replaced both the alternator and the battery
 - If both have been replaced → redirect them to the alternator charging repair listing to purchase the service
 - If not yet replaced → ask them to replace both first, then come back
+
+---
+
+## Ineligible Product Types
+
+If the customer is asking about R&R for a product type that does not support it (TIPM, PDC, BCM, TCM, Climate/HVAC — see `knowledge/product-types.md`):
+1. Let the customer know we do not offer a repair service for that product type
+2. Then follow product-inquiry rules — apply the fitment warning, ask for the part number, and offer a tested replacement
 
 ---
 
