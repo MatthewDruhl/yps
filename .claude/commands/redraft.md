@@ -69,16 +69,24 @@ Source is detected from the Email ID format:
 
 8. **Set queue status to `drafting`** in `state/queue.md`.
 
-9. **Generate the new draft response:**
+9. **Pre-draft context check** — same as `/draft` step 6: confirm product type, note part number presence, check for P06xx disqualifiers (`rnr-inquiry`), confirm R&R eligibility (`rnr-inquiry`). Resolve any issues before generating.
+
+10. **Generate the new draft response:**
    - Match voice/tone from examples.md
    - Only include information from product-types.md, product-info.md, order-info.md, or the original email
    - Follow all Response Guardrails from CLAUDE.md
 
-10. **Save the draft** — based on source:
+11. **Validate the draft** — same two-pass process as `/draft` step 8:
+
+    **Step 11a — Automated checks:** pipe JSON to `node test/validate-draft.js` (fields: draft, category, productType, make, modelYear, username, to, cc, bcc, customerText, attachment, hasPartNumber). Fix all failures and re-run until exit code 0.
+
+    **Step 11b — AI checks:** No redundant sign-off, multiple points use numbered list, one-liner trap, inventory lookup confirmed (general product statements like "we carry tested ECUs" are fine — only specific part availability requires a lookup), R&R commitment absent, correct photo ask, rnr-inquiry info items complete, order-issue questions complete, no return committed in first reply. Fix any failures before saving.
+
+12. **Save the draft** — based on source:
     - **Gmail:** use `gmail_createDraft`. Store both returned IDs.
     - **eBay / Mock:** save to `state/drafts.md` only.
 
-11. **Append to `state/drafts.md`:**
+13. **Append to `state/drafts.md`:**
     ```
     ## Draft: {Email ID}
     **To:** {customer email}
@@ -101,7 +109,7 @@ Source is detected from the Email ID format:
 
 ### After all drafts are generated
 
-12. **Display summary:**
+14. **Display summary:**
 
 ```
 ── Re-Draft Complete ──

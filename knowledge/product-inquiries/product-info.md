@@ -35,7 +35,7 @@ When a customer provides a part number and it is not in stock:
 
 ## General Info
 
-**Pricing:** Part number specific — cannot quote a price until the part number is known. If a customer asks for pricing, acknowledge the question and let them know pricing depends on the part number. Once we have the part number and confirm availability, we can provide the price.
+**Pricing:** Never include pricing in any reply — prices change too quickly. If a customer asks for pricing, direct them to check the listing directly.
 **Warranty:** 90 days on most items — only share if the customer asks
 **Return policy:** 30-day return period — only share if the customer asks
 **Shipping:** [TBD — tracked in state/todo.md]

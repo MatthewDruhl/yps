@@ -82,7 +82,7 @@ Load this file for every draft.
 - Over-promising — no delivery guarantees, no "we'll definitely be able to fix it"
 - Redundant sign-off lines — if the last sentence already says "let us know", don't add another
 - Quoting the original email in the reply — never append quoted history
-- Pricing — never include unless pulled from a verified source
+- Pricing — never include pricing in any reply; prices change too quickly and the customer should check the listing directly
 - Legal or liability language
 
 ---

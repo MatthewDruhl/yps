@@ -71,7 +71,7 @@ Typically $129–$549 depending on part type and vehicle.
 ## Response Guardrails
 - Only include information that comes from knowledge/product-types.md or the original customer email. If you don't have the answer, say so — don't make it up.
 ### Never include in a draft:
-  - Pricing/quotes — unless it's pulling from verified product-info.md.
+  - Pricing/quotes — never include pricing in any reply; prices change too quickly, direct customers to the listing.
   - Commitments/promises — delivery dates, guarantees, warranties, custom terms
   - Other customers' info — names, orders, contact details from other emails
   - Internal business details — margins, supplier info, inventory levels
