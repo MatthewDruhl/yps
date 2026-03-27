@@ -106,7 +106,8 @@ Typically $129–$549 depending on part type and vehicle.
   - optinal 2 alpha after string
 
 ## Email Categories
-- `product-inquiry` — customer asking about a part (availability, compatibility, pricing, repair service)
+- `product-inquiry` — customer asking about a part (availability, compatibility, pricing)
+- `rnr-inquiry` — customer asking about repair and return service (sending their unit in for repair)
 - `order-issue` — buyer reporting a problem with an existing order (install failure, defect, refund request, shipping issue)
 - `flagged` — spam, not in English, or cannot be classified
 

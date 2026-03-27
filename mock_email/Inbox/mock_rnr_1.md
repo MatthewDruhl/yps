@@ -3,7 +3,7 @@
 **From:** truck.guy2007@gmail.com
 **Subject:** REPAIR SERVICE 05-10 F-250 F-350 F-450 6.8L ECU ECM PCM ENGINE COMPUTER P0443
 **Date:** 2026-03-23
-**Category:** product-inquiry (R&R)
+**Category:** rnr-inquiry
 
 ---
 

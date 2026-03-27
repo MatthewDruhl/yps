@@ -3,7 +3,7 @@
 **From:** dcaravan2011@hotmail.com
 **Subject:** 11 GRAND CARAVAN TOWN & COUNTRY PCM ECM ECU COMPUTER ALTERNATOR CHARGING REPAIR
 **Date:** 2026-03-23
-**Category:** product-inquiry (R&R)
+**Category:** rnr-inquiry
 
 ---
 

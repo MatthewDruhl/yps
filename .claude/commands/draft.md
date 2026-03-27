@@ -15,11 +15,10 @@ Email source is detected from the Email ID format:
 
 2. **If no `new` emails exist**, tell the operator and stop.
 
-3. **Read knowledge files:**
-   - `knowledge/product-types.md` — authoritative product line reference
-   - `knowledge/product-inquiries/examples.md` — example emails and ideal responses
-   - `knowledge/product-inquiries/product-info.md` — product catalog and specs
-   - `knowledge/order-issues/order-info.md` — order-issue templates and guidelines
+3. **Read knowledge files** based on category:
+   - `product-inquiry`: `knowledge/product-types.md`, `knowledge/product-inquiries/examples.md`, `knowledge/product-inquiries/product-info.md`
+   - `rnr-inquiry`: `knowledge/product-types.md`, `knowledge/rnr-inquiries/examples.md`, `knowledge/rnr-inquiries/rnr-info.md`
+   - `order-issue`: `knowledge/order-issues/order-info.md`
    - Warn if any file is empty or placeholder-only, but continue.
 
 4. **Read the original email** — based on source:

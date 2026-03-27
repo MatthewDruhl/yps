@@ -30,11 +30,10 @@ Source is detected from the Email ID format:
 
 4. **Reset all `drafted` entries** in `state/queue.md` to status `new`.
 
-5. **Read knowledge files** once (reuse for all emails):
-   - `knowledge/product-types.md`
-   - `knowledge/product-inquiries/examples.md`
-   - `knowledge/product-inquiries/product-info.md`
-   - `knowledge/order-issues/order-info.md`
+5. **Read knowledge files** once per category present in the batch:
+   - `product-inquiry`: `knowledge/product-types.md`, `knowledge/product-inquiries/examples.md`, `knowledge/product-inquiries/product-info.md`
+   - `rnr-inquiry`: `knowledge/product-types.md`, `knowledge/rnr-inquiries/examples.md`, `knowledge/rnr-inquiries/rnr-info.md`
+   - `order-issue`: `knowledge/order-issues/order-info.md`
 
 6. **For each email (oldest first),** run steps 7–11 below.
 
@@ -53,7 +52,7 @@ Source is detected from the Email ID format:
 
 4. **Reset queue status** to `new` in `state/queue.md`.
 
-5. **Read knowledge files.**
+5. **Read knowledge files** (only those needed for this email's category).
 
 6. **Process the single email** using steps 7–11 below.
 

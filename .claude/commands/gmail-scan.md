@@ -19,13 +19,15 @@ Search Gmail for new customer emails, classify them, and update the queue.
    - Read the email subject first for quick filtering
    - Read the full body with `get_gmail_message_content` for any email that isn't obvious spam
    - Classify as one of:
-     - `product-inquiry` — customer asking about a part (availability, compatibility, pricing, repair service)
+     - `product-inquiry` — customer asking about a part (availability, compatibility, pricing)
+     - `rnr-inquiry` — customer asking about repair and return service (sending their unit in for repair)
      - `order-issue` — buyer reporting a problem with an existing order (install failure, defect, return/refund request, cancel request, shipping issue, modification request on purchased item)
      - `flagged` — not in English, spam, or doesn't match any known category
 
 5. **For each classified email, update `state/queue.md`:**
    - Add a row with: Email ID, From, Subject, Date Received, Category, Status
    - `product-inquiry` → status: `new`
+   - `rnr-inquiry` → status: `new`
    - `order-issue` → status: `new`
    - Unclassifiable → status: `flagged` (with note in session log)
 
@@ -38,10 +40,11 @@ Search Gmail for new customer emails, classify them, and update the queue.
 
 Found: {n} new emails
   {x} product inquiries → queued
+  {r} R&R inquiries → queued
   {y} order issues → queued
   {z} flagged → manual review needed
 
-Queue now has {total} emails ({new} ready for /gmail-draft)
+Queue now has {total} emails ({new} ready for /draft)
 ```
 
 8. **Log to session file** — record scan time, query used, results count, any errors.
@@ -51,9 +54,14 @@ Queue now has {total} emails ({new} ready for /gmail-draft)
 **Product inquiry signals (queue as `product-inquiry`):**
 - Asks about a specific part (ECM, BCM, TIPM, ABS module, TCM, cluster, etc.)
 - Mentions a vehicle year/make/model and needs a part
-- Asks about repair-and-return service
 - Asks about compatibility or fitment
 - Asks about availability or pricing for a part
+
+**R&R inquiry signals (queue as `rnr-inquiry`):**
+- Customer explicitly asks about sending their unit in for repair
+- Listing title includes "REPAIR SERVICE"
+- Customer uses terms like "repair", "rebuild", "send in", "repair and return", "can you fix"
+- Customer is asking about the repair service process, not buying a replacement
 
 **Flag signals (mark as `flagged`):**
 - Not in English
