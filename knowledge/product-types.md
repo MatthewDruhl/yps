@@ -16,6 +16,8 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **Finding the part number:**
 - Ford ECMs: sticker with **"12A650"** in the middle
 - Chrysler/Dodge/Jeep ECMs: attach `knowledge/images/mopar_ecm_pn_sticker.png` to replies when asking the customer for their part number. Do NOT attach if we already have their exact part number in stock — in that case, direct them to the listing instead.
+  - **If the customer provides a number:** strip P prefix and 2-letter suffix, then search the `Family` column in `temp_inventory.csv`. If found → hardware number → send 2nd Sticker Mopar response (use match count, not "10+"). If not found in Family but found as a part number → valid. If not found in either → treat as part number, use not-in-inventory response. Never send the 2nd Sticker response without a confirmed Family column match.
+- GM ECMs: **one sticker** on the unit (not two)
 - All others: sticker(s) on the unit
 
 **Programming:**

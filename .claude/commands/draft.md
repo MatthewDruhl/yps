@@ -34,6 +34,7 @@ Email source is detected from the Email ID format:
 
    - [ ] **Product type identifiable?** — confirm product type from the listing title or email body. If ambiguous (e.g. email mentions "computer" with no listing context), flag to operator and stop.
    - [ ] **Part number present?** — note whether the customer provided a part number. Determines whether to check inventory now or ask for it. Set `hasPartNumber` accordingly for the validation script.
+   - [ ] **Mopar hardware number?** (Chrysler/Dodge/Jeep ECM only, when customer provided a number) — strip P prefix and 2-letter suffix, search the `Family` column in `temp_inventory.csv`. If found → hardware number → use 2nd Sticker Mopar response with the match count. If not found in Family → proceed normally. Never send the 2nd Sticker response without a confirmed Family column match.
    - [ ] **P06xx codes mentioned?** (`rnr-inquiry` only) — if the customer mentions any P06xx trouble code, R&R is disqualified. Re-classify as `product-inquiry`, update queue.md, and draft a replacement offer instead.
    - [ ] **R&R eligibility confirmed?** (`rnr-inquiry` only) — check `knowledge/product-types.md` to confirm R&R is available for this product type. If not (TIPM, PDC, BCM, TCM, Climate/HVAC), decline R&R and pivot to product-inquiry rules.
 

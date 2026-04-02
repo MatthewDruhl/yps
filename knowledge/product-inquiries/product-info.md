@@ -11,7 +11,15 @@ Only include information verified by business owners.
 **Price range:** [TBD — tracked in state/todo.md]
 **Brands covered:** [TBD — tracked in state/todo.md]
 
-**Dodge/Chrysler/Jeep ECM part number matching:** Only the 8-digit number matters (e.g. 68064938). The part number may appear with a "P" prefix (P68064938) and/or two letter suffix (68064938AH or P68064938AH) — ignore the prefix and suffix, match on the 8 digits only.
+**Dodge/Chrysler/Jeep ECM part number matching:** Only the 8-digit number matters (e.g. 68064938). The part number may appear with a "P" prefix (P68064938) and/or two-letter suffix (68064938AH or P68064938AH) — ignore the prefix and suffix, match on the 8 digits only.
+
+**Hardware numbers vs. part numbers:** Some Mopar ECM numbers are hardware numbers (also called calibration/flash numbers) that map to multiple software/part numbers — they are NOT usable for matching. When a customer provides a hardware number, use the 2nd Sticker response: direct them to the "Authorized Software Update" sticker on the PCM, which contains the actual part number.
+
+**Detecting hardware numbers:** Check the `Family` column in `temp_inventory.csv`. If the customer's 8-digit number (after stripping P prefix and 2-letter suffix) appears in the `Family` column of any row, it is a hardware number → send the 2nd Sticker Mopar response. If it matches a part number in the inventory instead, it is a valid part number.
+
+Count how many rows share that Family value — use that count in the 2nd Sticker response instead of the generic "10+". For example, if 4 rows match, the response says "goes to over 4+ part numbers or software numbers".
+
+**If the number is not found in either the Family column or the part numbers:** The inventory may not have that unit. Treat the number as a part number (not a hardware number) and proceed with a standard not-in-inventory response — do NOT send the 2nd Sticker response without a confirmed Family column match.
 
 **eBay listing links:** Construct as `https://www.ebay.com/itm/{eBay Item Id}` using the "eBay Item Id" column from the inventory CSV (not the internal "Item Id" column).
 

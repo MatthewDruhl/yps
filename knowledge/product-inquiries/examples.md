@@ -144,5 +144,34 @@ Claude uses these to match YPS's voice, tone, and response patterns.
 
 ---
 
+## Example 7: Mopar ECM — Customer Provides Hardware Number Instead of Part Number
+
+**Customer email:**
+- **Subject:** Re: your_part_source sent a message about 06 JEEP WRANGLER 4.0L A/T ECU ECM PCM ENGINE CONTROL COMPUTER 56044711 TESTED
+- **Body:**
+> My current ECM p/n is P56044703AD, so your 56044711 is correct. They made them with a few different suffixes (end digits) AA, AB, AC, AD, or AE. While any suffix should work, if possible could you see if you could find one with same AD suffix to program for me? Thank you, Ray
+
+**Context:** Buyer (Ray) has an active order. YPS has already confirmed programming and is preparing to ship.
+
+**YPS response:**
+> Hello again and thank you for the update.
+>
+> Unfortunately that is your hardware number which goes to over 4+ part numbers or software numbers. There should be another sticker on the PCM which says "Authorized Software Update". This is your part number. If you can let us know the P/N on this sticker when you have a moment. If you do not have that second sticker you'll need to work with a company that has VIN interchange, we don't unfortunately.
+>
+> DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!
+>
+> We will hold off on shipping the item until we hear back from you. Let us know if you have any questions. Thanks again for your help with this.
+>
+> YPS
+
+**Notes:**
+- P56044703AD looks like a part number but is actually a hardware number — maps to 10+ software/part numbers and cannot be used for matching
+- Stripping the P prefix and AD suffix leaves 56044703 (8 digits) — still a hardware number, not a part number
+- Direct customer to the "Authorized Software Update" sticker on the PCM for the actual part number
+- When buyer has an active order: add "We will hold off on shipping the item until we hear back from you."
+- Close with "Thanks again for your help with this." — acknowledges the buyer's cooperation
+- Hardware number detection: search `Family` column in `temp_inventory.csv` for the stripped 8-digit number — `56044703` appears as a Family value for 4 part numbers (56044528, 56044542, 56044702, 56044711), confirming it is a hardware number
+- If the number is not found in the Family column, do not send the 2nd Sticker response — treat as a part number instead
+
 <!-- Add more examples as owners provide them -->
 <!-- R&R examples moved to knowledge/rnr-inquiries/examples.md -->

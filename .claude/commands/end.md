@@ -47,9 +47,15 @@ Feedback entries this session: {n}
 ---
 ```
 
-4. **Update `state/drafts.md` timestamp** — set "Last updated" to today.
+4. **Clean up eBay message images** — run the cleanup script:
+   ```
+   powershell -File scripts/cleanup-images.ps1
+   ```
+   Log the output (folders removed or "nothing to clean up"). If the script fails, log the error but continue — do not stop the session.
 
-5. **Confirm end:**
+5. **Update `state/drafts.md` timestamp** — set "Last updated" to today.
+
+6. **Confirm end:**
 ```
 Session saved to sessions/{YYYY-MM-DD}.md
 State files are up to date. See you next time.

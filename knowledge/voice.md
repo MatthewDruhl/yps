@@ -20,7 +20,7 @@ Load this file for every draft.
 - Use **"Hello"** — not "Hi", "Hey", or "Dear"
 - Never use the customer's eBay username as a name
 - Use the customer's first name only if they signed their message with it — and only for that reply
-- If no name is available, use generic: "Hello," or "Hello and thank you for your interest."
+- If no name is available, use: "Hello and thank you for your interest." — preferred over bare "Hello,"
 - Use "Hello again" whenever we have already sent a message to the customer in the same thread — regardless of category
 - Angry or frustrated customers: "Hello again and thank you for reaching out to us regarding this. We are definitely here to help!" — acknowledges their frustration without escalating
 - If the customer is frustrated on a follow-up order-issue reply (info was already requested and they're still unhappy): still ask for any missing information, but also append the quick return option at the end of the email
@@ -31,7 +31,7 @@ Load this file for every draft.
 
 - Always sign **"YPS"** — never a person's name, never "Thanks, The YPS Team"
 - Short closing line before sign-off:
-  - Product/R&R inquiries: "Let us know. Thanks again!" or "Thanks again!"
+  - Product/R&R inquiries: "Let us know when you get a chance. Thanks again!" or "Thanks again!"
   - Order issues: "Thank you for working with us."
 - Do NOT end with a redundant action call if the previous sentence already contains one
 

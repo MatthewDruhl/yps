@@ -16,8 +16,13 @@ Last updated: 2026-03-23
 - [ ] Order-issue sub-types — cancel requests, return requests, and install failures are different workflows; consider separate categories or routing logic as volume grows | Review: 2026-04-01
 
 ## Knowledge Files — To Build
-- [ ] `knowledge/order-issues/examples.md` — real or mock examples for order-issue replies | Review: 2026-04-01
+- [ ] `knowledge/order-issues/examples.md` — created with ECM communication loss example (2026-04-02); add more examples as they come through | Review: 2026-04-09
 - [ ] `knowledge/rnr-inquiries/examples.md` — add alternator charging and Mercedes R&R examples; currently only has Ford P0443 | Review: 2026-04-01
+
+- [x] Mopar ECM hardware number detection — SOLVED: inventory CSV has a `Family` column containing the hardware number for each part; if customer's number matches a value in the Family column, it's a hardware number → 2nd Sticker response; if it matches a part number/SKU, it's valid | Resolved: 2026-04-02
+- [ ] GM ECM VIN programming — customer asked "do you VIN program ECM to my vehicle" and "would there be any other additional programming needed for vehicle to start and function properly?" — need standard answer for GM ECM programming questions | Review: 2026-04-09
+- [ ] VIN acknowledgment workflow — buyers reply to TIPM (and possibly ECM) purchase messages with just their VIN; no defined category or response template for this; currently flagging these manually | Review: 2026-04-09
+- [ ] TIPM3 post-purchase workflow — map out full decision tree for TIPM3 message family: response varies based on what buyer provides (VIN only, part number only, both, neither, images); templates are in Customer Service.md under TIPM3 section; need to document triggers, logic, and integrate into /draft | Review: 2026-04-09
 
 ## Open Emails
 - [ ] Real email `19cf903886628ea4` (andresc805 PDC) — needs draft | Review: 2026-04-01

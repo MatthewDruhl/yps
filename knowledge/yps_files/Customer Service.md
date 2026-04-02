@@ -1330,24 +1330,22 @@ Thanks again for your business\!
 
 YPS
 
-# TIPM3 AMAZON
+# TIPM3 HAVE PART NUMBER AND VIN
 
-Hello and thank you for your purchase. 
+Hello again and thank you for your purchase and the information. 
 
 We will get the unit programmed to the VIN you provided and scheduled for shipping. You will get an automated message with the tracking information once we do ship it out. 
 
-Over 33% of our buyers do not read this and buy the wrong part number\!\!\!
+Since you did match the part number, the TIPM is ready to configure to your vehicle. Perform the following steps to configure the TIPM to your vehicle: 
+1. Disconnect battery from vehicle. Remove your original TIPM and verify you purchased the correct part number. Do not worry about the letters, only the number. If a match, tie both battery cables together “away from the battery” while you are installing the new TIPM (roughly 20 minutes). This will erase all stored codes something that needs to happen during the configuration process.
+2. Install TIPM. Make sure your fuse/relay set-up is identical to the original. Check to make sure all fuses are pushed in tight. We do this but just double check us.
+3. Connect battery to vehicle
+4. Start vehicle and please confirm all electrical features are working properly
+5. If you run into any issues please hook up an OEM level scan tool to your OBD and pull the codes from the TIPM. You’ll also need to verify your VIN is in the replacement TIPM. Once you have this info, reach out to us. A code reader cannot read the TIPM, only an OEM level scan tool. Make sure to check your ground points for any corroded or broken wires. Also, if you are having A/C issues after install please make sure fuses J15 and K9 are not popped and are pushed in. If you run into a B2206 disconnect the battery then reconnect the battery then cycle the ignition switch from off to the on position at least 5 times, leaving the ignition on for a minimum of 90 seconds per cycle.
 
-Be sure you did match the part number. As long as you do this, the TIPM is ready to configure to your vehicle. Perform the following steps to configure the TIPM to your vehicle:   
-1\. Disconnect battery from vehicle. Remove your original TIPM and verify you purchased the correct part number. Do not worry about the letters, only the number. If a match, tie both battery cables together “away from the battery” while you are installing the new TIPM (roughly 20 minutes). This will erase all stored codes something that needs to happen during the configuration process.  
-2\. Install TIPM. Make sure your fuse/relay set-up is identical to the original. Check to make sure all fuses are pushed in tight. We do this but just double check us.  
-3\. Connect battery to vehicle  
-4\. Start vehicle and please confirm all electrical features are working properly  
-5\. If you run into any issues please hook up an OEM level scan tool to your OBD and pull the codes from the TIPM. You’ll also need to verify your VIN is in the replacement TIPM. Once you have this info, reach out to us. A code reader cannot read the TIPM, only an OEM level scan tool. Make sure to check your ground points for any corroded or broken wires. Also, if you are having A/C issues after install please make sure fuses J15 and K9 are not popped and are pushed in. If you run into a B2206 disconnect the battery then reconnect the battery then cycle the ignition switch from off to the on position at least 5 times, leaving the ignition on for a minimum of 90 seconds per cycle.
+Thanks again for your business!
 
-Thanks again for your business\!
-
-Your Part Source
+YPS
 
 # PT TIPM NEED VIN
 

@@ -35,6 +35,19 @@ YPS
 - Pre-fill any vehicle/part info already provided in their email and ask only for what's missing
 - If nothing is known, use the list as-is without pre-fills
 
+---
+
+**GM ECM — Key relearn failure:** When a GM ECM buyer reports the key is not recognized or the security light won't go out, do NOT use the full 7-item template. Use a short prose response asking only:
+1. Key start or push button start?
+2. Any trouble codes pulled?
+3. Confirm part number (frame as "rule out fitment issues")
+
+Once those three things are confirmed, more specific guidance can be given. Keep tone light and encouraging — "Keep us posted and we'll do what we can to help get your vehicle up and running!"
+
+Always keep the full frustrated-customer greeting: "Hello again and thank you for reaching out to us regarding this. We are definitely here to help!"
+
+---
+
 **PDC-specific template:** Use the default 7 items with these modifications:
 - Item 5: Replace default DTC item with — "Can you pull the trouble codes from the vehicle and let us know what they are and which module(s) they are coming from?"
 - Add after item 7:
