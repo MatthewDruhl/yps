@@ -32,7 +32,8 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 - See **Repair and Return Service** in `knowledge/product-inquiries/product-info.md` for diagnostic fee, turnaround time, disqualifying conditions, closing paragraphs, and repair patterns
 
 **Order-issue install questions:**
-- TBD
+- Default: use the standard 7-item template in `knowledge/order-issues/order-info.md`
+- **GM ECM — key relearn failure:** if buyer reports key not recognized or security light won't clear after install, do NOT use the full 7-item template. Use the GM ECM key relearn template in `knowledge/order-issues/order-info.md` — ask only for ignition type (key start or push button), trouble codes, and part number confirmation. Follow up with more specific guidance once those are confirmed.
 
 ---
 

@@ -25,6 +25,8 @@ Load this file for every draft.
 - Angry or frustrated customers: "Hello again and thank you for reaching out to us regarding this. We are definitely here to help!" — acknowledges their frustration without escalating
 - If the customer is frustrated on a follow-up order-issue reply (info was already requested and they're still unhappy): still ask for any missing information, but also append the quick return option at the end of the email
 
+**Phone call requests:** When a customer asks for a phone call or provides a phone number, redirect to eBay messaging with: "we handle all messaging through eBay's messaging system for documentation purposes, sorry." — do not acknowledge the phone number, do not explain further.
+
 ---
 
 ## Sign-offs
