@@ -109,24 +109,30 @@ Google now uses the **Google Auth platform** section (not the old "OAuth consent
 
 ## Step 6: Configure the MCP Server
 
-The project's `.claude/settings.json` declares the MCP server:
+The project uses `.mcp.json` (committed to the repo) to define the MCP server. It uses `dotenv-cli` to load credentials from your local `.env` file:
 
 ```json
 {
   "mcpServers": {
     "google-workspace": {
+      "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-google-workspace"],
-      "env": {
-        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
-        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}"
-      }
+      "args": ["-y", "dotenv-cli", "-e", ".env", "--", "uvx", "workspace-mcp", "--tools", "gmail"],
+      "env": {}
     }
   }
 }
 ```
 
-This file is committed to the repo. The `${...}` placeholders pull from your local `.env`.
+The `.claude/settings.json` enables this server:
+
+```json
+{
+  "enableAllProjectMcpServers": true
+}
+```
+
+**Prerequisites:** Make sure `npx`, `uvx`, and `dotenv-cli` are available. Install dotenv-cli if needed: `npm install -g dotenv-cli`
 
 ---
 
@@ -159,5 +165,5 @@ This file is committed to the repo. The `${...}` placeholders pull from your loc
 - **Auth fails** — verify your `.env` values match the credentials from Step 4
 - **Wrong Gmail account** — check `GMAIL_USER_EMAIL` in your `.env`
 - **Port 8000 in use** — the OAuth callback needs `localhost:8000`. Kill any process using it: `lsof -i :8000`
-- **MCP not loading** — make sure `.claude/settings.json` is present and `npx` is available
+- **MCP not loading** — make sure `.mcp.json` and `.claude/settings.json` are present, and `npx`/`uvx` are available
 - **"Access blocked" error** — make sure your email is added as a test user in Step 3.8

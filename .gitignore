@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*.local
+.google-workspace-credentials/
 
 # Claude Code
 .claude/settings.local.json

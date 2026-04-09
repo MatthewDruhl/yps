@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "dotenv-cli",
+        "-e",
+        ".env",
+        "--",
+        "uvx",
+        "workspace-mcp",
+        "--tools",
+        "gmail"
+      ],
+      "env": {}
+    }
+  }
+}
