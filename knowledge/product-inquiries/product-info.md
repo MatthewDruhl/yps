@@ -37,7 +37,27 @@ When a customer provides a part number and it is not in stock:
 >
 > YPS
 
+**If the buyer has an active order:** When sending the 2nd Sticker Mopar response and the buyer has an active order, always add "We will hold off on shipping the item until we hear back from you." before the closing line. Close with "Thanks again for your help with this." — not bare "Thanks again."
+
 **If R&R is available for that product type** (check `knowledge/product-types.md`) — use the "DON'T HAVE ITEM BUT MAYBE A REPAIR" pattern instead: let them know we don't have a replacement but we do have a repair service, and direct them to the R&R listing. Then follow rnr-inquiry info-gathering rules from `knowledge/rnr-inquiries/rnr-info.md`.
+
+---
+
+## Failed Image Send (Empty Message Body)
+
+When a customer's message has no body, or contains only a mobile app signature (e.g. "Get Outlook for Android"), treat it as a failed attempt to send an image.
+
+**Do not flag.** Use the image-resend template below.
+
+**Template:**
+
+Hello and thank you for reaching out!
+
+It looks like your message may not have come through — we didn't receive any content. If you were trying to send a photo, eBay messages can sometimes have trouble with attachments. Feel free to reply with the image or any details you'd like to share and we'll be happy to help!
+
+YPS
+
+**Validation note:** Validate as `order-issue` category to bypass the fitment warning check — the fitment warning is not applicable when there is no customer content to respond to.
 
 ---
 

@@ -177,12 +177,20 @@ function runChecks(input) {
   ));
 
   // ── 6. No pricing ────────────────────────────────────────────────────────
-  const pricingMatch = draft.match(/\$\d[\d,]*(\.\d{2})?/);
+  // Exception: rnr-inquiry drafts may include the diagnostic fee amount
+  const pricingMatches = [...draft.matchAll(/\$\d[\d,]*(\.\d{2})?/g)].map(m => m[0]);
+  const illegalPrices = cat === "rnr-inquiry"
+    ? pricingMatches.filter(p => {
+        // Allow only the diagnostic fee amount in rnr-inquiry drafts
+        const num = parseFloat(p.replace(/[$,]/g, ""));
+        return num !== 94.99;
+      })
+    : pricingMatches;
   results.push(check(
     "no_pricing",
     "No pricing included",
-    !pricingMatch,
-    pricingMatch ? `Found: "${pricingMatch[0]}"` : undefined,
+    illegalPrices.length === 0,
+    illegalPrices.length > 0 ? `Found: "${illegalPrices[0]}"` : undefined,
   ));
 
   // ── 7. Fitment warning (product-inquiry and rnr-inquiry only) ────────────

@@ -65,6 +65,8 @@ Options:
      **What changed:**
      - {bullet list of differences}
      ```
+   - **After logging, check if a knowledge file needs updating** — review the changes and ask: does this reflect a rule, pattern, or product fact that isn't already in a knowledge file? If yes, update the relevant file (voice.md, product-types.md, order-info.md, product-info.md, etc.) before moving to the next draft. If the knowledge files already cover it, no update needed.
+   - **After updating the knowledge file, move the entry from feedback.md to feedback-archive.md** — append it to the bottom of the archive, then remove it from feedback.md. feedback.md should be empty between sessions; feedback-archive.md is the permanent record.
 
    **reject** — Delete the draft block from drafts.md. Update queue.md status to `new` so it can be re-drafted.
    - Gmail only: delete the Gmail draft.

@@ -34,6 +34,9 @@ YPS
 - Use numbered list — easier for buyers to reply to
 - Pre-fill any vehicle/part info already provided in their email and ask only for what's missing
 - If nothing is known, use the list as-is without pre-fills
+- **Loss of communication symptom:** If the buyer reports the unit lost communication after install, adjust items 4 and 5:
+  - Item 4: "did it have communication when you installed it?" — establishes whether the issue is immediate or developed over time
+  - Item 5: "Were any diagnostic trouble codes being set in the vehicle before it lost communication and which module(s) were they coming from?" — narrows to codes present before the loss, not just current codes
 
 ---
 
@@ -84,6 +87,21 @@ Always keep the full frustrated-customer greeting: "Hello again and thank you fo
 - Gather diagnostic info first (see Install Failure template) before processing a return
 - If the customer is frustrated on a follow-up reply (info was already requested and they're still unhappy): still ask for any missing info, but append the quick return closing below
 - [TBD — when to trigger the full return template vs. continue gathering info]
+
+**PayPal refund (orders over 90 days old):**
+When the order is more than 90 days old, eBay can no longer process the refund — YPS must issue it via PayPal manually.
+
+Template:
+
+Since this order is over 90 days old, we will process the refund through PayPal once the item comes in. We just need to know what email address to send it to. Please let us know if you have any questions in the meantime.
+
+Thank you again for working with us.
+
+YPS
+
+**Note:** Ask for the customer's PayPal email explicitly — do not assume it matches their eBay account or the card they paid with.
+
+---
 
 **Quick return closing** — append to frustrated follow-up replies:
 
@@ -137,11 +155,43 @@ YPS
 
 Hello, thanks for reaching out!
 
-Unfortunately we do not offer {tuning/modifications/unlocking — use the buyer's specific term}. All of our items ship with OE software.
+We do not offer {tuning/modifications/unlocking}. We just ship the units with OE software.
 
-Let us know if you needed to cancel as we would understand. Thanks again!
+Sorry we couldn't help you out but thanks again for checking.
 
 YPS
+
+**Examples:**
+- PATS delete → "We do not offer PATS delete. We just ship the units with OE software."
+- Tuning → "We do not do any software/tuning on these units. We repair them to factory specs and software only."
+
+**Notes:**
+- Do not name the specific modification if it can be described more broadly ("software/tuning" covers most cases)
+- No fitment warning — we're not selling them anything
+- Closing: "Sorry we couldn't help you out but thanks again for checking." — warmer than a flat decline
+
+---
+
+## Shipping Inquiry
+
+**When to use:** Buyer asks about when their order will ship, why it hasn't shipped, or when they can expect tracking.
+
+**Key rule:** Orders placed before 12:00 PM CST ship same day. Orders placed after 12:00 PM CST ship the next business day.
+
+**Template:**
+
+Hello, thanks for reaching out!
+
+Orders placed before 12:00 PM CST ship same day. Your order came in at {order time from eBay}, so it is scheduled to ship {today / tomorrow / next business day}. Once it ships, eBay will send you an automated message with the tracking number.
+
+Let us know if you have any other questions. Thanks!
+
+YPS
+
+**Notes:**
+- Pull the actual order time from eBay and reference it directly — don't be vague
+- If the order came in just after cutoff, acknowledge it ("just missed our cutoff")
+- Tracking is sent via eBay automated message — buyer does not need to check back with YPS
 
 ---
 

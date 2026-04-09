@@ -31,6 +31,12 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 - Info needed for R&R: vehicle year/make/model/engine, part number, description of issues, DTCs, diagnostics completed, parts already replaced
 - See **Repair and Return Service** in `knowledge/product-inquiries/product-info.md` for diagnostic fee, turnaround time, disqualifying conditions, closing paragraphs, and repair patterns
 
+**Ford ECM — PATS key requirements:**
+- Ford requires **two keys** when replacing the PCM and updating PATS
+- Recommend a second **non-cloned key cut by a locksmith** — cloned keys will not work for PATS
+- If a customer asks about one-key installs pre-purchase: answer the PATS question first, then pivot to the standard part number ask
+- **PATS delete requests:** Use the modification decline template in `knowledge/order-issues/order-info.md` — "We do not offer PATS delete. We just ship the units with OE software."
+
 **Order-issue install questions:**
 - Default: use the standard 7-item template in `knowledge/order-issues/order-info.md`
 - **GM ECM — key relearn failure:** if buyer reports key not recognized or security light won't clear after install, do NOT use the full 7-item template. Use the GM ECM key relearn template in `knowledge/order-issues/order-info.md` — ask only for ignition type (key start or push button), trouble codes, and part number confirmation. Follow up with more specific guidance once those are confirmed.
@@ -117,6 +123,8 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **R&R:** Available for Ford, GM, and Dodge ABS modules only
 
 **Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
+
+**Same trouble code across multiple modules (GM 136 series):** If a customer reports the same trouble code appearing across multiple replacement modules with the same part number, there is likely an issue in the vehicle and their original unit may have been good. Do not defer to techs — recommend further diagnostics to determine what is going on in the vehicle. A return can be offered at this stage.
 
 ---
 

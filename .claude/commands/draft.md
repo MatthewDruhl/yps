@@ -1,6 +1,6 @@
-# /draft — Draft Response to Next Queued Email
+# /draft — Draft All Queued Emails
 
-Pick the next email from the queue, generate a response draft, and save it.
+Draft responses for all `new` emails in the queue, one at a time, until the queue is empty. If a specific message ID is provided as an argument, draft only that one email.
 
 Email source is detected from the Email ID format:
 - **Hex ID** (e.g. `19ce3892a86cd7a8`) → Gmail
@@ -10,16 +10,17 @@ Email source is detected from the Email ID format:
 ## Steps
 
 1. **Read state files:**
-   - `state/queue.md` — find emails with status `new` (any source). Pick the oldest.
+   - `state/queue.md` — collect all emails with status `new`. If a specific message ID is provided as an argument, draft only that one. Otherwise, process all `new` emails newest-first (bottom of the queue first).
    - `state/drafts.md` — check for existing drafts to avoid duplicates.
 
 2. **If no `new` emails exist**, tell the operator and stop.
 
-3. **Read knowledge files** based on category:
+3. **Read knowledge files once for the entire batch** — determine which categories are present in the `new` emails, then load only what's needed:
    - Always: `knowledge/voice.md`
-   - `product-inquiry`: `knowledge/product-types.md`, `knowledge/product-inquiries/examples.md`, `knowledge/product-inquiries/product-info.md`
-   - `rnr-inquiry`: `knowledge/product-types.md`, `knowledge/rnr-inquiries/examples.md`, `knowledge/rnr-inquiries/rnr-info.md`
-   - `order-issue`: `knowledge/order-issues/order-info.md`
+   - If any `product-inquiry` in batch: `knowledge/product-types.md`, `knowledge/product-inquiries/examples.md`, `knowledge/product-inquiries/product-info.md`
+   - If any `rnr-inquiry` in batch: `knowledge/product-types.md` (if not already loaded), `knowledge/rnr-inquiries/examples.md`, `knowledge/rnr-inquiries/rnr-info.md`
+   - If any `order-issue` in batch: `knowledge/order-issues/order-info.md`
+   - Load each file once — do not re-read per email. Reuse the loaded content for all drafts in the batch.
    - Warn if any file is empty or placeholder-only, but continue.
 
 4. **Read the original email** — based on source:
@@ -126,7 +127,7 @@ Email source is detected from the Email ID format:
 12. **Display the draft:**
 
 ```
-── Draft Generated ──
+── Draft {n} of {total} ──
 
 To:      {customer email}
 Subject: Re: {original subject}
@@ -136,15 +137,24 @@ Category: {category}
 ---
 {draft text}
 ---
+```
 
-Saved to state/drafts.md.
-Run /review to approve or edit, or /draft for the next email.
+Then immediately continue to the next `new` email without waiting. After all drafts are complete, display a summary:
+
+```
+── All Drafts Complete ──
+
+Drafted: {n}
+Skipped: {n}
+
+Run /review to approve or edit.
 ```
 
 13. **Log to session file** — record which email was drafted, source, category, any corrections made during validation.
 
 ## Rules
-- Only draft one email at a time
+- When called without arguments, draft ALL `new` emails in the queue before stopping
+- When called with a specific message ID, draft only that one email
 - Never send — drafts only
 - Only one recipient per draft (no CC/BCC)
 - Never change the original subject line (only prepend "Re: " if not already present)

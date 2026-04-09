@@ -1,582 +1,402 @@
 [
   {
-    "Sender": "jacq757",
+    "Sender": "cornlamp_0",
     "NewMessages": [
-      "Can you rebuild this"
+      "I\u0027ll try uninstalling then reinstalling on the old one everything worked and without warning the the engine would shut off leaving me powerless we had already replaced the alternator battery sometimes the door locks would lock and unlock before shutting down"
     ],
     "Thread": [
       {
         "From": "yps",
-        "Body": "\uD83D\uDC4D"
+        "Body": "Did you uninstall then reinstall the module to verify connection? What wasn\u0027t working with the old module? One thing you can try is a hard reboot which discharges all modules. The module may simply not be married but we\u0027d uninstall then reinstall it to confirm no issues with connections. Keep us posted. Thanks! YPS"
       },
       {
         "From": "buyer",
-        "Body": "Okay I\u0027m having someone take it out and we can go from there thank you"
+        "Body": "The truck was showing signs of a bad bcm Everything works except the door locks on the drv and passenger side"
+      },
+      {
+        "From": "buyer",
+        "Body": "I have a 2007 Chevy Silverado 4.8 1500 the original  part # 25823559 the door lock switch worked before I replaced  the old one"
       },
       {
         "From": "yps",
-        "Body": "If you match your part number, you usually do not need programming. There are some rare occasions where programming is required. \n\nLet us know if you need anything else. Thanks again!\n\nYPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "Will I need to have it reprogrammed"
+        "Body": "Hello again and thank you for reaching out to us regarding this. We are definitely here to help!\n\nWe would like to get a little more information from you to see if we can figure out what is going on. When you have a free moment if you could please let us know the following information:\n-The vehicle\u0027s Year/Make/Model/Engine\n-The part number on the original unit. These units are part number specific, not vehicle specific\n-The issues with the original unit\n-Any diagnostic trouble codes being set in the vehicle and the module they are coming from\n-What diagnostics were completed to determine the original unit was the issue\n-Any other parts that have been repaired or replaced in an attempt to fix the issue.\n\nWe will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions as well as we are here to help you get your vehicle back up and running! Thank you for working with us.\n\nYPS"
       },
       {
         "From": "yps",
-        "Body": "Hi! Yes, it is crucial to ensure that your part number matches ours, including the software code at the end, to ensure proper fitment and avoid issues with your vehicle.\n\nLet us know if you need anything else. Thanks again!\n\nYPS"
+        "Body": "Hello again and thank you for your purchase and for the information! We will get the unit programmed and scheduled for shipping promptly.\n\nSince we are programming the BCM with your VIN the vehicle will start. However if the SIR warning indicator is on you will need an OE level scan tool to perform a \u0022Setup SDM Primary Key in BCM\u0022.\n\nWe appreciate your business!\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "So basically I just need to make sure my part number matches your part number is that correct"
+        "Body": "Vin(2GCEC13C971607750)part(25823559)"
       },
       {
         "From": "yps",
-        "Body": "We don\u0027t have VIN interchange, sorry. Thanks, YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "Would you be able to help if I give you the VIN number"
-      },
-      {
-        "From": "buyer",
-        "Body": "Ok"
+        "Body": "Hello again and thank you for your purchase and for the information! We will get the unit programmed and scheduled for shipping promptly.\n\nSince we are programming the BCM with your VIN the vehicle will start. However if the SIR warning indicator is on you will need an OE level scan tool to perform a \u0022Setup SDM Primary Key in BCM\u0022.\n\nOver 33% of our buyers do not read this and buy the wrong part number!!!\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n**WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part.\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nWe appreciate your business!\n\nYPS"
       },
       {
         "From": "yps",
-        "Body": "We aren\u0027t familiar with that part # sorry. We are sorry we couldn\u0027t help but do thank you for running it by us. Sincerely, YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "Hi I\u0027m not sure if this is the correct number k73498526 but that\u0027s the only number I can see from the top without taking everything off but I was too this is why my light wouldn\u0027t go off the dash ford E350 van"
-      }
-    ],
-    "MessageMedia": [
-      {
-        "MediaUrl": "https://i.ebayimg.com/00/s/NzU3WDE2MDA=/z/qZYAAeSwi5Zpzu18/$_1.JPG?set_id=8800005007",
-        "MediaName": "1",
-        "MediaType": null
-      }
-    ],
-    "MessageId": "207461104374",
-    "ExternalMessageID": "3390455037013",
-    "RecipientUserID": "your_part_source",
-    "Subject": "Re: jacq757 sent a message about 03-07 FORD E-150 E-250 ABS ANTI-LOCK BRAKE MODULE EBCM 2C24-2C346-BC REBUILT #195432663854",
-    "ItemId": "195432663854",
-    "ItemTitle": "03-07 FORD E-150 E-250 ABS ANTI-LOCK BRAKE MODULE EBCM 2C24-2C346-BC REBUILT",
-    "ResponseEnabled": true,
-    "CreationDate": null,
-    "ExpirationDate": "2027-04-02T17:28:19-05:00",
-    "Read": false,
-    "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=195432663854\u0026qid=6094464572019\u0026requested=jacq757\u0026redirect=0\u0026messageid=m206841729694\u0026messageid=m206607082023\u0026messageid=m206841882424\u0026messageid=m206607115743\u0026messageid=m206882752064\u0026messageid=m206648007743\u0026messageid=m206883453304\u0026messageid=m206648655893\u0026messageid=m206886460834\u0026messageid=m206651284853\u0026messageid=m207461104374",
-    "ReceiveDateUtc": "2026-04-02T17:28:05-05:00",
-    "Flagged": false,
-    "ContentType": null
-  },
-  {
-    "Sender": "wrenchhead934",
-    "NewMessages": [
-      "Thank you"
-    ],
-    "Thread": [
-      {
-        "From": "yps",
-        "Body": "Perfect, thanks! We\u0027ll get our programmers on it!"
-      },
-      {
-        "From": "buyer",
-        "Body": "The p/n is p05094955aa the s/n is t9aeh20857mh7a  the mileage is 187,395 the vin is 2b3ka43g56h512672"
+        "Body": "Hello again and thank you for your purchase!\n\nWE STILL NEED YOUR VIN AND PART NUMBER OR THE UNIT WILL NOT BE PLUG AND PLAY!\n\nThis unit is shipping in 2 hours! Please send us your VIN and part number so it can be programmed to your vehicle! \n\nWe offer free VIN programming on the BCM purchased. If you would like to take advantage of this FREE service please email as soon as you can with your vehicle VIN. Your vehicle will not start until this has been completed. Once the BCM has the VIN programmed the vehicle will start. However if the SIR warning indicator is on you will need an OE level scan tool to perform a \u0022Setup SDM Primary Key in BCM\u0022.\n\n*We do not want to delay shipping your purchase so if we do not hear from you we assume the programming is being taken care of by your local locksmith or mechanic and we will ship the BCM. (Please make sure you are using the correct scan tool for programming or you could fry the computer and end up with a \u201Cno comm\u201D situation.)\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n**WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part.\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nWe appreciate your business!\n\nYPS"
       },
       {
         "From": "yps",
-        "Body": "Hello and thank you for your purchase, order 25-14429-05101\n\nIf you have already matched your part number and supplied your VIN in the \u0022Notes to Seller\u0022 box during checkout, you can disregard this message.\n\nWe offer free programming on the ECU you purchased and wanted to take a moment to ask if you would like that taken care of prior to the unit shipping. If so we would need your vehicle VIN and current mileage. If this is a service you would like to take advantage of then please email as soon as you can with the information.\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n*NOTE* We do not want to delay shipping your purchase so if we do not hear back from you we will assume that the programming is being taken care of by yourself or your local mechanic and your ECU will ship promptly.\n\n***WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part. If you have any questions please contact us before shipment. Thanks for your business!***\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nWe appreciate your business!\n\nYour Part Source"
+        "Body": "Hello and thank you for your purchase, order 13-14380-36310\n\nIf you have already matched your part number and supplied your VIN in the \u0022Notes to Seller\u0022 during checkout, you do not need to resend your VIN.\n\nWe offer free VIN programming on the BCM purchased. If you would like to take advantage of this FREE service please email as soon as you can with your vehicle VIN. Your vehicle will not start until this has been completed. Once the BCM has the VIN programmed the vehicle will start. However if the SIR warning indicator is on you will need an OE level scan tool to perform a \u0022Setup SDM Primary Key in BCM\u0022.\n\n*We do not want to delay shipping your purchase so if we do not hear from you we assume the programming is being taken care of by your local locksmith or mechanic and we will ship the BCM. (Please make sure you are using the correct scan tool for programming or you could fry the computer and end up with a \u201Cno comm\u201D situation.)\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n**WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part.\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nWe appreciate your business!\n\nYour Part Source"
       }
     ],
     "MessageMedia": [],
-    "MessageId": "207461458874",
-    "ExternalMessageID": "3416784686016",
+    "MessageId": "207640204554",
+    "ExternalMessageID": "6142518243019",
     "RecipientUserID": "your_part_source",
-    "Subject": "Re: your_part_source has sent a question about item #205574566237, ending on Apr-20-26 13:02:00 PDT - 06 CHARGER MAGNUM 300 3.5L PCM ECU ECM ENGINE CONTROL COMPUTER 05094955AE TESTED",
-    "ItemId": "205574566237",
-    "ItemTitle": "06 CHARGER MAGNUM 300 3.5L PCM ECU ECM ENGINE CONTROL COMPUTER 05094955AE TESTED",
+    "Subject": "Re: your_part_source sent a message about 06-13 GM CHEVROLET BCM BODY CONTROL MODULE OEM 25823559 TESTED PROGRAMMED TO VIN #204675650648",
+    "ItemId": "204675650648",
+    "ItemTitle": "06-13 GM CHEVROLET BCM BODY CONTROL MODULE OEM 25823559 TESTED PROGRAMMED TO VIN",
     "ResponseEnabled": true,
     "CreationDate": null,
-    "ExpirationDate": "2027-04-02T17:46:22-05:00",
+    "ExpirationDate": "2027-04-09T06:44:53-05:00",
     "Read": false,
     "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=205574566237\u0026requested=your_part_source\u0026qid=3406457806014\u0026redirect=0\u0026messageid=m207352806776\u0026messageid=m207460025374\u0026messageid=m207352998406\u0026messageid=m207461458874",
-    "ReceiveDateUtc": "2026-04-02T17:46:08-05:00",
+    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=204675650648\u0026qid=6103407707019\u0026requested=your_part_source\u0026redirect=0\u0026messageid=m205498211109\u0026messageid=m206976005094\u0026messageid=m206145976279\u0026messageid=m207629171054\u0026messageid=m206147614169\u0026messageid=m207640204554",
+    "ReceiveDateUtc": "2026-04-09T06:44:35-05:00",
     "Flagged": false,
     "ContentType": null
   },
   {
-    "Sender": "robercranfiel0",
+    "Sender": "mariofrogsta",
     "NewMessages": [
-      "1D7HA18286J114901"
+      "Get Outlook for Android"
     ],
-    "Thread": [
-      {
-        "From": "yps",
-        "Body": "Thanks for purchasing our TIPM, order 12-14448-40299\n\nWE NEED YOUR VIN!! Message us back with your VIN as soon as possible or just follow the below instructions once the TIPM arrives.\n DO NOT RELY ON eBay\u0027s GUARANTEED TO FIT PROGRAM! \n Be sure you did match the part number. As long as you do this, the TIPM is ready to configure to your vehicle. Perform the following steps to configure the TIPM:\n \n1. Disconnect battery from vehicle. Remove your original TIPM and verify you purchased the correct part number. Do not worry about the letters, only the number. If a match, tie both battery cables together \u201Caway from the battery\u201D while you are installing the new TIPM (roughly 20 minutes). This will erase all stored codes something that needs to happen during the configuration process.\n2. Install TIPM. Make sure your fuse/relay set-up is identical to the original. Check to make sure all fuses are pushed in tight. We do this but just double check us.\n3. Connect battery to vehicle\n4. Turn key to ON position only (do not start vehicle) for 120 seconds, then turn off. If you have a \u201Cpush button\u201D start vehicle that also has a key slot, use the key slot, not the push button.\n5. Start vehicle and please confirm all electrical features are working properly\n 6. If you run into any issues please hook up an oem level scan tool to your OBD and pull the codes from the TIPM. You\u2019ll also need to verify your VIN is in the replacement TIPM. Once you have this info, reach out to us. A code reader cannot read the TIPM, only an oem level scan tool. Make sure to check your ground points for any corroded or broken wires. Also, if you are having A/C issues after install please make sure fuses J15/K9 are not popped and are pushed in. If you run into a B2206 disconnect the battery then reconnect the battery then cycle the ignition switch from off to the on position at least 5 times, leaving the ignition on for a minimum of 90 seconds per cycle.\n\nScan Image for Installation Steps!"
-      }
-    ],
+    "Thread": [],
     "MessageMedia": [],
-    "MessageId": "207462407344",
-    "ExternalMessageID": "3387407989018",
+    "MessageId": "207644518964",
+    "ExternalMessageID": "3391087439018",
     "RecipientUserID": "your_part_source",
-    "Subject": "Re: your_part_source has sent a question about item #193759132008, ending on Apr-20-26 11:01:22 PDT - 06-09 1500 4X2 FUSE BOX TIPM TOTALLY INTEGRATED POWER MODULE 04692118 PROBADA",
-    "ItemId": "193759132008",
-    "ItemTitle": "06-09 1500 4X2 FUSE BOX TIPM TOTALLY INTEGRATED POWER MODULE 04692118 PROBADA",
+    "Subject": "Re: your_part_source has sent a question about item #324933213219, ending on 10-Apr-26 16:57:27 BST - 2005 05 FORD F-150 F-250 5.4L ECU ECM PCM ENGINE COMPUTER 5L3A-12A650-ASH TESTED",
+    "ItemId": "324933213219",
+    "ItemTitle": "2005 05 FORD F-150 F-250 5.4L ECU ECM PCM ENGINE COMPUTER 5L3A-12A650-ASH TESTED",
     "ResponseEnabled": true,
     "CreationDate": null,
-    "ExpirationDate": "2027-04-02T18:28:52-05:00",
+    "ExpirationDate": "2027-04-09T09:26:57-05:00",
     "Read": false,
     "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=193759132008\u0026requested=your_part_source\u0026qid=3406493296014\u0026redirect=0\u0026messageid=m206835392518\u0026messageid=m207462407344",
-    "ReceiveDateUtc": "2026-04-02T18:28:38-05:00",
+    "ResponseUrl": "http://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=324933213219\u0026requested=mariofrogsta\u0026qid=3391087439018\u0026redirect=0\u0026messageid=m207644518964",
+    "ReceiveDateUtc": "2026-04-09T09:26:38-05:00",
     "Flagged": false,
     "ContentType": null
   },
   {
-    "Sender": "marrer99",
+    "Sender": "cutlery_287",
     "NewMessages": [],
     "Thread": [
       {
         "From": "yps",
-        "Body": "Hello and thank you for your interest.\n\nWe can program some of these units. To confirm if yours is one of them, we will need your part number first.\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\nYour ECM will have a sticker on it with the part number. If you can send us a photo of that sticker, we can check our inventory and let you know if we can program it for you. If it is programmable, you would enter your VIN and mileage in the \u0022Add note to seller\u0022 box during checkout.\n\nLet us know when you get a chance. Thanks again!\n\nYPS"
+        "Body": "Hello again.\n\nThis is the serial number for the unit. We did attach a picture with what the sticker we are looking for should look like. If you could please send us a picture of your sticker we can let you know if we do have the correct replacement.\n\nThanks again!\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "In Addition, would their be any other additional programing i would need to do for vehicles to start and function properly?"
+        "Body": "module s/n t6peh1316b4n72"
       },
       {
         "From": "buyer",
-        "Body": "Hello,  I have a 2010 buick lacrosse cxs 3.6L, upon purchase do you vin program Ecm module to my vehicle ?"
+        "Body": "p/n p05033"
+      },
+      {
+        "From": "yps",
+        "Body": "Hello and thank you for your interest.\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\nOver 33% of our buyers do not read this and buy the wrong part number!!!\n\nThese units are part number specific and not vehicle specific. There will be eight digits in the part number. We do not have VIN interchange and recommend matching your current part number to ensure you don\u0027t have any fitment issues. When you have a moment if you could please let us know what your full eight digit part number is or send us a picture of the part number sticker we will check our inventory to see if we have a unit which will work for your vehicle.\n\nWe will await your reply. Please email with any questions. Thanks again!\n\nYPS"
+      },
+      {
+        "From": "buyer",
+        "Body": "hi does this fit this car\nVin-3A8FY68856T235644\npart number 441AE"
       }
     ],
     "MessageMedia": [
       {
-        "MediaUrl": "https://i.ebayimg.com/00/s/MTYwMFg3Mzg=/z/UNwAAeSw3Gdpzv1m/$_1.JPG?set_id=8800005007",
-        "MediaName": "1",
+        "MediaUrl": "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/oUwAAeSwqUtp17t7/$_1.JPG?set_id=880000500F",
+        "MediaName": "brown pcm.jpg",
         "MediaType": null
       }
     ],
-    "MessageId": "207462579074",
-    "ExternalMessageID": "3422546465010",
+    "MessageId": "207644996704",
+    "ExternalMessageID": "3393635318017",
     "RecipientUserID": "your_part_source",
-    "Subject": "Re: marrer99 sent a message about 10-11 3.6L TRAVERSE CAMARO ACADIA LACROSSE PCM ECU ECM ENGINE COMPUTER 12636355 #196062223823",
-    "ItemId": "196062223823",
-    "ItemTitle": "10-11 3.6L TRAVERSE CAMARO ACADIA LACROSSE PCM ECU ECM ENGINE COMPUTER 12636355",
+    "Subject": "Re: cutlery_287 sent a message about 06 CHRYSLER PT CRUISER 2.4L A/T ECU ECM PCM ENGINE COMPUTER 05094447AI TESTED #205075539739",
+    "ItemId": "205075539739",
+    "ItemTitle": "06 CHRYSLER PT CRUISER 2.4L A/T ECU ECM PCM ENGINE COMPUTER 05094447AI TESTED",
     "ResponseEnabled": true,
     "CreationDate": null,
-    "ExpirationDate": "2027-04-02T18:36:15-05:00",
+    "ExpirationDate": "2027-04-09T09:45:20-05:00",
     "Read": false,
     "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=196062223823\u0026qid=6129174171019\u0026requested=marrer99\u0026redirect=0\u0026messageid=m207435547904\u0026messageid=m207670785410\u0026messageid=m207462579074",
-    "ReceiveDateUtc": "2026-04-02T18:36:01-05:00",
+    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=205075539739\u0026qid=6136340574019\u0026requested=cutlery_287\u0026redirect=0\u0026messageid=m207551063184\u0026messageid=m207129613107\u0026messageid=m207621185804\u0026messageid=m207201577577\u0026messageid=m207644996704",
+    "ReceiveDateUtc": "2026-04-09T09:45:02-05:00",
     "Flagged": false,
     "ContentType": null
   },
   {
-    "Sender": "jarquwjaniga0",
+    "Sender": "adviso_0",
     "NewMessages": [
-      "Part has made back to you still ain\u0027t got my refund"
+      "We have attempted all of the suggested procedures, but the code persists.\n\nBased on my research when sourcing this part, I understood it to be a JL4 unit with active brake control, and 4 wheel ABS. Could you please confirm if this part number is indeed a JL4? It is possible that the part was cataloged incorrectly on eBay"
     ],
     "Thread": [
       {
         "From": "yps",
-        "Body": "Let us confirm that. It looks like your request was turned into a case that has been closed. We\u0027ll check to make sure we have it first then tackle the closure of that case next. Thanks, YPS"
+        "Body": "Hello again, we again rebuild and test these units so they don\u0027t leave our facility with a C0110. Have you checked the following:\n\nBrake Pressure Modulator Valve (BPMV) \nElectronic Brake Control Module (EBCM) Wiring\nElectronic Brake Control Module (EBCM) Connector\nBrake Bleeding Procedure \n\nIf you wanted to send it back for us to retest it we can work with you on that or you can open a return request choosing \u0022Changed my mind\u0022 for the reason and we\u0027d have no issues working with you on a return/refund. Let us know if you have any questions. Thanks, YPS"
       },
       {
         "From": "buyer",
-        "Body": "Computer should be there"
+        "Body": "No, the ABS pump has never worked. We continue to receive the same trouble code: C0110 (ABS circuit open). Every time this issue has occurred in the past, checking the pins that power the pump reveals incorrect voltage, which points to a faulty ABS module."
       },
       {
         "From": "yps",
-        "Body": "Sounds good. We will let you know when we get it. Thanks again!\n\nYPS"
+        "Body": "Hello again and thank you for the update.\n\nWe did see your core part number was the same as purchased. The last thing we do with these modules before they ship is hook them up to an OE level scan tool and test various functions in the module. Can you let us know if the module was installed and worked as it should for some time. Also, are they just getting no communication with the module or are there trouble codes being set by the replacement module. \n\nPlease let us know when you get a chance. Thanks again for your help with this.\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "Item in mail on way back will provide tracking number tomorrow"
+        "Body": "The original module was sent back to you already as there is a partial payment status pending for the core return. The original code was C0110=ABS circuit open."
       },
       {
         "From": "yps",
-        "Body": "Hello again and thanks for the update.\n\nWe will watch for the item to get back and issue your refund once it does. If you can let us know the part number of your ECM we can check to see if we do have a good replacement for your\n\nLet us know when you get a chance. Thanks again.\n\nYPS"
+        "Body": "Can you let us know or send us a picture of the part number sticker on your original module so we can confirm fitment and was the module calibrated to the vehicle or just plug n played? What codes are coming up? Keep us posted. Thanks, YPS"
       },
       {
         "From": "buyer",
-        "Body": "Still need to return been in hospital just got out wrong part need one for automatic transmission"
+        "Body": "Our technician installed the module and verified that the pump shows no activity. A load test was performed on the pump circuit at the connector to the module. Battery voltage measured 11.4 V at the connector; however, the pin that powers the pump through the module only showed 6.6 V. Note that the pump itself is brand new."
       },
       {
         "From": "yps",
-        "Body": "Please go into your eBay account, find this purchase and choose return request from the drop down. For the reason choose \u201CDoesn\u2019t fit my vehicle\u201D or \u201Cchanged my mind\u201D and for the notes put \u201CPer John in Customer Service\u201D. Once we see this come across we will accept and a prepaid return label will be made available to you.\n\n*READ* If you use the enclosed \u201Ccore label\u201D for the return no refund will be processed. Make sure to use the label provided by eBay.\n\nIf you have any questions let us know. We appreciate your business and thank you in advance for your patience with the refund process. \n\nSincerely,\n\nYPS"
+        "Body": "Hi Bryan, we run all communication through eBay messaging for documentation purposes. Can you let us know your questions and if you have any trouble codes you can share that would be great. Can you also let us know the part number on your original module. Thanks! YPS"
       },
       {
         "From": "buyer",
-        "Body": "My car is automatic can\u0027t wait to send back an wait on another one need a refund I\u0027m have to order one now to get back quick"
-      },
-      {
-        "From": "yps",
-        "Body": "Hello again and thank you for reaching out to us regarding this. We are definitely here to help!\n\nWe would like to get a little more information from you to see if we can figure out what is going on. When you have a free moment if you could please let us know the following information:\n-The vehicle\u0027s Year/Make/Model/Engine\n-The part number on the original unit. These units are part number specific, not vehicle specific. This unit is for a manual transmission model, some are for automatic transmissions. \n-The issues with the original unit\n-Any diagnostic trouble codes being set in the vehicle and the module they are coming from\n-What diagnostics were completed to determine the original unit was the issue\n-Any other parts that have been repaired or replaced in an attempt to fix the issue.\n\nWe will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions as well as we are here to help you get your vehicle back up and running! Thank you for working with us.\n\nYPS"
+        "Body": "Our phone number is 360-692-5201 Bryan"
       },
       {
         "From": "buyer",
-        "Body": "Dis computer is bad my computer is better than da new one something internal wrong with yours need a refund"
+        "Body": "We have a concern with the Module and want to speak to someone before we send it back defective, your phone number does not answer and voicemail is not set up."
       },
       {
         "From": "yps",
-        "Body": "Hello again and thank you for the information. We will get the unit programmed and scheduled for shipping promptly.\n\nOver 33% of our buyers do not read this and buy the wrong part number!!!\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n***WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part. If you have any questions please contact us before shipment.***\n\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nPlease email with any questions. Thanks again for your business, we do appreciate it!\n\nYPS"
+        "Body": "Hello again!\n\nWe just wanted to let you know we have processed your core refund today. Thanks again for your business and for participating in our core program!\n\n\nYour Part Source"
       },
       {
         "From": "yps",
-        "Body": "Hello and thank you for your purchase, order 27-14152-23222\n\nIf you have already matched your part number per the listing description and provided your VIN in the \u0022Notes to Seller\u0022 box during checkout, please disregard this message.\n\nWe offer free programming on the ECU you purchased and wanted to take a moment to ask if you would like that taken care of prior to the unit shipping. If so we would need your vehicle VIN and current mileage. If this is a service you would like to take advantage of then please email as soon as you can with the information.\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n*NOTE* We do not want to delay shipping your purchase so if we do not hear back from you we will assume that the programming is being taken care of by yourself or your local mechanic and your ECU will ship promptly.\n\n***WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part. If you have any questions please contact us before shipment. Thanks for your business!***\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nWe appreciate your business!\n\nYour Part Source"
+        "Body": "Hello and thank you for purchasing our rebuilt abs module!\n\nWe wanted to pass along some notes regarding install \u0026 fitment. These modules are part # or \u201Cseries\u201D specific and will \u201CNOT\u201D \ninterchange with another part number or \u201Cseries\u201D. If you are unsure of your part number please email us a picture of the sticker on the front and we will let you know if you have purchased the correct module or point you in the right direction. If your module is off the vehicle we may ask for the number of pins in the largest connector. These units have 40 pins, but most have 11 and some have 16.\n\nOnce you have established fitment these modules need to be programmed to your vehicle with a Tech II scan tool. These units come out of many different vehicles with many different configurations, some with and some without traction control. Without programming it will not work for your vehicle. Please make sure your mechanic has the proper scan tool to do this work.\n\nWe recommend testing your abs pump especially if the vehicle is setting a C0265 C0266 C0267 or C0268 along with the wiring and wheel speed sensors prior to swapping your module as issues with these parts can set codes and/or pop the new module causing a \u201Cpump runner\u201D.\n\nPlease check the abs fuse and replace with a properly rated fuse if blown.\n\nAlso make sure you have a scan tool capable of scanning the abs system and clear the stored codes before installation and after. It may take driving the vehicle for 15 to 20 miles for the system to reset.\n\nWe have also heard of ground point issues on these vehicles. Find the ground point (In some vehicles it is inside the driver\u2019s door frame) and clean with a wire brush.\n\nEmail with any questions and we again thank you for your business!\n\nYPS"
       }
     ],
     "MessageMedia": [],
-    "MessageId": "207462731724",
-    "ExternalMessageID": "3422547943010",
+    "MessageId": "207645492944",
+    "ExternalMessageID": "3404384653012",
     "RecipientUserID": "your_part_source",
-    "Subject": "Re: your_part_source sent a message about 07 JEEP WRANGLER 3.8L MT ECU ECM PCM ENGINE CONTROL COMPUTER 05187160AK TESTED #205841430015",
-    "ItemId": "205841430015",
-    "ItemTitle": "07 JEEP WRANGLER 3.8L MT ECU ECM PCM ENGINE CONTROL COMPUTER 05187160AK TESTED",
+    "Subject": "Re: your_part_source sent a message about 03-06 SILVERADO TAHOE ABS ANTI-LOCK TRACTION CONTROL MODULE 13642512M REBUILT #205550862535",
+    "ItemId": "205550862535",
+    "ItemTitle": "03-06 SILVERADO TAHOE ABS ANTI-LOCK TRACTION CONTROL MODULE 13642512M REBUILT",
     "ResponseEnabled": true,
     "CreationDate": null,
-    "ExpirationDate": "2027-04-02T18:42:08-05:00",
+    "ExpirationDate": "2027-04-09T10:04:33-05:00",
     "Read": false,
     "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=205841430015\u0026qid=6012727041019\u0026requested=your_part_source\u0026redirect=0\u0026messageid=m205895847250\u0026messageid=m205764673964\u0026messageid=m206092838260\u0026messageid=m205788490414\u0026messageid=m206116410190\u0026messageid=m206480316434\u0026messageid=m206783613470\u0026messageid=m206988460304\u0026messageid=m207264122360\u0026messageid=m207151106324\u0026messageid=m207451417730\u0026messageid=m207462731724",
-    "ReceiveDateUtc": "2026-04-02T18:41:53-05:00",
+    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=205550862535\u0026qid=6128087535019\u0026requested=your_part_source\u0026redirect=0\u0026messageid=m207020644882\u0026messageid=m207619163284\u0026messageid=m207221500942\u0026messageid=m207619826694\u0026messageid=m207222238972\u0026messageid=m207624457824\u0026messageid=m207229670442\u0026messageid=m207627716224\u0026messageid=m207230315462\u0026messageid=m207645492944",
+    "ReceiveDateUtc": "2026-04-09T10:04:15-05:00",
     "Flagged": false,
     "ContentType": null
   },
   {
-    "Sender": "divehard62",
+    "Sender": "ti.peata.jmh9nwtrlc",
     "NewMessages": [
-      "Key"
+      "You\u2019re welcome and thank you!"
     ],
     "Thread": [
       {
         "From": "yps",
-        "Body": "And do you have a key or push button start?"
+        "Body": "Hello again and thanks for the update.\n\nWe will use peacches to send the refund. Let us know if you need anything else. Thanks again for your help withthis.\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "Just number six injection pulse missing"
+        "Body": "It won\u2019t let me send full email but it\u2019s the peacches but it\u2019s at yahoo.com"
       },
       {
         "From": "buyer",
-        "Body": "Key will work on old ecu"
-      },
-      {
-        "From": "buyer",
-        "Body": "12635019"
-      },
-      {
-        "From": "buyer",
-        "Body": "That\u0027s correct"
+        "Body": "peacches.1982"
       },
       {
         "From": "yps",
-        "Body": "Hello again, we handle all messaging through eBay\u0027s messaging system for documentation purposes, sorry. Can you let us know if you have a key start or push button start? Did you pull any trouble codes by chance when you ran into issues? Can you confirm that your part number is 12635019? We just want to rule out any fitment issues. Keep us posted and we\u0027ll do what we can to help get your vehicle up and running! Thanks, YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "Installed your ECM this morning went through security procedure will not recognize key tried to do it again now security light will not go out after 20 minutes I expect the phone call back 631-848-3534 today"
+        "Body": "Hello again and sorry for the previous reply.\n\nSince this order is over 90 days we cannot issue a refund through eBay. Nor do we have a way to issue a refund directly to your credit card. We would need an email address to send the refund through PayPal.\n\nPlease let us know when you get a chance. Thanks again for your help with this.\n\nYPS"
       },
       {
         "From": "yps",
-        "Body": "Correct. We will send them with the ECM. If you have any questions with them please let us know.\n\nThanks again!\n\nYPS"
+        "Body": "Hello again and thanks for reaching out.\n\nWe actually can\u0027t do anything else. eBay will actually put the refund back to the same account used to pay.\n\nLet us know if you need anything else. Thanks again!\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "I need the key relearn procedure please"
-      },
-      {
-        "From": "buyer",
-        "Body": "Where do I get the security directions"
+        "Body": "Please send to the card that I used to purchase"
       },
       {
         "From": "yps",
-        "Body": "Thanks again for the information. We will get the unit programmed and shipped out. Be sure to read the listing about what needs to happen after you install the unit.\n\nThanks again!\n\nYPS"
+        "Body": "Sounds good. We will watch for it to come in. Be sure to let us know where to send the refund. Thanks again.\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "VIN number 2g1fe1ed3b9147363"
-      },
-      {
-        "From": "buyer",
-        "Body": "Part number 12635019"
+        "Body": "I still have the shipping label and I put the order # and email inside the box and will ship it tomorrow. Thank you!"
       },
       {
         "From": "yps",
-        "Body": "Hello again and thank you for your purchase and for the information! We will get the unit programmed and scheduled for shipping promptly.\n\nA key relearn process is also required. Your vehicle will not start until this has been completed. Once the PCM has the VIN programmed and the key relearn process is completed the vehicle will start. \n\nA crankshaft and throttle relearn are also recommended when replacing the ECU. A scan tool is required to complete the crank and throttle relearn. Your vehicle may not run properly if these are not completed. You will need access to a scan tool capable of doing this procedure to do this and clear any related trouble codes (Code\nP0315). Be sure your mechanic is capable of completing these before purchasing. The vehicle will run normal but the \u201Dservice engine soon\u201D light will come on and a trouble code may be stored until this is resolved.\n\n*We do not want to delay shipping your purchase so if we do not hear from you we assume the programming is being taken care of by your local locksmith or mechanic and we will ship the PCM. (Please make sure you are using the correct scan tool for programming or you could fry the computer and end up with a \u201Cno comm\u201D situation.)\n\nOver 33% of our buyers do not read this and buy the wrong part number!!!\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\n**WARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part.\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AND SERVICE NUMBER AS THESE ARE PART NUMBER AND SERVICE NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nWe appreciate your business!\n\nYPS"
+        "Body": "If you have the label you can still ship it back but you need to put a note in with the TIPM with your email address and your order number. It has probably been too long since the order was placed to refund through the order so we have to do it through PayPal. Thanks! YPS"
+      },
+      {
+        "From": "buyer",
+        "Body": "Can I send the core back still or is it too late?"
       },
       {
         "From": "yps",
-        "Body": "Hello and thank you for your purchase, order 25-14391-78207\n\nIf you have already provided your VIN in the \u0022Notes to Seller\u0022 during checkout and matched your part number and service number exactly per the listing description, you do not need to do that again. However, please keep reading as there is important information below!\n\nWe offer free VIN programming on the PCM purchased. If you would like to take advantage of this FREE service please email as soon as you can with your vehicle VIN. A key relearn process is also required. Your vehicle will not start until this has been completed. Once the PCM has the VIN programmed and the key relearn process is completed the vehicle will start. \n\nA crankshaft and throttle relearn are also recommended when replacing the ECU. A scan tool is required to complete the crank and throttle relearn. Your vehicle may not run properly if these are not completed. You will need access to a scan tool capable of doing this procedure to do this and clear any related trouble codes (Code P0315). Be sure your mechanic is capable of completing these before purchasing. The vehicle will run normal but the \u201Dservice engine soon\u201D light will come on and a trouble code may be stored until this is resolved.\n\nWe do not want to delay shipping your purchase so if we do not hear from you we assume the programming is being taken care of by your local locksmith or mechanic and we will ship the PCM. Please make sure you are using the correct scan tool for programming or you could fry the computer and end up with a \u201Cno comm\u201D situation.\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\nWARNING: We only use your VIN information for programming purposes. We do not run VIN interchange for you. Please make sure you are purchasing the correct part.\n\n\uD83D\uDE98\uD83D\uDE98\uD83D\uDE98 PLEASE ALSO BE SURE THAT YOU HAVE MATCHED YOUR PART NUMBER AS THESE ARE PART NUMBER SPECIFIC NOT VEHICLE SPECIFIC. \uD83D\uDE98\uD83D\uDE98\uD83D\uDE98\n\nTHE ATTACHED QR CODE IS ONLY APPLICABLE IF YOU SU"
-      }
-    ],
-    "MessageMedia": [],
-    "MessageId": "207463187454",
-    "ExternalMessageID": "3422552220010",
-    "RecipientUserID": "your_part_source",
-    "Subject": "Re: your_part_source has sent a question about item #196156722890, ending on Mar-28-26 12:45:39 PDT - 10-11 3.6L TRAVERSE CAMARO ACADIA LACROSSE PCM ECU ECM ENGINE COMPUTER 12635019",
-    "ItemId": "196156722890",
-    "ItemTitle": "10-11 3.6L TRAVERSE CAMARO ACADIA LACROSSE PCM ECU ECM ENGINE COMPUTER 12635019",
-    "ResponseEnabled": true,
-    "CreationDate": null,
-    "ExpirationDate": "2027-04-02T19:01:08-05:00",
-    "Read": false,
-    "Replied": false,
-    "ResponseUrl": "http://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=196156722890\u0026requested=divehard62\u0026qid=3417279727010\u0026redirect=0\u0026messageid=m207142639504\u0026messageid=m207418231990\u0026messageid=m207452859754\u0026messageid=m207678958330\u0026messageid=m207459238354\u0026messageid=m207681607060\u0026messageid=m207463187454",
-    "ReceiveDateUtc": "2026-04-02T19:00:54-05:00",
-    "Flagged": false,
-    "ContentType": null
-  },
-  {
-    "Sender": "davisnodd9",
-    "NewMessages": [
-      "VIN # 3D4PG5FV3AT117265"
-    ],
-    "Thread": [],
-    "MessageMedia": [],
-    "MessageId": "207463832264",
-    "ExternalMessageID": "3390485578013",
-    "RecipientUserID": "your_part_source",
-    "Subject": "Re: your_part_source has sent a question about item #324333034566, ending on Apr-13-26 17:02:53 PDT - 2010 JOURNEY CARAVAN TIPM TEMIC INTEGRATED FUSE BOX MODULE 04692305 REBUILT OE",
-    "ItemId": "324333034566",
-    "ItemTitle": "2010 JOURNEY CARAVAN TIPM TEMIC INTEGRATED FUSE BOX MODULE 04692305 REBUILT OE",
-    "ResponseEnabled": true,
-    "CreationDate": null,
-    "ExpirationDate": "2027-04-02T19:27:57-05:00",
-    "Read": false,
-    "Replied": false,
-    "ResponseUrl": "http://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=324333034566\u0026requested=davisnodd9\u0026qid=3390485578013\u0026redirect=0\u0026messageid=m207463832264",
-    "ReceiveDateUtc": "2026-04-02T19:27:43-05:00",
-    "Flagged": false,
-    "ContentType": null
-  },
-  {
-    "Sender": "merryday",
-    "NewMessages": [
-      "got the dash and hooked it up and nothing ,nothing comes on at all,something is wrong with this dash and yes they are the same part #s"
-    ],
-    "Thread": [
-      {
-        "From": "yps",
-        "Body": "Perfect! We will get it programmed and shipped out tomorrow. Let us know if you need anything else. Thanks again!\n\nYPS"
+        "Body": "We have not seen this issue being caused by the TIPM, we would recommend verifying the integrity of the speedometer wiring.\n\nThanks again,"
       },
       {
         "From": "buyer",
-        "Body": "Yes"
+        "Body": "I read online sometimes the speedometer doesn\u2019t work after replacing Tipm. I\u2019m going to do a reset tomorrow and hope that works if not I\u2019ll send it back. Thank you!"
       },
       {
         "From": "yps",
-        "Body": "Hello and thanks for the mileage. We don\u0027t have VIN interchange so did you match your part number or ? Let us know. Thanks! YPS"
+        "Body": "We do not typically see these units cause dashboard issues, we would recommend checking the wiring there. If you would like to return the unit, please just let us know as we do not believe the TIPM is faulty in this case but have no problem working with you on a return.\n\nThanks again,"
       },
       {
         "From": "buyer",
-        "Body": "need the mileage to be 260,300 and here\u0027s the vin#s 1GCRKSE03CZ240665 and it\u0027s for a 2012 silverado,me know you got this message"
-      }
-    ],
-    "MessageMedia": [],
-    "MessageId": "207463907684",
-    "ExternalMessageID": "3400746096012",
-    "RecipientUserID": "your_part_source",
-    "Subject": "Re: merryday sent a message about 12-14 2500 3500 6.0L SILVERADO SIERRA SPEEDOMETER INSTRUMENT CLUSTER 28278978 #326989187346",
-    "ItemId": "326989187346",
-    "ItemTitle": "12-14 2500 3500 6.0L SILVERADO SIERRA SPEEDOMETER INSTRUMENT CLUSTER 28278978",
-    "ResponseEnabled": true,
-    "CreationDate": null,
-    "ExpirationDate": "2027-04-02T19:31:33-05:00",
-    "Read": false,
-    "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=326989187346\u0026qid=6122057211019\u0026requested=merryday\u0026redirect=0\u0026messageid=m207282887064\u0026messageid=m206931145362\u0026messageid=m207295856424\u0026messageid=m206937151042\u0026messageid=m207463907684",
-    "ReceiveDateUtc": "2026-04-02T19:31:18-05:00",
-    "Flagged": false,
-    "ContentType": null
-  },
-  {
-    "Sender": "cigar-6267",
-    "NewMessages": [
-      "So you\u0027re going to screw me out of my $50 \uD83D\uDD95"
-    ],
-    "Thread": [
-      {
-        "From": "buyer",
-        "Body": "Criminal \uD83D\uDCA9 head thieves"
+        "Body": "It had lots of issues before dashboard no turn signals wipers would not turn off unless fuse was removed"
       },
       {
         "From": "buyer",
-        "Body": "\u0026 you\u0027re screwing me for the $50 also \uD83D\uDD95"
+        "Body": "Yes none of my dashboard worked"
       },
       {
         "From": "yps",
-        "Body": "Hello again.\n\nThe $50 core refund would happen if you would like for us to keep the core. You will need the core back so you have a unit. We are just waiting for you to send us the prepaid return label so we can ship it back to you.\n\nWe hope this does make sense. Thanks again."
+        "Body": "Hello again,\n\nJust to confirm, you had a speedometer issue with the original unit?\n\nThanks,"
       },
       {
         "From": "buyer",
-        "Body": "\u0026 you never returned my $50 \nYou are the worst company ever"
+        "Body": "Everything is working now except my speedometer"
       },
       {
         "From": "buyer",
-        "Body": "You\u0027re all criminals"
+        "Body": "When I send the TIPM back can you send me a different one?"
       },
-      {
-        "From": "yps",
-        "Body": "Let us know if you need anything else. \n\nThanks! \n\nYPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "\uD83D\uDD95\uD83D\uDD95"
-      },
-      {
-        "From": "yps",
-        "Body": "This is how it\u0027s going to happen.\n* You will send us a prepaid shipping label if you want your core back.\n* You will use the prepaid return label provided to you in the return request to ship the TIPM back for a refund if you want a refund.\n\nThanks! YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "This is how it\u0027s going to happen.\nYou\u0027re going to return My TIPM in exactly the same as it was when I sent it.\nIf it is then I will send back your junk TIPM .\nYou need to send a return postal sticker \u0026 then you will refund me 100% of ALL my money.\nThis is non-negotiable \nIf I do not hear from you by tomorrow I will be contacting eBay again and you can deal with them and good luck continuing your account"
-      },
-      {
-        "From": "buyer",
-        "Body": "\uD83D\uDD95\uD83D\uDD95\uD83D\uDD95\uD83D\uDD95"
-      },
-      {
-        "From": "yps",
-        "Body": "From you, yes."
-      },
-      {
-        "From": "buyer",
-        "Body": "More stupid games"
-      },
-      {
-        "From": "yps",
-        "Body": "Did you send that prepaid label? Once we get that we\u0027ll get it shipped out promptly. Thanks! YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "\u0026 you will refund all my money 100% or you account will be removed"
-      },
-      {
-        "From": "buyer",
-        "Body": "You will return my old TIPM \u0026 after I get it I will send back your \uD83D\uDCA9 unit"
-      },
-      {
-        "From": "yps",
-        "Body": "Blah blah blah blah blah"
-      },
-      {
-        "From": "buyer",
-        "Body": "Now I\u0027m going to put you out of business"
-      },
-      {
-        "From": "buyer",
-        "Body": "Blah blah blah blah blah"
-      },
-      {
-        "From": "yps",
-        "Body": "Your TIPM came in today and we went ahead and had it tested before being processed for a core return. It tested 100% good so we are pretty sure you don\u0027t have a TIPM issue. Without knowing the prior issues we\u0027d guess at a wiring, connector or ground point but again that would be a guess. We won\u0027t be paying to return the TIPM since we already paid to have it shipped to our facility. If you wanted to send us a prepaid label we\u0027ll get it back to you but that must also be accompanied with a return request being opened for the unit purchased. Until then we\u0027ll go ahead and hold onto the box. As for the return request for the reason you can simply choose \u0022Changed my mind\u0022 and for the notes you can simply put \u0022Per customer service\u0022. Let us know if you have any questions. Thanks! YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "I\u0027m sure you have my old one \nBut yours is CRAP \nIt\u0027s worse than my old one.\nSend my old one back \u0026 maybe I\u0027ll return you junk"
-      },
-      {
-        "From": "yps",
-        "Body": "We don\u0027t show the core has come in yet but once it does we\u0027ll process the $50 partial refund per the listing description. Thanks! YPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "\u0026 you have my old one .\nSo I\u0027m sure you\u0027re going to screw me on that too"
-      },
-      {
-        "From": "yps",
-        "Body": "\uD83D\uDE02"
-      },
-      {
-        "From": "buyer",
-        "Body": "\uD83D\uDD95\uD83D\uDD95"
-      },
-      {
-        "From": "yps",
-        "Body": "Hello again, we say your negative feedback and asking questions and giving tips to marry the TIPM to the vehicle aren\u0027t excuses. That is us actually trying to be helpful in an attempt to get your vehicle up and running. Regardless, we have no problem working with you on a return since the TIPM isn\u0027t working for the vehicle. Please go into your eBay account, find this purchase and choose return request from the drop down. For the reason choose \u201CDoesn\u2019t fit my vehicle\u201D or \u201Cchanged my mind\u201D and for the notes put \u201CPer Kirk in Customer Service\u201D. Once we see this come \nacross we will accept and a prepaid return label will be made available to you.\n\n*READ* If you use the enclosed \u201Ccore label\u201D for the return no refund will be processed. Make sure to use the label provided by eBay.\n\nIf you have any questions let us know. We appreciate your business and thank you in advance for your patience with the refund process. \n\nSincerely,\n\nYPS"
-      }
-    ],
-    "MessageMedia": [],
-    "MessageId": "207465306294",
-    "ExternalMessageID": "3451327608015",
-    "RecipientUserID": "your_part_source",
-    "Subject": "Re: your_part_source has sent a question about item #193612258889, ending on Jan-04-26 10:31:48 PST - 2013 DODGE CARAVAN T\u0026C TIPM TEMIC INTEGRATED FUSE BOX MODULE 68163904 REBUILT",
-    "ItemId": "193612258889",
-    "ItemTitle": "2013 DODGE CARAVAN T\u0026C TIPM TEMIC INTEGRATED FUSE BOX MODULE 68163904 REBUILT",
-    "ResponseEnabled": true,
-    "CreationDate": null,
-    "ExpirationDate": "2027-04-02T20:51:07-05:00",
-    "Read": false,
-    "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=193612258889\u0026requested=your_part_source\u0026qid=3345984852014\u0026redirect=0\u0026messageid=m204331815625\u0026messageid=m204286880294\u0026messageid=m204331907015\u0026messageid=m204533316384\u0026messageid=m204578561095\u0026messageid=m204568387084\u0026messageid=m204612800415\u0026messageid=m204568521344\u0026messageid=m204627481485\u0026messageid=m204585600634\u0026messageid=m204629875605\u0026messageid=m204614852844\u0026messageid=m204659401865\u0026messageid=m204763087934\u0026messageid=m204806975435\u0026messageid=m204765216764\u0026messageid=m204809224525\u0026messageid=m204863494004\u0026messageid=m204907236905\u0026messageid=m204866527604\u0026messageid=m204909815535\u0026messageid=m204988677074\u0026messageid=m205032296235\u0026messageid=m204990480174\u0026messageid=m205035650245\u0026messageid=m205148228544\u0026messageid=m205204254685\u0026messageid=m207465306294",
-    "ReceiveDateUtc": "2026-04-02T20:50:53-05:00",
-    "Flagged": false,
-    "ContentType": null
-  },
-  {
-    "Sender": "menus-iuuu2q",
-    "NewMessages": [
-      "Hello. The reason for my message is that I installed the computer I bought from you, and now, in order to start the car, it is asking me for a code because it won\u0027t recognize the car key."
-    ],
-    "Thread": [
       {
         "From": "yps",
         "Body": "\uD83D\uDC4D"
       },
       {
         "From": "buyer",
-        "Body": "Ok thanks \uD83D\uDE4F"
+        "Body": "Thank you!"
       },
       {
         "From": "yps",
-        "Body": "You would click on the listing to open it up then click on the \u0022Buy it now\u0022 button. Let us know if you have any questions. Thanks! YPS"
+        "Body": "If you are having the same issues with a rebuilt TIPM as with your TIPM it is more then likely not the issue and you\u0027ll need to perform further diagnostics. Please go into your eBay account, find this purchase and choose return request from the drop down. For the reason choose \u201CDoesn\u2019t fit my vehicle\u201D or \u201Cchanged my mind\u201D and for the notes put \u201CPer Kirk in Customer Service\u201D. Once we see this come across we will accept and a prepaid return label will be made available to you.\n\n*READ* If you use the enclosed \u201Ccore label\u201D for the return no refund will be processed. Make sure to use the label provided by eBay.\n\nIf you have any questions let us know. We appreciate your business and thank you in advance for your patience with the refund process. \n\nSincerely,\n\nYPS"
       },
       {
         "From": "buyer",
-        "Body": "Okay, thank you very much, but how do I make a purchase with you now?"
+        "Body": "My car started but it\u2019s still has the same problem as before"
       },
       {
         "From": "yps",
-        "Body": "Hello again and thank you for the pictures.\n\nThis is the correct replacement for your part number, 68427470. Be sure to put the VIN in the \u0022Add note to seller\u0022 box during checkout so we can program the unit to your vehicle before shipping it.\n\nLet us know if you have any other questions. Thanks again!\n\nYPS"
+        "Body": "Hello again,\n\nHave you completed these instructions:\n\n1. Disconnect battery from vehicle. Remove your original TIPM and verify you purchased the correct part number. Do not worry about the letters, only the number. If a match, tie both battery cables together \u201Caway from the battery\u201D while you are installing the new TIPM (roughly 20 minutes). This will erase all stored codes something that needs to happen during the configuration process.\n2. Install TIPM. Make sure your fuse/relay set-up is identical to the original. Check to make sure all fuses are pushed in tight. We do this but just double check us.\n3. Connect battery to vehicle\n5. Start vehicle and please confirm all electrical features are working properly\n6. If you run into any issues please hook up an OEM level scan tool to your OBD and pull the codes from the TIPM. You\u2019ll also need to verify your VIN is in the replacement TIPM. Once you have this info, reach out to us. A code reader cannot read the TIPM, only an OEM level scan tool. Make sure to check your ground points for any corroded or broken wires. Also, if you are having A/C issues after install please make sure fuses J15 and K9 are not popped and are pushed in. If you run into a B2206 disconnect the battery then reconnect the battery then cycle the ignition switch from off to the on position at least 5 times, leaving the ignition on for a minimum of 90 seconds per cycle.\n\nThanks again,"
       },
       {
         "From": "buyer",
-        "Body": "And this is the vin"
-      },
-      {
-        "From": "buyer",
-        "Body": "Hello am gone send you the pictures of the computer"
+        "Body": "I put the new TIPM in now my car won\u2019t start at all. Do you have any idea why this would happen?"
       },
       {
         "From": "yps",
-        "Body": "Hello and thank you for your interest.\n\nWe can program some of these ECMs. But not all of them.\n\nDO NOT RELY ON EBAY\u0027S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!\n\nOver 33% of our buyers do not read this and buy the wrong part number!!!\n\nThese units are part number specific and not vehicle specific. We do not have VIN interchange and recommend matching your current part number to ensure you don\u0027t have any fitment issues. When you have a moment if you could please let us know what your current part number is we will check our inventory to see if we have a unit which will work for your vehicle.\n\nWe will await your reply. Please email with any questions. Thanks again!\n\nYPS"
-      },
-      {
-        "From": "buyer",
-        "Body": "Hi    I have a costumer car and we\u2019re looking for a 2020 Dodge Charger v6 3.6l engine computer And look, you could program the computer we\u0027re going to buy from you."
+        "Body": "Not a problem. Thanks again!"
       }
     ],
     "MessageMedia": [],
-    "MessageId": "207465571244",
-    "ExternalMessageID": "3422584356010",
+    "MessageId": "207645904294",
+    "ExternalMessageID": "3540086491011",
     "RecipientUserID": "your_part_source",
-    "Subject": "Re: menus-iuuu2q sent a message about 20 CHALLENGER CHARGER 3.6L ECU ECM PCM ENGINE CONTROL COMPUTER 68427470AE TESTED #198103910371",
-    "ItemId": "198103910371",
-    "ItemTitle": "20 CHALLENGER CHARGER 3.6L ECU ECM PCM ENGINE CONTROL COMPUTER 68427470AE TESTED",
+    "Subject": "Re: your_part_source has sent a question about item #203445248368, ending on Nov-07-25 12:09:41 PST - 08 09 JOURNEY CARAVAN T\u0026C TIPM TEMIC TOTALLY INTEGRATED FUSE BOX 56049720 REMAN",
+    "ItemId": "203445248368",
+    "ItemTitle": "08 09 JOURNEY CARAVAN T\u0026C TIPM TEMIC TOTALLY INTEGRATED FUSE BOX 56049720 REMAN",
     "ResponseEnabled": true,
     "CreationDate": null,
-    "ExpirationDate": "2027-04-02T21:04:04-05:00",
+    "ExpirationDate": "2027-04-09T10:20:53-05:00",
     "Read": false,
     "Replied": false,
-    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=198103910371\u0026qid=6038376745019\u0026requested=menus-iuuu2q\u0026redirect=0\u0026messageid=m205959254604\u0026messageid=m206288125890\u0026messageid=m206167080844\u0026messageid=m206498031220\u0026messageid=m206172173914\u0026messageid=m206501334020\u0026messageid=m206172579524\u0026messageid=m206501544100\u0026messageid=m207465571244",
-    "ReceiveDateUtc": "2026-04-02T21:03:50-05:00",
+    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=203445248368\u0026requested=your_part_source\u0026qid=3316357707014\u0026redirect=0\u0026messageid=m203780477081\u0026messageid=m202827396824\u0026messageid=m203782280941\u0026messageid=m202846627784\u0026messageid=m203812597501\u0026messageid=m202862650944\u0026messageid=m203816102021\u0026messageid=m202873736304\u0026messageid=m203827810141\u0026messageid=m202874014334\u0026messageid=m203827842301\u0026messageid=m202928473844\u0026messageid=m203883586031\u0026messageid=m202929322474\u0026messageid=m203883761481\u0026messageid=m202937904064\u0026messageid=m203893081331\u0026messageid=m202961763354\u0026messageid=m203917077371\u0026messageid=m202962446644\u0026messageid=m203917154591\u0026messageid=m203181413224\u0026messageid=m204140760801\u0026messageid=m203183608474\u0026messageid=m204140893401\u0026messageid=m203183712304\u0026messageid=m204140964131\u0026messageid=m207538060004\u0026messageid=m208488125411\u0026messageid=m207539526924\u0026messageid=m208489665981\u0026messageid=m207640086564\u0026messageid=m208636613521\u0026messageid=m207645735804\u0026messageid=m208637134691\u0026messageid=m207645904294",
+    "ReceiveDateUtc": "2026-04-09T10:20:35-05:00",
+    "Flagged": false,
+    "ContentType": null
+  }
+  ,
+    {
+    "Sender": "paolodabomb",
+    "NewMessages": [
+      "It worked for about two months initially the problem I had was that the wipers went working after installing the part. Everything was back to normal until this week that I got a check engine light and a message saying that the oil was hot.",
+      "With the hot oil message I also get an infinite beep"
+    ],
+    "Thread": [
+      {
+        "From": "buyer",
+        "Body": "It worked for about two months initially the problem I had was that the wipers went working after installing the part. Everything was back to normal until this week that I got a check engine light and a message saying that the oil was hot."
+      },
+      {
+        "From": "yps",
+        "Body": "Hello again and thanks for contacting us with the issue, we are here to help!\n\nWe do rebuild and test these units so we have a couple quick questions so we can hopefully figure out what is going on. When you have a moment please let us know:\n\n* Was the unit you removed from the vehicle a part number match for the one purchased? If it had a different part number let us know and we\u0027ll check our stock for a match.\n* Did the Jeep run as it should for some time?\n* What issues were you having with the vehicle originally\n* What issues are you having with the vehicle now\n* Did you make sure the fuse/relay set up in the replacement box matched your original? You may or may not need to swap a fuse or two.\n* As a precaution make sure the connectors are seated.\n* After trying the above if you are still having issues keep us posted. If you have an OEM level scan tool try to read the codes from the TIPM as well and let us know those. Basic code readers cannot read the TIPM unfortunately.\n\nKeep us posted and if you have any questions at all message us back.\n\nWe appreciate your business!\n\nYPS"
+      },
+      {
+        "From": "buyer",
+        "Body": "Hello! I am having issues with the part purchased back in Feb. What\u2019s the process to claim warranty?"
+      },
+      {
+        "From": "yps",
+        "Body": "Thanks for purchasing our TIPM, order 02-14242-68164\n\nWE NEED YOUR VIN!! Message us back with your VIN as soon as possible or just follow the below instructions once the TIPM arrives.\n DO NOT RELY ON eBay\u0027s GUARANTEED TO FIT PROGRAM! \n Be sure you did match the part number. As long as you do this, the TIPM is ready to configure to your vehicle. Perform the following steps to configure the TIPM:\n \n1. Disconnect battery from vehicle. Remove your original TIPM and verify you purchased the correct part number. Do not worry about the letters, only the number. If a match, tie both battery cables together \u201Caway from the battery\u201D while you are installing the new TIPM (roughly 20 minutes). This will erase all stored codes something that needs to happen during the configuration process.\n2. Install TIPM. Make sure your fuse/relay set-up is identical to the original. Check to make sure all fuses are pushed in tight. We do this but just double check us.\n3. Connect battery to vehicle\n4. Turn key to ON position only (do not start vehicle) for 120 seconds, then turn off. If you have a \u201Cpush button\u201D start vehicle that also has a key slot, use the key slot, not the push button.\n5. Start vehicle and please confirm all electrical features are working properly\n 6. If you run into any issues please hook up an oem level scan tool to your OBD and pull the codes from the TIPM. You\u2019ll also need to verify your VIN is in the replacement TIPM. Once you have this info, reach out to us. A code reader cannot read the TIPM, only an oem level scan tool. Make sure to check your ground points for any corroded or broken wires. Also, if you are having A/C issues after install please make sure fuses J15/K9 are not popped and are pushed in. If you run into a B2206 disconnect the battery then reconnect the battery then cycle the ignition switch from off to the on position at least 5 times, leaving the ignition on for a minimum of 90 seconds per cycle.\n\nScan Image for Installation Steps!"
+      },
+      {
+        "From": "yps",
+        "Body": "Hello, as long as your part number is 68303924 those letters won\u0027t matter. Thanks for your interest in our parts! YPS"
+      },
+      {
+        "From": "buyer",
+        "Body": "Hi! Does this work if my part number ends in AC instead of AB? \n\nHere is my vin:\n1C4BJWDGXHL670018"
+      }
+    ],
+    "MessageMedia": [],
+    "MessageId": "207648700064",
+    "ExternalMessageID": "3455113377015",
+    "RecipientUserID": "your_part_source",
+    "Subject": "Re: your_part_source has sent a question about item #196213117660, ending on Feb-27-26 06:41:38 PST - 17 18 JEEP WRANGLER TEMIC TOTALLY INTEGRATED FUSE BOX TIPM 68303924 REBUILT OEM",
+    "ItemId": "196213117660",
+    "ItemTitle": "17 18 JEEP WRANGLER TEMIC TOTALLY INTEGRATED FUSE BOX TIPM 68303924 REBUILT OEM",
+    "ResponseEnabled": true,
+    "CreationDate": null,
+    "ExpirationDate": "2027-04-09T12:13:36-05:00",
+    "Read": false,
+    "Replied": false,
+    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=196213117660\u0026requested=your_part_source\u0026qid=3377124951014\u0026redirect=0\u0026messageid=m205975913025\u0026messageid=m207626696734\u0026messageid=m207663654265\u0026messageid=m207648700064",
+    "ReceiveDateUtc": "2026-04-09T12:13:17-05:00",
+    "Flagged": false,
+    "ContentType": null
+  },
+  {
+    "Sender": "n4tcu",
+    "NewMessages": [
+      "The ABS module is off of an 06 Chevrolet 3500 with a 66 Duramax I don\u2019t have the code. Nothing\u2018s been repaired on the truck trying to fix this problem and what it\u2019s doing is both the brake light and ABS light will both come on at the same time intermittently and I\u2019ll get a message on the display saying check brake system.\nI have already shipped the module before I seen this message"
+    ],
+    "Thread": [
+      {
+        "From": "yps",
+        "Body": "Hello and thanks for purchasing our repair service, order 11-14478-94733\n\nWe look forward to receiving your part, repairing it, and then sending it back to you as quickly as possible! Before you do ship it in, please let us know the following information:\n\n-The vehicle\u0027s Year/Make/Model/Engine\n-A short description of the issue.\n-The diagnostic trouble codes the vehicle is sending.\n-Any parts that have been repaired or replaced in an attempt to fix the issue.\n\nPlease do not ship the part to us till we have this information as unfortunately not all parts are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.\n\nWe will await your reply to make sure we can attempt to repair your part. Please email with any questions. Thanks again for your business, we do appreciate it!\n\nYour Part Source"
+      }
+    ],
+    "MessageMedia": [],
+    "MessageId": "207649986464",
+    "ExternalMessageID": "3404497543012",
+    "RecipientUserID": "your_part_source",
+    "Subject": "Re: your_part_source has sent a question about item #325015520510, ending on Apr-25-26 09:26:26 PDT - REPAIR SERVICE 01-06 SILVERADO SIERRA TAHOE YUKON BLAZER S10 ABS CONTROL MODULE",
+    "ItemId": "325015520510",
+    "ItemTitle": "REPAIR SERVICE 01-06 SILVERADO SIERRA TAHOE YUKON BLAZER S10 ABS CONTROL MODULE",
+    "ResponseEnabled": true,
+    "CreationDate": null,
+    "ExpirationDate": "2027-04-09T13:09:07-05:00",
+    "Read": false,
+    "Replied": false,
+    "ResponseUrl": "https://contact.ebay.com/ws/eBayISAPI.dll?M2MContact\u0026item=325015520510\u0026requested=your_part_source\u0026qid=3410233882014\u0026redirect=0\u0026messageid=m207249899252\u0026messageid=m207649986464",
+    "ReceiveDateUtc": "2026-04-09T13:08:49-05:00",
     "Flagged": false,
     "ContentType": null
   }

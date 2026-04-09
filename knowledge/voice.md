@@ -41,12 +41,20 @@ Load this file for every draft.
 
 ## Key Phrases
 
-**Fitment warning** — include in all product-inquiry and rnr-inquiry replies:
+**Fitment warning** — include in all product-inquiry and rnr-inquiry replies, **except when declining a service request** (no fitment warning if we're not selling them anything):
 > DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!
 
 - Place immediately after the greeting in most cases
 - If the customer asked a direct question (e.g. "do you offer R&R?"), answer that question first, then place the fitment warning before continuing
 - No softening — use exactly as written, all caps
+
+**Vehicle-only inquiry (no part number)** — when a buyer asks if a part will fit their vehicle without providing a part number, include this after the fitment warning:
+> Over 33% of our buyers do not read this and buy the wrong part number!!!
+> These units are part number specific and not vehicle specific. We do not have VIN interchange and recommend matching your current part number to ensure you don't have any fitment issues. When you have a moment if you could please let us know what your current part number is we will check our inventory to see if we have a unit which will work for your vehicle.
+> We will await your reply. Please email with any questions. Thanks again!
+
+- Use exactly as written — this is a known-effective message
+- Triggered by: "will this fit my [vehicle]?", "do you have one for a [year/make/model]?", or any vehicle-based inquiry with no part number provided
 
 **Part number ask** — when guiding customer to find their part number:
 > If you can send us a photo of those stickers, we can check our inventory and point you to the right listing.
@@ -86,6 +94,7 @@ Load this file for every draft.
 - Quoting the original email in the reply — never append quoted history
 - Pricing — never include pricing in any reply; prices change too quickly and the customer should check the listing directly
 - Legal or liability language
+- **Unsolicited technical steps** — if a customer says they're going to try something (e.g. "I'm going to try reinstalling"), do not add instructions or advice on how to do it. Just ask for trouble codes or results when they're done.
 
 ---
 
