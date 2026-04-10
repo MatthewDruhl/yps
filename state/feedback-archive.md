@@ -5,6 +5,170 @@ Entries older than 30 days are moved here from feedback.md. All rules have been 
 
 ---
 
+## 2026-04-10 | Dodge Durango R&R — intermittent misfire, ECU not the issue, advise cancellation
+
+**Original draft:**
+> Hello again and thank you for the information.
+>
+> We handle all messaging through eBay's messaging system for documentation purposes, sorry.
+>
+> DO NOT RELY ON EBAY'S FITMENT GUIDE OR THE GUARANTEED TO FIT PROGRAM!
+>
+> Before you send the unit in, we just need one more piece of information from you — the part number on your ECM. These units have a sticker on them with the part number. We've attached a picture of what the sticker should look like to help.
+>
+> Unfortunately not all of these units are repairable. This is the reason we ask for so much information up front as we do have a diagnostic fee of $94.99 that we would refund you down to if the unit comes in and either tests good or winds up being unrepairable. We do not want you to send it to us unless we have a good shot at a successful repair.
+>
+> We will await your reply and have our techs review the information. Let us know if you have any questions — we are here to help!
+
+**Owner's edit:**
+> Thanks for the above information. We definitely don't think your ecu is bad. We think you have something going on with your wiring or the connector. If one of those circuits is popped in the ecu you will always have a misfire, there will be no intermittent or warm up period if that makes sense. With that said go ahead and open a cancellation request so we can get your funds back to you. If you send it in and it tests good we would refund you but only down to the diagnostic fee but since it doesn't look like your ecu is the issue we don't want you to have to pay this charge. Let us know if you have any questions and we'll watch for the cancellation request to come through. Thanks! YPS
+
+**What changed:**
+- Complete reversal of approach — buyer's symptoms (intermittent misfire that clears after rest) rule out the ECU as the cause
+- Key diagnostic logic: if the ECU circuit is bad, misfire is always present — no intermittent or warm-up pattern; intermittent = wiring or connector issue
+- Did not ask for part number or sticker — irrelevant once we've determined the ECU is not the problem
+- No fitment warning, no diagnostic fee paragraph — neither applicable when advising against sending the unit
+- Directed buyer to open a cancellation request rather than send the unit in
+- Explained the diagnostic fee risk honestly: "if you send it in and it tests good we would refund you but only down to the diagnostic fee" — transparent, protects the buyer
+- **Key rule:** For R&R inquiries where the symptom pattern rules out the ECU (intermittent issue that clears after rest = wiring/connector, not ECU) — advise the buyer NOT to send the unit. Direct them to a cancellation request. Rule added to rnr-info.md.
+
+---
+
+## 2026-04-10 | Ford F-150 PCM — U1900/U1950 communication codes, PATS procedure done once
+
+**Original draft:**
+> Hello again and thank you for the update.
+>
+> It sounds like the PATS sync may not have completed on the first run — try performing the procedure again and let us know if that clears things up.
+>
+> As for FORScan — yes, it is an OEM level tool for Ford and can help read codes that a standard scanner cannot. It would be a good tool to use for this type of issue.
+>
+> Let us know how it goes. Thanks again!
+
+**Owner's edit:**
+> Hello again and thank you for the update.
+> Those are both issues with communication, one for CAN and the other for UBP. Usually this means there is some sort of short in those circuits. Those can keep the vehicle from cranking over as the modules are not able to talk to each other. If those are the only trouble codes you are getting we would recommend disconnecting your battery and checking the connectors on the PCM to make sure pins did not get bent and are not touching each other. If you have other trouble codes please let us know what they are.
+> Let us know what you do find out. Thanks again for your help with this.
+
+**What changed:**
+- U1900/U1950 are communication codes (CAN and UBP), not PATS codes — PATS sync was the wrong diagnosis
+- Explained what the codes mean: CAN and UBP communication circuits, can prevent crank because modules can't talk to each other
+- Gave specific actionable step: disconnect battery and check PCM connector pins for bends or shorts
+- Did not confirm FORScan — not relevant for communication/wiring codes
+- Note: U1900/U1950 are not common codes — no knowledge file update needed per operator
+
+---
+
+## 2026-04-10 | Ford ECM codes after install (unit working) — treat as order-issue, use full template with code context
+
+**Original draft:**
+> Hello again and thank you for the update.
+>
+> Codes that continue to come back after clearing are active faults — not stored history from the previous module. Could you let us know which module(s) the U1900 and P0581 are coming from? That will help our techs take a look at what is going on.
+>
+> Thank you for working with us.
+
+**Owner's edit:**
+> Hello again and thank you for reaching out to us regarding this. We are definitely here to help!
+> We would like to get a little more information from you to see if we can figure out what is going on. The P0581 is for the speed control switch circuit and the U1900 is a loss in the CAN communication. When you have a free moment if you could please let us know the following information:
+> -The vehicle's Year/Make/Model/Engine
+> -The part number on the original unit. These units are part number specific, not vehicle specific
+> -The issues with the original unit
+> -Any other diagnostic trouble codes being set in the vehicle and the module they are coming from
+> -What diagnostics were completed to determine the original unit was the issue
+> -Any other parts that have been repaired or replaced in an attempt to fix the issue.
+> We will await your reply and have our techs review the information to determine how to proceed. Please let us know if you have any questions as well as we are here to help you get your vehicle back up and running! Thank you for working with us.
+
+**What changed:**
+- Greeting upgraded to full frustrated-customer greeting — "We are definitely here to help!" — even though buyer wasn't angry, this is an active order issue
+- Explained what the codes mean: P0581 = speed control switch circuit, U1900 = CAN communication loss — YPS provides context on the codes before asking for more info
+- Used the full info-gathering list (prose with dashes, not numbered) rather than just asking which module the codes came from
+- List covers: vehicle, original part number, original issues, other codes + modules, diagnostics completed, other parts replaced — the standard 6-item set
+- "Any other diagnostic trouble codes" — phrased to ask for codes beyond what the buyer already mentioned
+- Closing: "we are here to help you get your vehicle back up and running!" — warmer than standard; appropriate when ECM is already installed and working but new codes appeared
+- **Key rule:** When a buyer reports new codes on a working ECM, use the full 6-item info list. Adjust item 4: if they already provided codes, ask "Are there any other trouble codes than [X] and which modules are they coming from?" — not the default phrasing. Rule added to order-info.md.
+
+---
+
+## 2026-04-10 | Mopar ECM VIN/mileage reply — use MOPAR1 template, not custom draft
+
+**Original draft:**
+> Hello again and thank you!
+>
+> This is the right place to send that information. We will get our programmers on it!
+
+**Owner's edit:**
+> Hello again and thank you for the information. We will get the unit programmed and scheduled for shipping promptly.
+> [MOPAR1 fitment warning block]
+> Please email with any questions. Thanks again for your business, we do appreciate it!
+
+**What changed:**
+- Use MOPAR1 template for all Mopar ECM VIN/mileage replies
+- Exception: if buyer provides a matching part number photo, use opening line only — omit "Over 33%..." through "Please email..."
+- Rule added to product-types.md.
+
+---
+
+## 2026-04-10 | Wrong part number purchased — return request template
+
+**Original draft:**
+> Hello again and thank you for your interest. [stock-not-found reply]
+
+**Owner's edit:**
+> Ok, understand. This is why we put fitment and interchange information in our listings... [return request template with "Per Kirk in Customer Service"]
+
+**What changed:**
+- Wrong-part-purchased threads classified as order-issue (return), not product-inquiry — can't tell from subject line, must read thread
+- Use return template, not stock-not-found reply
+- "Per Kirk in Customer Service" in notes always
+- Rule added to order-info.md.
+
+---
+
+## 2026-04-10 | ABS R&R — module already shipped, no codes/part number — do not ask, just acknowledge receipt
+
+**Original draft:**
+> [full info-collection questions + diagnostic fee paragraph]
+
+**Owner's edit:**
+> Hello again and thank you for the update.
+> We can repair a lot of issues in these modules, but not all of them. Without know the trouble codes or part number we cannot be sure if a repair is possible or not. We will watch for the module to get here and let you know our thoughts once it does.
+
+**What changed:**
+- Module in transit — don't re-ask for info; acknowledge, note uncertainty, commit to evaluating on arrival
+- Rule added to product-types.md.
+
+---
+
+## 2026-04-10 | TIPM order-issue — extended use then new symptoms, strip template
+
+**Original draft:**
+> [full 10-item template]
+
+**Owner's edit:**
+> Hello again and thank you for the update. [part number + TIPM codes only, acknowledged unfamiliar symptom]
+
+**What changed:**
+- Unit worked for months then new symptoms = skip install/fuse questions, ask only part number + TIPM codes
+- Unit never worked or quick failure = full 10-item template
+- Rule added to product-types.md.
+
+---
+
+## 2026-04-10 | Ford ABS R&R — remove GM location description from part number ask
+
+**Original draft:**
+> 2. Part number on your ABS module — these are located under the driver door... [GM location description]
+
+**Owner's edit:**
+> 2. Part number on your ABS module — We've attached a picture of what the part number sticker should look like to help locate it.
+
+**What changed:**
+- GM location description removed for Ford ABS — rely on image only
+- Rule added to product-types.md.
+
+---
+
 ## 2026-04-09 | GM ABS JL4 config dispute (adviso_0)
 **Original draft:**
 > Hello again and thank you for the update.

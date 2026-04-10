@@ -6,6 +6,22 @@ Only include information verified by business owners.
 
 ---
 
+## New Codes on a Working Unit (Post-Install)
+
+When a buyer reports new trouble codes appearing after install but the unit is otherwise working, use the full 6-item info-gathering list. Adjust item 4 based on what the buyer already provided:
+- **If buyer provided codes:** "Are there any other trouble codes than [codes they listed] and which modules are they coming from?"
+- **If no codes provided:** "Any diagnostic trouble codes being set in the vehicle and which module(s) they are coming from?"
+
+---
+
+## Classification — Wrong Part Purchased
+
+When a buyer has **already purchased** a unit but the part number doesn't match their vehicle, classify as `order-issue` (return) — NOT `product-inquiry`. The subject line often looks like a product inquiry; you must read the thread to catch this.
+
+Use the **Return template** below. Do NOT run a stock check or send a not-in-inventory reply.
+
+---
+
 ## Install Failure / Not Working
 
 **When to use:** Buyer reports the unit is not working after install, vehicle has issues, or is requesting a return/refund due to a defective unit.

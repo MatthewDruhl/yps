@@ -102,6 +102,14 @@ If the customer mentions any of the following, R&R is NOT possible — decline R
 - **P06xx trouble codes** (any make) — indicates processor/internal ECM failure; not repairable
 - If pivoting to replacement and part number has not already been asked for, ask the customer for their part number sticker photo so YPS can check inventory
 
+## Symptom Pattern — ECU Not the Issue (Advise Against Sending)
+
+If the symptom is **intermittent** — clears after the vehicle rests, improves with cool-down, or only appears after warming up — the ECU is likely NOT the cause:
+- A failed ECU circuit causes a **constant, consistent** fault — no intermittent or warm-up pattern
+- Intermittent symptoms = wiring issue or connector problem
+- **Action:** Tell the buyer the ECU is likely not bad, explain the diagnostic logic plainly, and direct them to open a cancellation request. Do not collect part number or proceed with the info-gathering list.
+- Explain the diagnostic fee risk: "if you send it in and it tests good we would refund you but only down to the diagnostic fee" — be transparent so they don't pay unnecessarily.
+
 ---
 
 ## Mercedes-Benz ECM R&R — Restrictions

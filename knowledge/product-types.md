@@ -25,6 +25,11 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 - Always get part number first to confirm if their unit is programmable
 - If programmable: customer enters VIN and mileage in the **"Add note to seller"** box at checkout
 
+**Mopar ECM — VIN/mileage reply (post-purchase):**
+When a Chrysler/Dodge/Jeep ECM buyer sends their VIN and/or mileage for programming, use the **MOPAR1** template from `knowledge/yps_files/Customer Service.md`:
+- Use the full template including the "Over 33%..." fitment warning block
+- **Exception:** If the buyer also includes a photo of their ECM part number sticker AND it matches what they purchased → use only the opening line ("Hello again and thank you for the information. We will get the unit programmed and scheduled for shipping promptly.") — omit everything from "Over 33%..." through "Please email with any questions." The part number match makes the fitment warning unnecessary.
+
 **R&R (Repair and Return):**
 - Available for: some Ford ECMs, some Chrysler/Dodge/Jeep ECMs
 - NOT available for: GM ECMs or any other makes not listed above
@@ -59,6 +64,10 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 - Items 8–10: install instructions, fuse/relay match, connectors seated (always include all three)
 
 **Note:** YPS sends install instructions with TIPM orders. "Lost communication codes" after install is typically a sync issue, not a defective unit.
+
+**Follow-up order-issue — use judgment on template scope:**
+- **Unit never worked after install, or issues appeared quickly (days/week):** Use the full 10-item template including install instructions confirmation and fuse/relay match.
+- **Unit worked for an extended period, then new symptoms appeared:** Do NOT use the full template. Ask only for: (1) original TIPM part number to rule out fitment, and (2) TIPM trouble codes via OE scan tool. Skip install/fuse questions — if the unit ran fine for months, install is not the issue. Acknowledge any unfamiliar symptoms ("We have not seen [X] before") without dismissing.
 
 ---
 
@@ -111,7 +120,10 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 **Descriptor:** Use **"tested"** — exception: GM ABS modules 2000–2006, use **"rebuilt"**
 **Part number:** Part number specific, not vehicle specific
 
-**Finding the part number:** Located under the driver door on the vehicle. Crawl under the vehicle under the driver door, look up over where the brake lines go into the pump — the part number sticker is on the front of the module.
+**Finding the part number:**
+- **GM ABS:** Located under the driver door on the vehicle. Crawl under the vehicle under the driver door, look up over where the brake lines go into the pump — the part number sticker is on the front of the module.
+- **Ford ABS:** Location varies — do NOT include location guidance; rely on the attached image (`ford_abs_pn.png`) to help the customer identify the sticker.
+- **Dodge ABS:** Rely on the attached image (`mopar_abs_pn.png`) to help the customer identify the sticker.
 
 **Part number sticker images:**
 - GM ABS (2000–2006): attach `knowledge/images/gm_abs_part_number_stickers.png`
@@ -121,6 +133,8 @@ This is the authoritative reference for all YPS product lines. Use this file whe
 - Do NOT attach if we already have their exact part number in stock.
 
 **R&R:** Available for Ford, GM, and Dodge ABS modules only
+
+**R&R follow-up (module already shipped, no codes/part number):** Do NOT re-ask for part number or trouble codes. Acknowledge the module is on its way, note that repairability is uncertain without that info, and commit to evaluating it on arrival. Skip the diagnostic fee paragraph — it was already communicated; no need to repeat at this stage.
 
 **Order-issue install questions:** Use default template in `knowledge/order-issues/order-info.md`
 
