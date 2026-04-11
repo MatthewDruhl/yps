@@ -1,0 +1,3 @@
+findings.json
+*.json
+harden_*_token_usage.csv
