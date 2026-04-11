@@ -1,15 +1,10 @@
+<!-- PHASE GATE: Do not read before Scope 2. Load only after completing Scope 1 findings. -->
+
 # AI Audit Checklist
 
 Detailed checks for Scope 2 (AI-Specific Gaps). Read this file before evaluating the AI scope.
 
-## Core Checks (from SKILL.md)
-
-These are the baseline — always check these first:
-1. Prompt injection risks (user input flowing into prompts unsanitized)
-2. Data exposure through AI context (secrets, PII, or sensitive content visible to the model)
-3. Access control on AI interfaces (who can invoke the AI, rate limits, cost controls)
-4. Output validation (does the system verify AI outputs before acting on them?)
-5. Fragile model assumptions (hardcoded model names, unpinned versions, deterministic output expectations)
+> Core checks (1–5) are defined in SKILL.md Scope 2. Start with those, then continue below.
 
 ## Extended Checks
 
@@ -69,6 +64,17 @@ These are the baseline — always check these first:
 **Example finding:** A skill loads a 138-line SKILL.md and a 75-line command file with overlapping instructions. Reads 5 state files sequentially instead of in one parallel batch. Re-summarizes the full conversation even when checkpoints exist.
 **Severity guidance:** Medium if token waste is consistent across frequent operations (daily skills, session management). Low for rarely-used skills. Consider cumulative cost — a 40% overhead on a skill run 2x/day adds up fast.
 **Always-loaded files:** Check CLAUDE.md, system prompts, and other files loaded every session. Content that could live in on-demand skill files (setup instructions, reference tables, detailed procedures) is a per-session tax. Only behavioral guidance and core rules belong in always-loaded files.
+
+### 17. AI-to-Code Offload Opportunities
+**What to look for:** Tasks currently performed by multi-step AI reasoning that a script could handle — codebase exploration done turn-by-turn instead of via a recon script, structured data collection (file inventories, git history, dependency graphs) forcing repeated tool calls, post-AI actions (filing issues, updating files) done manually via copy-paste, repeated parsing of the same files across audit phases.
+**Example finding:** An audit skill reads 15 files individually to build a picture of the repo. A 50-line recon script could produce the same inventory in one context injection, reducing input tokens by 40-60%.
+**Severity guidance:** Medium if the pattern recurs across frequent skill runs. Low for one-off or rarely used skills.
+**Tier check:** Not all offloading requires a script. Evaluate which tier each step needs:
+- Script — structured data, math, formatting, file I/O
+- Cheap model (haiku-class) — pattern scanning, candidate flagging, output formatting
+- Full model — judgment calls, ambiguous findings, severity calibration, steel-manning
+
+Flag any step using a full model where a cheaper tier produces equivalent output.
 
 ---
 
